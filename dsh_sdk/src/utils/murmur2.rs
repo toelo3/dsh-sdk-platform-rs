@@ -1,23 +1,22 @@
-/* Murmur2 Hashing algorithm
- *
- * Specialized for 32-bit aligned little-endian
- *
- * Implementation mirrors the original C++ code by Austin Appleby, placed in the public domain.
- * Found on [SMHasher](https://github.com/aappleby/smhasher).
- *
- * Uses a Kafka-specific seed as found in common implementations like
- * [librdkafka](https://github.com/confluentinc/librdkafka/blob/54e000ef4ccabda759a1cf4fcbc06ba9edb193bb/src/rdmurmur2.c#L58)
- * and [Java
- * SDK](https://github.com/apache/kafka/blob/62db165d2af99c489010688fcaa4addf4c398964/clients/src/main/java/org/apache/kafka/common/utils/Utils.java#L505)
- *
- * Values for `M` and `R` constants taken from implementation.
- */
-
+// TODO need some docs 
 const SEED: u32 = 0x9747_b28c;
 const M: u32 = 0x5bd1_e995;
 const R: u32 = 24;
 
-//TODO validate using Cachegrind
+/// Murmur2 Hashing algorithm
+///
+/// Specialized for little-endian aligned 32-bit.
+///
+/// Implementation mirrors the original C++ code by Austin Appleby, placed in the public domain.
+/// Found on [SMHasher](https://github.com/aappleby/smhasher).
+///
+/// Uses a Kafka-specific seed as found in common implementations like
+/// [librdkafka](https://github.com/confluentinc/librdkafka/blob/54e000ef4ccabda759a1cf4fcbc06ba9edb193bb/src/rdmurmur2.c#L58)
+/// and [Java
+/// SDK](https://github.com/apache/kafka/blob/62db165d2af99c489010688fcaa4addf4c398964/clients/src/main/java/org/apache/kafka/common/utils/Utils.java#L505)
+///
+/// Values for `M` and `R` constants taken from implementation.
+//TODO validate inlining using Cachegrind
 #[inline]
 pub(crate) fn murmur2_32(data: &[u8]) -> u32 {
     let len = data.len() as u32;
@@ -69,9 +68,8 @@ pub(crate) fn murmur2_32(data: &[u8]) -> u32 {
     h
 }
 
-/* Accounts for the i32 representation of the hash in Java's Kafka implementation by clearing
- * the sign bit.
- */
+/// Accounts for the i32 representation of the hash in Java's Kafka implementation by clearing
+/// the sign bit.
 #[inline]
 pub(crate) fn to_positive(hash: u32) -> i32 {
     (hash & 0x7fff_ffff) as i32
@@ -109,7 +107,7 @@ mod tests {
                 case.input.partitions > 0,
                 "case {idx}: partitions must be > 0"
             );
-            let t = reduce_topic_prefix(case.input.topic.as_bytes(), &case.input.depth);
+            let t = reduce_topic_prefix(case.input.topic.as_bytes(), case.input.depth);
             let got = to_positive(murmur2_32(t)) % case.input.partitions;
             assert_eq!(
                 got, case.expected,

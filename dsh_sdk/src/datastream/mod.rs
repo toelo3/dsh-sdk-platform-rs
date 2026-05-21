@@ -40,6 +40,8 @@ use std::io::Read;
 use log::{debug, error, info};
 use serde::{Deserialize, Serialize};
 
+#[cfg(feature = "kafka")]
+use crate::protocol_adapters::kafka_protocol::DshPartitionerBuilder;
 use crate::{
     VAR_KAFKA_BOOTSTRAP_SERVERS, VAR_KAFKA_CONSUMER_GROUP_TYPE, VAR_LOCAL_DATASTREAMS_JSON,
     VAR_SCHEMA_REGISTRY_HOST, utils,
@@ -347,10 +349,10 @@ pub struct Stream {
     cluster: String,
     read: String,
     write: String,
-    partitions: i32,
-    replication: i32,
-    partitioner: String,
-    partitioning_depth: i32,
+    partitions: usize,
+    replication: usize,
+    partitioner: PartitionerType,
+    partitioning_depth: usize,
     can_retain: bool,
 }
 
@@ -380,22 +382,22 @@ impl Stream {
     }
 
     /// Returns the number of partitions for this stream.
-    pub fn partitions(&self) -> i32 {
+    pub fn partitions(&self) -> usize {
         self.partitions
     }
 
     /// Returns the replication factor for this stream.
-    pub fn replication(&self) -> i32 {
+    pub fn replication(&self) -> usize {
         self.replication
     }
 
     /// Returns the partitioner (e.g., “default-partitioner”).
-    pub fn partitioner(&self) -> &str {
+    pub fn partitioner(&self) -> &PartitionerType {
         &self.partitioner
     }
 
     /// Returns the partitioning depth (a more advanced Kafka concept).
-    pub fn partitioning_depth(&self) -> i32 {
+    pub fn partitioning_depth(&self) -> usize {
         self.partitioning_depth
     }
 
@@ -441,6 +443,58 @@ impl Stream {
                 self.name.clone(),
                 ReadWriteAccess::Write,
             ))
+        }
+    }
+
+    pub fn stream_type(&self) -> Result<StreamType, DatastreamError> {
+        let prefix = self.name().split_once('.').map(|(h, _)| h).ok_or_else(|| {
+            DatastreamError::StreamTypeError(
+                "A stream name should always start with `{scratch|internal|stream}.<stream_name>`"
+                    .to_string(),
+            )
+        })?;
+
+        prefix.try_into()
+    }
+
+    #[cfg(feature = "kafka")]
+    pub fn partitioner_builder(&self) -> Result<DshPartitionerBuilder, DatastreamError> {
+        match self.partitioner() {
+            PartitionerType::Default => Ok(DshPartitionerBuilder::Default),
+            PartitionerType::TopicLevel => {
+                let partitioning_depth = self.partitioning_depth;
+                Ok(DshPartitionerBuilder::TopicLevel { partitioning_depth })
+            }
+        }
+    }
+}
+
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq)]
+pub enum PartitionerType {
+    #[serde(rename = "default-partitioner")]
+    Default,
+    #[serde(rename = "topic-level-partitioner")]
+    TopicLevel,
+}
+
+#[derive(Debug, PartialEq)]
+pub enum StreamType {
+    Scratch,
+    Internal,
+    Public,
+}
+
+impl TryFrom<&str> for StreamType {
+    type Error = DatastreamError;
+
+    fn try_from(value: &str) -> Result<Self, Self::Error> {
+        match value {
+            "scratch" => Ok(StreamType::Scratch),
+            "internal" => Ok(StreamType::Internal),
+            "stream" => Ok(StreamType::Public),
+            s => Err(DatastreamError::StreamTypeError(format!(
+                "Could not parse `StreamType` from {s}"
+            ))),
         }
     }
 }
@@ -570,9 +624,11 @@ mod tests {
     fn test_partitioner() {
         let datastream = datastream();
         let stream = datastream.streams().get("scratch.test").unwrap();
-        assert_eq!(stream.partitioner(), "default-partitioner");
+        assert_eq!(stream.partitioner(), &PartitionerType::Default);
         let stream = datastream.streams().get("stream.test").unwrap();
-        assert_eq!(stream.partitioner(), "default-partitioner");
+        assert_eq!(stream.partitioner(), &PartitionerType::Default);
+        let stream = datastream.streams().get("stream.speed").unwrap();
+        assert_eq!(stream.partitioner(), &PartitionerType::TopicLevel);
     }
 
     #[test]

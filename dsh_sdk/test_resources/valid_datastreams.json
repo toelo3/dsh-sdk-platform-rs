@@ -26,6 +26,17 @@
       "partitioner": "default-partitioner",
       "partitioningDepth": 0,
       "canRetain": true
+    },
+    "stream.speed": {
+      "name": "stream.speed",
+      "cluster": "/tt",
+      "read": "stream\\.speed\\.[^.]*",
+      "write": "",
+      "partitions": 12,
+      "replication": 3,
+      "partitioner": "topic-level-partitioner",
+      "partitioningDepth": 12,
+      "canRetain": false
     }
   },
   "private_consumer_groups": [

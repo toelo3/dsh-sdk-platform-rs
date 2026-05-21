@@ -26,7 +26,7 @@
 pub mod config;
 
 #[cfg(feature = "rdkafka-config")]
-mod rdkafka;
+pub mod rdkafka;
 
 /// Trait defining core DSH configurations for Kafka consumers and producers.
 ///
@@ -95,4 +95,36 @@ pub trait DshKafkaConfig {
     ///  
     /// If certificates are missing, `security.protocol` remains `plaintext`.
     fn set_dsh_certificates(&mut self) -> &mut Self;
+}
+
+pub enum DshPartitionerBuilder {
+    Default,
+    TopicLevel { partitioning_depth: usize },
+}
+
+impl DshPartitionerBuilder {
+    #[cfg(feature = "rdkafka")]
+    pub fn build_rdkafka(
+        &self,
+    ) -> crate::protocol_adapters::kafka_protocol::rdkafka::RdkafkaPartitioner {
+        use rdkafka::RdkafkaPartitioner;
+        match self {
+            DshPartitionerBuilder::Default => {
+                RdkafkaPartitioner::Default(DefaultPartitioner::default())
+            }
+            DshPartitionerBuilder::TopicLevel { partitioning_depth } => {
+                RdkafkaPartitioner::TopicLevel(TopicLevelPartitioner {
+                    partitioning_depth: *partitioning_depth,
+                })
+            }
+        }
+    }
+}
+
+#[derive(Debug, Default)]
+pub struct DefaultPartitioner {}
+
+#[derive(Debug)]
+pub struct TopicLevelPartitioner {
+    pub partitioning_depth: usize,
 }

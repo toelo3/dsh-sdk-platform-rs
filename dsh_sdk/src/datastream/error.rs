@@ -1,6 +1,10 @@
 /// Errors relataed to datastreams
 #[derive(Debug, thiserror::Error)]
 pub enum DatastreamError {
+    #[error("Error getting stream type for {0}")]
+    StreamTypeError(String),
+    #[error("Error getting partitioner typer for: {0}")]
+    PartitionerError(String),
     #[error("Error getting group id, index out of bounds for {0}")]
     IndexGroupIdError(crate::datastream::GroupType),
     #[error("Error getting topic name {0}, Topic not found in datastreams.")]

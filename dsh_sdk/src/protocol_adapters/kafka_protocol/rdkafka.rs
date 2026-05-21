@@ -1,8 +1,12 @@
 #[cfg(feature = "rdkafka-config")]
 use rdkafka::ClientConfig;
+use rdkafka::ClientContext;
+use rdkafka::producer::{Partitioner, ProducerContext};
 
 use super::DshKafkaConfig;
 use crate::Dsh;
+use crate::utils::kafka::reduce_topic_prefix;
+use crate::utils::murmur2::{murmur2_32, to_positive};
 
 impl DshKafkaConfig for ClientConfig {
     fn set_dsh_consumer_config(&mut self) -> &mut Self {
@@ -85,5 +89,102 @@ impl DshKafkaConfig for ClientConfig {
         } else {
             self.set("security.protocol", "plaintext")
         }
+    }
+}
+
+// Wrapper enum for Partitioner implementations
+pub enum RdkafkaPartitioner {
+    Default(super::DefaultPartitioner),
+    TopicLevel(super::TopicLevelPartitioner),
+}
+
+impl Partitioner for RdkafkaPartitioner {
+    fn partition(
+        &self,
+        topic_name: &str,
+        key: Option<&[u8]>,
+        partition_cnt: i32,
+        is_partition_available: impl Fn(i32) -> bool,
+    ) -> i32 {
+        match self {
+            RdkafkaPartitioner::Default(p) => {
+                p.partition(topic_name, key, partition_cnt, is_partition_available)
+            }
+            RdkafkaPartitioner::TopicLevel(p) => {
+                p.partition(topic_name, key, partition_cnt, is_partition_available)
+            }
+        }
+    }
+}
+
+/// Default partitioner for Kafka on DSH
+///
+/// Uses the full MQTT topic from the `key` as input to calculate the partition if provided,
+/// otherwise defaults to 0.
+impl Partitioner for super::DefaultPartitioner {
+    fn partition(
+        &self,
+        _topic_name: &str,
+        key: Option<&[u8]>,
+        partition_cnt: i32,
+        _is_partition_available: impl Fn(i32) -> bool,
+    ) -> i32 {
+        match key {
+            Some(k) => to_positive(murmur2_32(k)) % partition_cnt,
+            None => 0,
+        }
+    }
+}
+
+/// Topic Level partitioner partitioner for Kafka on DSH
+///
+/// We implement the Murmur2 hashing algorithm as is done in the librdkafka implementation.
+///
+/// Defaults to 1.
+impl Partitioner for super::TopicLevelPartitioner {
+    fn partition(
+        &self,
+        _topic_name: &str,
+        key: Option<&[u8]>,
+        partition_cnt: i32,
+        _is_partition_available: impl Fn(i32) -> bool,
+    ) -> i32 {
+        match key {
+            Some(k) => {
+                to_positive(murmur2_32(reduce_topic_prefix(k, self.partitioning_depth)))
+                    % partition_cnt
+            }
+            None => 0,
+        }
+    }
+}
+
+pub struct MyContext {
+    pub partitioner: RdkafkaPartitioner,
+}
+
+impl ClientContext for MyContext {}
+
+impl ProducerContext<RdkafkaPartitioner> for MyContext {
+    type DeliveryOpaque = ();
+
+    fn delivery(
+        &self,
+        delivery_result: &rdkafka::message::DeliveryResult<'_>,
+        _delivery_opaque: Self::DeliveryOpaque,
+    ) {
+        if let Err(e) = delivery_result {
+            self.log(
+                rdkafka::config::RDKafkaLogLevel::Warning,
+                "",
+                &format!("{e:?}"),
+            );
+        } else {
+            self.log(rdkafka::config::RDKafkaLogLevel::Debug, "", "Record delivery success");
+        }
+    }
+
+    fn get_custom_partitioner(&self) -> std::option::Option<&RdkafkaPartitioner> {
+        Some(&self.partitioner)
     }
 }

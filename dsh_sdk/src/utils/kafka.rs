@@ -1,3 +1,8 @@
+pub use prost;
+
+// TODO document various utilities related to the use of Kafka on the DSH.
+include!(concat!(env!("OUT_DIR"), "/com.kpn.dsh.messages.common.rs"));
+
 /// Reduces an MQTT topic's depth to `depth` levels.
 ///
 /// The DSH's [topic-level
@@ -26,6 +31,7 @@ pub fn reduce_topic_prefix(topic: &[u8], depth: usize) -> &[u8] {
 
 #[cfg(test)]
 mod tests {
+    use prost::Message;
     use rdkafka::message::ToBytes;
 
     use super::*;
@@ -57,5 +63,20 @@ mod tests {
             "abc"
         );
     }
+
+    #[test]
+    fn dsh_key_envelope() {
+        let key_envelope = KeyEnvelope {
+            header: Some(KeyHeader {
+                identifier: Some(Identity {
+                    tenant: "test".to_string(),
+                    publisher: todo!(),
+                }),
+                retained: true,
+                qos: 1,
+            }),
+            key: "foo".to_string(),
+        };
+        key_envelope.encode_to_vec().to_bytes();
     }
 }

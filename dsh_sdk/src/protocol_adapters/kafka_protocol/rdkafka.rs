@@ -136,11 +136,11 @@ impl Partitioner for super::DefaultPartitioner {
     }
 }
 
-/// Topic Level partitioner partitioner for Kafka on DSH
+/// Topic Level partitioner for Kafka on DSH
 ///
 /// We implement the Murmur2 hashing algorithm as is done in the librdkafka implementation.
 ///
-/// Defaults to 1.
+/// Defaults to 0 when no key is provided.
 impl Partitioner for super::TopicLevelPartitioner {
     fn partition(
         &self,

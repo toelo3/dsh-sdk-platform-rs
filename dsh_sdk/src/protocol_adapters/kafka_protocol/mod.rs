@@ -103,11 +103,11 @@ pub enum DshPartitionerBuilder {
 }
 
 impl DshPartitionerBuilder {
-    #[cfg(feature = "rdkafka")]
+    #[cfg(feature = "rdkafka-config")]
     pub fn build_rdkafka(
         &self,
     ) -> crate::protocol_adapters::kafka_protocol::rdkafka::RdkafkaPartitioner {
-        use rdkafka::RdkafkaPartitioner;
+        use self::rdkafka::RdkafkaPartitioner;
         match self {
             DshPartitionerBuilder::Default => {
                 RdkafkaPartitioner::Default(DefaultPartitioner::default())
@@ -126,5 +126,5 @@ pub struct DefaultPartitioner {}
 
 #[derive(Debug)]
 pub struct TopicLevelPartitioner {
-    pub partitioning_depth: usize,
+    pub(crate) partitioning_depth: usize,
 }

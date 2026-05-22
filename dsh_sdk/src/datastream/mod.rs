@@ -465,16 +465,32 @@ impl Stream {
                 let partitioning_depth = self.partitioning_depth;
                 Ok(DshPartitionerBuilder::TopicLevel { partitioning_depth })
             }
+            PartitionerType::Unknown(s) => Err(DatastreamError::PartitionerError(format!(
+                "Unknown partitioner type {s}"
+            ))),
         }
     }
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq)]
 pub enum PartitionerType {
-    #[serde(rename = "default-partitioner")]
     Default,
-    #[serde(rename = "topic-level-partitioner")]
     TopicLevel,
+    Unknown(String),
+}
+
+impl<'de> Deserialize<'de> for PartitionerType {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+    {
+        let s = String::deserialize(deserializer)?;
+        Ok(match s.as_str() {
+            "default-partitioner" => PartitionerType::Default,
+            "topic-level-partitioner" => PartitionerType::TopicLevel,
+            _ => PartitionerType::Unknown(s),
+        })
+    }
 }
 
 #[derive(Debug, PartialEq)]

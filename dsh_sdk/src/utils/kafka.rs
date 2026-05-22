@@ -1,6 +1,47 @@
+//! Kafka utilities for DSH.
+//!
+//! This module provides the [protobuf](https://protobuf.dev/) message types used to encode and
+//! decode DSH Kafka message envelopes, along with helpers for working with DSH topics.
+//!
+//! # Envelope types
+//!
+//! DSH uses protobuf-encoded envelopes for both the key and value of every Kafka message. The
+//! types in this module are generated from the DSH proto schema at `src/proto/dsh.proto`.
+//! See the [DSH message envelope documentation](https://docs.kpn-dsh.com/reference/kafka-on-dsh/message-envelopes/)
+//! for background on the format.
+//!
+//! | Type | Role |
+//! |------|------|
+//! | [`KeyEnvelope`] | Wraps the Kafka record key |
+//! | [`KeyHeader`] | Metadata carried inside [`KeyEnvelope`]: identity, retained flag, QoS |
+//! | [`Identity`] | Identifies the originating tenant and publisher |
+//! | [`DataEnvelope`] | Wraps the Kafka record value |
+//! | [`QoS`] | Quality-of-service level for a message |
+//!
+//! To serialise an envelope, bring [`prost::Message`] into scope and call
+//! [`encode_to_vec`](prost::Message::encode_to_vec):
+//!
+//! ```
+//! use dsh_sdk::prost::Message as _;
+//! use dsh_sdk::utils::kafka::{DataEnvelope, data_envelope::Kind::Payload};
+//!
+//! let envelope = DataEnvelope {
+//!     tracing: Default::default(),
+//!     kind: Some(Payload(b"hello".to_vec())),
+//! };
+//! let bytes = envelope.encode_to_vec();
+//! ```
+//!
+//! # Topic utilities
+//!
+//! [`reduce_topic_prefix`] truncates an MQTT-style topic string to a given depth, which is
+//! required when computing the partition for the DSH
+//! [topic-level partitioner](https://docs.kpn-dsh.com/reference/kafka-on-dsh/kafka-partitioners/#topic-level-partitioner).
+
+/// Re-exported so downstream crates can use [`prost::Message`] without adding `prost` as a
+/// direct dependency.
 pub use prost;
 
-// TODO document various utilities related to the use of Kafka on the DSH.
 include!(concat!(env!("OUT_DIR"), "/com.kpn.dsh.messages.common.rs"));
 
 /// Reduces an MQTT topic's depth to `depth` levels.

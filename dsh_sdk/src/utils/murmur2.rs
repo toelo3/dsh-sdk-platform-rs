@@ -1,4 +1,15 @@
-// TODO need some docs 
+//! Murmur2 hashing for Kafka partition assignment.
+//!
+//! Implements the Murmur2 hash algorithm used by Kafka's default partitioner to map message keys
+//! to partition numbers. This module is used internally by the DSH partitioner; it is not part of
+//! the public API.
+//!
+//! The algorithm is specialised for little-endian aligned 32-bit inputs and mirrors the original
+//! C++ code by Austin Appleby (public domain,
+//! [SMHasher](https://github.com/aappleby/smhasher)), using the same seed and constants as the
+//! [librdkafka](https://github.com/confluentinc/librdkafka/blob/54e000ef4ccabda759a1cf4fcbc06ba9edb193bb/src/rdmurmur2.c#L58)
+//! and [Kafka Java client](https://github.com/apache/kafka/blob/62db165d2af99c489010688fcaa4addf4c398964/clients/src/main/java/org/apache/kafka/common/utils/Utils.java#L505)
+//! implementations.
 const SEED: u32 = 0x9747_b28c;
 const M: u32 = 0x5bd1_e995;
 const R: u32 = 24;
@@ -16,7 +27,6 @@ const R: u32 = 24;
 /// SDK](https://github.com/apache/kafka/blob/62db165d2af99c489010688fcaa4addf4c398964/clients/src/main/java/org/apache/kafka/common/utils/Utils.java#L505)
 ///
 /// Values for `M` and `R` constants taken from implementation.
-//TODO validate inlining using Cachegrind
 #[inline]
 pub(crate) fn murmur2_32(data: &[u8]) -> u32 {
     let len = data.len() as u32;

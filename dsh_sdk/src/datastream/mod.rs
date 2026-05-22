@@ -446,6 +446,11 @@ impl Stream {
         }
     }
 
+    /// Returns the [`StreamType`] of a [`Stream`], or errors if the stream is somehow incorrectly
+    /// formatted.
+    ///
+    /// # Errors
+    /// Returns [`DatastreamError::StreamTypeError`] if the stream name is incorrectly formatted.
     pub fn stream_type(&self) -> Result<StreamType, DatastreamError> {
         let prefix = self.name().split_once('.').map(|(h, _)| h).ok_or_else(|| {
             DatastreamError::StreamTypeError(
@@ -457,6 +462,10 @@ impl Stream {
         prefix.try_into()
     }
 
+    /// Returns an appropriate [`DshPartitionerBuilder`].
+    ///
+    /// # Errors
+    /// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
     #[cfg(feature = "kafka")]
     pub fn partitioner_builder(&self) -> Result<DshPartitionerBuilder, DatastreamError> {
         match self.partitioner() {

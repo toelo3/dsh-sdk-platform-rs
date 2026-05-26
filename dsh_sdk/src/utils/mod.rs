@@ -14,12 +14,12 @@ pub use error::UtilsError;
 pub mod dlq;
 #[cfg(feature = "graceful-shutdown")]
 pub mod graceful_shutdown;
+#[cfg(feature = "kafka")]
+pub mod kafka;
 #[cfg(feature = "metrics")]
 pub mod metrics;
 #[cfg(feature = "kafka")]
 pub mod murmur2;
-#[cfg(feature = "kafka")]
-pub mod kafka;
 
 mod platform;
 

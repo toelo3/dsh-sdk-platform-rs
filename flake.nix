@@ -131,7 +131,13 @@
 
       in
       {
-        checks = { };
+        checks = {
+          workspace-fmt = craneLib.cargoFmt { inherit src; };
+          workspace-toml-fmt = craneLib.taploFmt {
+            src = pkgs.lib.sources.sourceFilesBySuffices src [ ".toml" ]; 
+            #taploExtraArgs = "--config ./taplo.toml";
+          };
+        };
 
         packages = { 
           inherit golden-set-generator; 

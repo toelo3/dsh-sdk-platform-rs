@@ -6,4 +6,4 @@ fn main() -> std::io::Result<()> {
 
 // Needs a main fn even if Kafka is disabled.
 #[cfg(not(feature = "kafka"))]
-fn main() { }
+fn main() {}

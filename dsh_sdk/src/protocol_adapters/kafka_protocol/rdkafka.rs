@@ -180,7 +180,11 @@ impl ProducerContext<RdkafkaPartitioner> for MyContext {
                 &format!("{e:?}"),
             );
         } else {
-            self.log(rdkafka::config::RDKafkaLogLevel::Debug, "", "Record delivery success");
+            self.log(
+                rdkafka::config::RDKafkaLogLevel::Debug,
+                "",
+                "Record delivery success",
+            );
         }
     }
 

@@ -1,0 +1,8002 @@
+[
+  {
+    "input": {
+      "topic": "egxify6gc3/e668dl0wh2/sjzd11uzolbtpe/huk1c67o/yfqyzszny/kh4/9kujn2sr49gs/ufo4j0/wdk1oawc/t/qb8pbus",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "dzi0u8/bsxqjro/cxxxww87/yll1r2t080a/969hhv73rv/oze83/gvui8p9/5_he0alg68/z_",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1276
+  },
+  {
+    "input": {
+      "topic": "knb8yxu",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "9/k5qshw_5t7rla/6npzb/s5yvm86ib/ocnfa/r/jtnw70ofvz30/ebale3bi1bxb/6vt6e/71_5/94shabnwr6",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "o/fn0h3yomt/ia5looon/jkeg_qi/riyfx3e",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1558
+  },
+  {
+    "input": {
+      "topic": "ohrft/2az2guocbz70/_9trq5halsyowc/u6/50d27aev/h4",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 469
+  },
+  {
+    "input": {
+      "topic": "hat7dr/_x840n4/a0q/cdf79zfj5ut/n5fzl8wgdbe/fj4dlfzj94d/_uhe_8_5rw8qf8",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 74
+  },
+  {
+    "input": {
+      "topic": "a82jkc_o/46sd392xymrr/u5/r7iv2oqhv/0rjo0ov/yrq4xz3qc7l5/f8n/d4/chvfy/f94/i/93memfl091ifqn_/lq/st3zp1y6oj35h/ozffu",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 1009
+  },
+  {
+    "input": {
+      "topic": "a",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "m/rsvzytsq/qtbqne/70p/degw0u1y6r9b/q7n/7q54tcirhk/t_qzr",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "rrm4p/uoh5k8ol7/0u/t27v5/gqe9hfqh/qipfg9027j7sz97/hn/dxx15",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "ise3ziayx2y3/nwqg2o/48xqc47x0thb/lpinz3/1z9mz5egbi/2s5simuclxw/n_jqjqkvtgw/99xwmmnnq1osq/ci67cou9zg3/d2occq6y8gc/136/5yil5k25ngr1",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 82
+  },
+  {
+    "input": {
+      "topic": "c2dxswq47",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 960
+  },
+  {
+    "input": {
+      "topic": "7iksj7/e76j_1_55pm/1o29k7i8l1c",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 832
+  },
+  {
+    "input": {
+      "topic": "l1sqiygmt/f/ki3cpj_5/02w/5bw0/t_44k/cbbvj/os6ew_mpzz8x/fm478kibhxzs/_spa/_pv/9d6r2l/8c2mi3j2zs3/pumgow94iwbhp",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 693
+  },
+  {
+    "input": {
+      "topic": "gddtq/f_rlsun92oc42q/n14jdx85wj9/j/zta9foup/tl51mul7s5wf/t/ah_iy3ak/4lu/wpv6p0bbucm/ig61dkcgcmd/wlb1/b2/k/e2g0wxs79gm8kdv",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 22
+  },
+  {
+    "input": {
+      "topic": "63nkk5xt/cnr",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "i/ob8xb41rx14pc/tt6zqarlh9f2f/aqdn8i8a_2p4/ffa2e9snx0ls/cpjyffy08",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "aa4l_vb7cym/w/y4wcup9l57/h26v9w3gam/rni68/c15ogb/yr19",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 66
+  },
+  {
+    "input": {
+      "topic": "pbzd5vuiynugz/d6xh0mu/0/1076up/3xdbxln85pt04/6dn78c/8743ifmpgo4/1hcs3004t6yej81/zj755zz17_6o/gcflp58w6pnr9l4/i2o6k",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ea/sw101/mb3com8/6_afqvw5j/mt/w6auuuht_isq/wf3p3omji7n/righp83/9/fan9fqyjx6",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "18t_8_wmj/5g_m5m0t/pg_/fyic559umd5p/c/6a3/8wu7t_wwbue6dj/vh/1vs204",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 612
+  },
+  {
+    "input": {
+      "topic": "smxzho1rg4y9rq/03d7h81xnpj8jig",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 240
+  },
+  {
+    "input": {
+      "topic": "pj94cyp/6h_wods0/7rf3l4en/93hn_b4/vnh302b8_/njnintt/uqx5tasvk7l2/ygz21u0/2vwc_3ei/czjahxuv/thk541019yb8k2/6/wthb3s82/njinkfjnaay/s",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 609
+  },
+  {
+    "input": {
+      "topic": "52zmh/zvert8_27rod/na1n7vw8mn4/_pdu3qtbis7nc43/opr4pb_9p9ct4y",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "9pufk77y4w4/9tc/1ozcm9w6",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "xs8bze3967q5/d78sf4o4rjp6/vo/zuzer/h0m4md3mm4uzn2/x_pyyxww8e2i6/qb1k3v_heukm1c2/yytz/gnq6qmqaxd_ymg/ja4f5amm7/bn9o9e42l",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 85
+  },
+  {
+    "input": {
+      "topic": "mggeme5dq6ohuwa/zzpl/n08h5eeka2c",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "2rh6vzs/rnofo/fe/ed87ogj4wj/y7dj8niym4kwecn/5feni41ds/wue1x9l77a/b",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 840
+  },
+  {
+    "input": {
+      "topic": "qs04i/qykc72l5/wnp/tn5m76je/ft/0gbma/97_ehz1/hps3p5/1xhp7tecbyj/7lgiu5n/_tl7/lhujl",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1723
+  },
+  {
+    "input": {
+      "topic": "0wij/1wbm/l06f90/fx/vuojk6d5n1dgr2",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1625
+  },
+  {
+    "input": {
+      "topic": "ku4e2alkd/oe29ytofrpralr/v1ssoe561ay/zdejk6t8y/9e/wg1bet53ldg/u",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "x0qvqkhfgxgc19n/3ucve81/_671lwd",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "km/ur072_6dj/j9/sisz0vu/nxi8ikw1k/0m7f71jd_rr/y8t5uev/07qb6hdyy5sxn/z3q9s1wjsoz9",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 389
+  },
+  {
+    "input": {
+      "topic": "rvjtml7cav9sf1/49/t9uk/qh6odeavwtz/02kfcfs8/ai5gz8rsbhk1f/uu6aylp7",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "c/lwq4eq5wjgpay/84/pzxpaj3uaouh2g/cskylis55wmwww9/npw1aib10l8qx7z/l_7s_mdw8u3y/w90/9238wa/x3z9/vtq1ks_c3jc0gv/ts0h9nyh1y/fu_asla5i",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "1khk/3oz/vt_j2phyqeh/3/7hdod6ga3kazta/x5n8dh8q/72yo7qiv6x5d_w/95nscu",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 186
+  },
+  {
+    "input": {
+      "topic": "mom9pbwczjo/q/8cdg84rms/3n3h5q",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 740
+  },
+  {
+    "input": {
+      "topic": "e2v65/xf51y_iy5/dfv1lxcb/aahnywlmhs/mgvpfz3_olyu4/8c9g/qr6p/s/wmhv/e64zth4ghbsjb/v99/fb4cya2u/ulms4iag3pbte_0",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 762
+  },
+  {
+    "input": {
+      "topic": "ndbbpu/180t6h/jy5cqfmbxtixv/loi7/lvg_vt/tm_9lmm7r8im0hh",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 317
+  },
+  {
+    "input": {
+      "topic": "2tmpzo/5kzot",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "qeaqsem8sz_1ql/v/knuy1tml4bz4",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 49
+  },
+  {
+    "input": {
+      "topic": "0vzl2lgc/0byutlvkeq5bn4/aifdp69x4mk/h3p_d_i82d0e183/68fi2ff2p/jn454d0c/5_gfji/blttn2nv1f25so/rnc7eu3q5bvnckj/_wrs0kef74",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 808
+  },
+  {
+    "input": {
+      "topic": "xs36mzzyq7zct3/prvtv70x/mcvjw7b9806r/oprv4_ii/zhgad9gfk6podsj/cic_rufypvody",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 58
+  },
+  {
+    "input": {
+      "topic": "p7/p9/hmywbxvkczx1/252d8t/rcjxg13vijy6/g7j37ndd0l/0zu7/356r2a/g1gh1g1lf9ia/h31p81jb1eb/01oi6cy3tdvd3h1/3rx37wixixhq/_9529yuyj/57qnk00r0yknnb",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 54
+  },
+  {
+    "input": {
+      "topic": "apb4u3/g6usy1hrmk2l/r95j2h2tj71t9/9zzi818g7wz/0fq0bowl3j",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 14
+  },
+  {
+    "input": {
+      "topic": "gevdy3u2yyp/tn3f6x62q2h/hfipz2ozkyq/9s7ho6rkjc9",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "j9rhasjurn5_/duj197sao/1rsgm9/i_maw94cml2/9w2pcgtpx5m",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 767
+  },
+  {
+    "input": {
+      "topic": "k003smn/3ynahfhcd_2y/7tnwmd/loupq7p6/kftgyx/ijp/sxg/slzcku/sxc",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "a/6eawkm02/gs3c3txxl9mwh/6gd6/vv8qrynnzr4e_5/b8h_7su/b9qv7w94tviyvg/mg1/l_7itx26/r_s/hgk4gny56/fjqso4ha21/cb0ner5/jjpap2jjyqa0e4/a",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "96zyeepz7wk/l0/62j3xo7rwh1qi1/8ne374xym0/texjdot/4i17mywpt/3/c2c/q9eilqwl57o/zje6qrogiu/k6/u2il_5bmfpvm6s/ufu164q/4bc88qyqke2s8",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "yx_kfdn3oam",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1377
+  },
+  {
+    "input": {
+      "topic": "lv/hqtak471yk9/h5342id/pgvklb1i52c0/gkxx0e6atc2/wv6s/d9yi_ko3xgpu3q0",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "g9pxfkjekk3j/7wj8aayxmj7dolv/f7uekvxy4dzmyky/zyx0/1a8t/xq6/ghm5ycyky/k/qyonqsn302/q6b3zsjy6",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "w8/1t3/yazj1b6ivg/hb2dlqxj/cg025c/1vaj/3ndj/sbecuk2n/udpps/91s2o1zso4/ez9a8lhyygy3up/f2u21a5a74hct/8vb3xqcx08_xj3",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 93
+  },
+  {
+    "input": {
+      "topic": "6zsdp6q/n5aa/qfo0sr3ssucm4/22edjyyu/ahgjtg984dvjuha",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 902
+  },
+  {
+    "input": {
+      "topic": "0tmn3ml6ux/lp",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "_byupj",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6g5pcrpb9/q0pden/vgbt/32ylhv/twyjcysp3/ynvp2gbj647/g4hwk1qkj_1u/gjs9nssnus5fcl/4sf94rsq8k",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 83
+  },
+  {
+    "input": {
+      "topic": "9/21egwawwg/kw3pgo8/xizriygqtr1/euc_joed58f/zyvf3q87u9j09/5jreo80mhzt/6j_ww8p22sfqr/np842_8iasv4v/p_/nl2a",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "z/dukm0/ucqh/lqenxwbw8eyd/h63dogyx/rmx6s1s9kwhtx_1/6c6/ulrsb7m909ves0r/1rxgxla/fb4xd/4k72fh",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "ogd4ls202ecc/_r0/utmbwqme8m84/ao0std7/iure2d4_jaoypn/x00sm/dr8k5wtip/s/k9_s0dx/8xb4mi/6t_nm_6st5c0/x/ecmblchk",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "fvoikq/wbcy03_xav3b/bvio_0a_1rr/4tu_/dtchq_3d/fzuoy2ti0yjjq/tbk9nvsk/kyt64vtih5g7yc/hg43t/gawukbc9yt7/1sda1zb6vsumtkq/h8_u8q1tp4oj2",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 109
+  },
+  {
+    "input": {
+      "topic": "rkuwle7f4o/ag_hykn06x8e_r/3s4esq/wbfcx91s3zf0a/zakkht3yi0nbmb4/t9sf/j4n__i0fxwus",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 2039
+  },
+  {
+    "input": {
+      "topic": "k2nn5jgkuro0o1t/zi00hs7ip731/hwpx9y1lj/cg083m898zn/cg0_r6",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "dbavxrbhwlkd77/9bpyw",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 617
+  },
+  {
+    "input": {
+      "topic": "zuey/shtk53h/40gsjrzwh/goqdv35v4/9qm18o3s/3_dw/8_up38n5jqka4/95z4x",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "kk3hmxjjxx7/hm/qj1iw9woh2jei9m/_gw8xfr0c/4dwjqyyr47pyb/8p9agev625/svbrykgmn/dt76eyp6m/sai2duwv93vb_vc/gavts1gb/mz85js/3zt1zd3kpktwwb/7flol20v3",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 576
+  },
+  {
+    "input": {
+      "topic": "gbmx/fzd_kjre2vo25/4blca/w8819h3cd/tfs2/a08/wtsf/3lbx/6z6pbhbas6luy40/qxdj5brv_a5/nlod0mvv7jg/937kag2cmjqjm9/_zz5",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1394
+  },
+  {
+    "input": {
+      "topic": "naj2b63ps/ss9rq898",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 831
+  },
+  {
+    "input": {
+      "topic": "47d/8lp8bp77m/2m/3qwap0br0/dcg3ye6o8/rj7wqwdu8x/zlhuk5zwgd871/s2zveeev/0f8/svx2j/sortaplrj_1xmpw/b/30ef8lk51gihnr/pzj0",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 1589
+  },
+  {
+    "input": {
+      "topic": "izvkh6/eudul9vp4ohxw_/1512s_ti424ra/m6w0w9k/q69wnf3lgv1os/x2o",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7zoojtr1q2a7jvh/tpplzgm7/xdxvaqtl21p21/euqfm/cmc4mww",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "a7y5tkbms8situc/jfs2cl8/e77/q2886z6ngot/_ty5i2_/bw46tmwhl",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 610
+  },
+  {
+    "input": {
+      "topic": "mn2b6xe_3i4/1/hr_sl30lt/wda0lb/46t/6p_i1ve28n_x82/6wh0/jeft0_zy/3a59au/zj03/9q4v/js2owymakh0vih/bes/ebpw2c/snee8kxucy",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "d7c0pbdx1dlnj/oy941ucjym4/6z3f2vr0krqad/tiju/d/zrtm1uv1q5q_/swbufkrwe/6ym7/ihv6jx/se1rn8f36/w5v4zvd/0kszrj3xkzfk9b/yfz",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "s9n6_wtnhavclfw/tu/ithq/fwj9hjxx599cmx/vmpi6cndj2cq/p4i_wkyxom_te/0/of4oyaj5/0mr02nbln8ts0/v4_/cf9ewh0a/n55_x/jf6qa7lbrv",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "_81w_a9g6o3oi6w/s9vuu8uq0bumhx/y0/191lwj45jl20/_wcwcm2w/rdag/1xjb5/cd/9mskzaxaaqbr/fv",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "35gfh6m28tvys68/mn6s961jr93g/vn7jpa95wefprw/_tjamnn5216h1wb/yjodi48rhl70nx",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ms/4c/hej36",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 63
+  },
+  {
+    "input": {
+      "topic": "3n553k39/kc9/0kbc699l_ep65/sv_6ct8a7jtj2/_13sue026s/kdjh94emi/bvkjgt/wj1b0/i4nk0ojo_1hm/823",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 10
+  },
+  {
+    "input": {
+      "topic": "5e1g_a9j5hiu8t/3larck17le_43i/b2/qw0beuo/4n095wtw8xe7/s8hohu0b6xrzbu/l2b3e1okjsbz/03iwkh7js5z3abq/3cz8gt/ca7b",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 65
+  },
+  {
+    "input": {
+      "topic": "5quhrl9hpd/th2/5rj1jwymvy9kl/cv4ctg/vbp0/fjzckilkkrf7/98vg4h5g6b3ed1_/g/j3csw0v/6",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "x3n43fonw38he5/8vtv6wcl/wm/01a3y",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "r2xs4mn/wpyeodgg_r/ccyp56lnzbw3u8m/_/mdd4vsj64/0d5thkx/5eri/4ences4gu3/gkutnh7s/nkuzi/iz8v4mzo5g/95n_13x60b/lov5pjdv24c9zn/tfvp08u4",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 780
+  },
+  {
+    "input": {
+      "topic": "3fiyt61z9mlj9cl/jzzc95x1tiel2",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 1058
+  },
+  {
+    "input": {
+      "topic": "tu3r/642/ks26h2db/pfhil783v2/3n64n0pfyjb4/3/77d56ao8tevd9/l1e4r/d4xk1/_19k/x3euofpy3071u/hs",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xabbfi/lyvni594t4dvc/ap2o_cfaw/k1t/kjvepxgh1g5w/r_ttxrvfckw",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "le1/4ai5rc/4806uk/o7/18a7u/2_i8hsc5z24zpzv/4bwo9f18k_tw3/lsgpc_su_apis/5yed0_crg9/qmfuo8d4551pen/vrja5k/kocvy/e24t7sq_/uf",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 812
+  },
+  {
+    "input": {
+      "topic": "_epqzra5clf/8s59",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "doqthf_6hw5/fsw_/84l0ujg6j/_ptl1j7d_9_kq/b7ik/9ajb4k2zwljrm/m5cbf5iqbu6x74/d9cne027tac6/5zyjno_0q7lvlw9/znyllz07/5t3kktcazzx_h/p9ju4zux8e9ja/1ha/sb79/w6ygq",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "g798rs9/2gvxo8agx4uqqzu/9kvsjzp5l",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "v4gps1lc/5dvdrlf_6ucl/9l06x1/tuol28ould2117h/23tc8/pknaxyi_158a3s/qe",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 13
+  },
+  {
+    "input": {
+      "topic": "_khmeev77",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 292
+  },
+  {
+    "input": {
+      "topic": "71rarjhiczda/6r/mj6xr9ljd_y/yfgt2q1/dvzwf7go/1w6/0hp3ut3azxqj/098g1flsyhv4/ue9cxizvmmsm4/bw",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 75
+  },
+  {
+    "input": {
+      "topic": "8vv1gf/tx9pw914il_d3iw/9/2g/4phedc5ca6a3/w_jd/s4tgh4lifaq2/mjgcmpq7/jz9z/swnhw8_336719/65rg/mm9knn/0ccltm_dy",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 41
+  },
+  {
+    "input": {
+      "topic": "3kvs_wg51v/k83j3/_yd72q/7",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "tzwxwev",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 715
+  },
+  {
+    "input": {
+      "topic": "urhxhkt/iglei54dp/uy/kw5qqhfbcab/a/45h13apd1nuqp/8kueaj04dvc",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 523
+  },
+  {
+    "input": {
+      "topic": "1bhs9lgyq_x/ir8/enyym9ze8000qco/81nfd/g2pbje/5jsdili0o/jz98639_hcqfx/0e1/1e/qixfjd6atrsgk/bb0sea6myoa",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "8ijnhhdquv_/k0j/xuzqe/_4jcrn77qu/_4/psq2orybyd",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 36
+  },
+  {
+    "input": {
+      "topic": "60o_lu8wonx78",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ofv88l3/pyz9hvsookf38/nnv9/m",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1069
+  },
+  {
+    "input": {
+      "topic": "legv1pwaf/62209_/6h1cz7n4pezuh4/55nacoej/1vxldlom/fhfked2mito/vnnn_qk4urw_54/85/nlax6alf/m9oewe6y7klt06/766xk/9wj_kllbmas6/b/pu6/aui5rxhl",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 98
+  },
+  {
+    "input": {
+      "topic": "mfsu/l8by3txw/xhk0w_/vp7kgidb_pyd5/5m8d/k03n/2u_i4cn/k3j7kjh6uu13rs/f_tywlzeik/vx90jkaxu3dt/fiug4bu5wy70sce/4qk",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "vy3c5ue4jbuwb",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 41
+  },
+  {
+    "input": {
+      "topic": "hoxmc3b9pf3ozi9/fir56xra7_6qs/5il5/8vzsjm/q7xa9q4pyiygp4y",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xub3csr/hp483aw8iivch7/dx7em9ila4qoed",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "0rvlklldv/f9p1ubjbe4rcn5_/ws7/o6hl5op81o7wg/g760xbbpmoi5x80/1tybq1ajc3o91z/dof7c05n29",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ih8/gi1dv2q/8fj3mxkbig5ka45/lhvi8ka4ep",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "0/j0t7tja/s1k702e/85i6boyd_38/sd5b",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "l0y40/766t_nizxu/ect",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 29
+  },
+  {
+    "input": {
+      "topic": "a4jt8po8krm0",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 236
+  },
+  {
+    "input": {
+      "topic": "_1/olq360y/mk9b_lqh5/4i50q2lkkqujb3/jbq/x0fe71lx",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 449
+  },
+  {
+    "input": {
+      "topic": "b9v1le1a6/tbaltrgh7cq5jl/dv4oc_4l8/v9lber1i/qmdu8zoq/e_/kxf/jsp3wcbaz1x6/4j6/bd9571iw868/q3n6wkrp/hi2ro3ge5j7yd1/16vvcprpf",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 55
+  },
+  {
+    "input": {
+      "topic": "jkufdo_iw6ygs/m84g/oto8bq0ikk/4e84tebckm/0yb/1xio7vy2ixr/slqkmm46nna/er_",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 962
+  },
+  {
+    "input": {
+      "topic": "8vo7p1dg0/dqokkudg4jq4nk/ga/hdbrcymdacgjsu/9kg5cf6gyid4a/jrjotpc/ml9dq9/96i/cs2_vy/9zxbx4/cr7838dc80lgi",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 1804
+  },
+  {
+    "input": {
+      "topic": "vnpv/q4zskcp2vdz/bk21b5u32wx/_rioihw1utvzpb_/eqsckf/t49hr2a5350g/dkkgu5s7jtnx0v0/qt74yhjy7n8ntk2/6nj5q5yaazvj02n/_51tv_",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 30
+  },
+  {
+    "input": {
+      "topic": "gwb7ix3/lq/fo_e5ct7/betndkstkhbu/fhbpr_",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "tmdwwmddukhd1/gt9s3nys6imd/dd5ij458c8c3/ffrx0_ok5m5q/l7ym9pqnwsn_nv/74qoj9iaoievmvs/vukjue78/yp0bup8zwoyc/9npuosadsl3rqn/0g",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "n34462z2rnodx/9cf6ixct9f/yv",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "kwv0b/kbd2gqt_2qtrr/1gi1dxy6hl0e50/mci6wnrdilefr",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 423
+  },
+  {
+    "input": {
+      "topic": "7eyq/43ui6bk1b/w1wgmf0bf6q/qu8aon/udxay/a/_t_5mgfxauup/76h426xy6uj/u_if/3n3rkrwdzt599/r5vqnjadzyyx5si/bt5ckk_x2nn/fhzda3e7kb22wn",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "x/quu0/2ah7su/ketn0l/th2/ua6_2/h5/g1ignxop6/v5gj",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "kgtq/yfv24uzxf/kpfyhxl9/fuqmq_v3hv/ghaw3krhe3n/cxfopop3emp/bz4d/gwr3cxso",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "t2d",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "8zzi0voyu4z0j/he3_hcmddkbb/paeom51bv10l_/762ppkbejky9h/8k8ooh/kinlg28o9/trg7l750wn/2_/zpuafiox7t2t/k0",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "r4s6sast/0g0foaee0rr7aw/aypf/wt8m4_mijekynrj/zqd0o2z715/jd1mzihla1",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "ih8s7f_iozk/gndwi/0gp9mjbywk/0611jzej",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "y84/criluw4jn5ywgc/yujw_/lpcv6wu6c/trat0010_0d2ud_/qh_s_ir4c30d/r9vz4uy3rl90_me/j/w92e/ba/iahkldcvbd/yeix8hj3eek/kmlk1p/b0jwqeu0axkp",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 1674
+  },
+  {
+    "input": {
+      "topic": "fo_9b7m1nq5bii/leyn4rcr",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 954
+  },
+  {
+    "input": {
+      "topic": "dw_aou7iv3py/9vu1zra7",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "mdsg9g/tf4mgqd42dfw/jmwmbw17/i2a6q70bza/0j458_1fofve2a/gagf602fxa/6q0wehtjp5ympm/iekf7ruh7s/bume4_vn81tl/7qr/anegieskz1vs/5/aa3o4msjwi72bwq/mxqds1lzofn/05e89",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 55
+  },
+  {
+    "input": {
+      "topic": "pb_ubc5syj0tlb/dha/k4nk7sg7/m7j0jm9/46ynigc5/xjde4t488abt3z",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "axor9gnk/_tpp9a63khcco/_93d2k7ceku/sky6rreyn/xsb7uxzhyz9688v/pyatzxj/dqmgcul/krwdyhx0jamhf/rtqf1goem/3f",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "doorr73hvwbygy/dun/a28t/o17dv1dj7td7/eh/6t/1sp_yrf2/31vdyrx/axbwlwl2q/l19i/whkukvu0q5un2k6/jm7rwki4xyhu_q7/byc/3uen",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "uq47ih/6c85lsqn/4/np/kfkz2cmzt5/pqzq9m4z/1555s35xuhno72/m3iubuvxv2f30vk/_102f9e_u",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "l76e8um6f5v1j66/pnf3gv1y34qr/ps",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 60
+  },
+  {
+    "input": {
+      "topic": "2pkqb4edl/q1ra7z/oucq9e3/q93y6eeth9d_6/q69asie17cf/v2n5klb79/sv1avrtmxnxo2",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ih3i7ouba/eql7",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 560
+  },
+  {
+    "input": {
+      "topic": "9l/mhxne4pv0il5/zgw/i4m7cughrd15sxs/fshgx7ujd/sa_/1tn_g3lq5tms/na7/mqkfek3a6pr213e/x9e/bw6p/jlrbpdn68",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "j/vsi1xphwz/qj0ymmwy7u59s/spxn85ezvv/y8xljughnvwhl4p/57yk3zr/i82za81xahi/zlmvsor4/n069/jh85rdvm9w3dz8/047fyicy/og9r4vmhvuqc",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 11
+  },
+  {
+    "input": {
+      "topic": "zm1ptv0zvf_h",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 42
+  },
+  {
+    "input": {
+      "topic": "xlf/liwicxppq/nph92xu215skjbw",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7cy7xea/qauak/g939a5x/fphspf8ub1gjyb/gf6p3hf06/gx/2m_luwr/enkzc4x7t/ptv2/iypv2",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "1j8penw/ifr28uidy558/vsiousgb/m2z2d10",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 91
+  },
+  {
+    "input": {
+      "topic": "6bzwd3ov/ghx2re0umfoiwu/nxo59mjw7_/ug2h_drgvy708lp/70xhgh/k2wkv9t9xb1/2zg0y/t7zlq6hgs/scg67pkk/jx_tq/zm5i5f9or3hc828/h4iqypf4q7mwn5/x1p7br0mgnp/yufb_smutj/ile0ur_m01",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4gyexc6o_1/odotyoxw9x73mjm/v0x/gpuk5",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 1094
+  },
+  {
+    "input": {
+      "topic": "lwfgbsjc3kd8/q3c2sw/2dn0n",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 14
+  },
+  {
+    "input": {
+      "topic": "sa88jgpomyowyx_/903u1kdb6u6/zm9cdz1gwxl94w3/34_hln/6_wysj0ld59x69/2s6o53gkhtfbs_y/ltvvk_gf7fch/tvn/yqiqr/434p_e5a/59fvztlsis9c/dtd7rw8/bmk5xw0s/tdzx9n2d8zcfth1/z56bu",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "gsziaqca0guzb3c/3vzw8jn/fq6hge47z/b56rr25v2y/puprm0/akep5t",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "laoqf8f0znh0/onyms0cnhw6/a6i/scykh9lste6/0yn2yhi/h/watdj284p/m13iwoorxh/fbbt/jx/6501/5bsg7/recqqn_f9rjmq/d/b1haqc5iq08pr4",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 34
+  },
+  {
+    "input": {
+      "topic": "be2y64o8iuva6/j5y6wtc6_n8r3/tn6v2/v7sc/udnql/_pf/dd3p/ani5btna_ah/8/6tshk82",
+      "depth": 9,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "cywvz/b/2v1mux8mp4u/hrgib31e7kvz/_x0beyt36/05ibuta4zz/3hmyijo1j17_sw",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 652
+  },
+  {
+    "input": {
+      "topic": "0ro60/f4w2aduldhh71s/bemajkh5oegk719/_f2x1dgkq/qfjm5l_/5zm0ipdx868/prtlyqb64r3pg/mljh8cn/7xsp479rehk2/9bwkk9i/yc/i29oszb_n/f0n/guxrzc7wyed/f4cghao6i0a",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 16
+  },
+  {
+    "input": {
+      "topic": "wngrg11j_/wd74ie5tezli/_qlic8fk9/98ti8/qiqe6n0c8er/ewcas/3rtg6hjfuoghbq/ftc016_6q61_jo6",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 206
+  },
+  {
+    "input": {
+      "topic": "wja91/9v/gpz/2h3lnwbql/2bzyfg",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 58
+  },
+  {
+    "input": {
+      "topic": "jzws4g0xsho4v/h14u3xcxh/co/alhtro1hnqp_/071crv89/q/uduin6epgtg/dzys",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "o522qwz5r/0zhfoglp0uq2l/yxfymx/3suh6yxonw3p/q8q8j7",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4jxy4/j53pv3_fos/swlkzdg_xwdf0c/q3_pygmvsuqiv/kk8_28lqreog1/bh",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "_el/ve2pu8wkff2wn/5lo/qev_/p6_9pbp8k",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "dxwvck0adle7/z29xokyo_skmj/xcuey/94eda1x5/25/y_43za2x8wz8j3/pme7gmoimp74yx0/dr2nnta_e/hvnr_u27grfu",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "k06sdfzo0ra8jy/y/dzbi8tl8zf4bn9m/d0/h7jcc/8l2gpl_gwkp/vl44_m3sx1j8b/da/xn/ptp43/wu_js9/4f2_k6f_c01rgfp/spnad2ya6/axsy",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 64
+  },
+  {
+    "input": {
+      "topic": "cph0agdess/dpcgl0jchhqu1/ubc9wqnzmpb/f88/3eha0z1ih3e/4fs5u/077lqj",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "86/atzyuniry1p4sj/1vuc4",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "9mdffw7fesh3",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 515
+  },
+  {
+    "input": {
+      "topic": "_swzgvp_/v0",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "tuycmzraf/cw1cg4bqbfo/2hk3vdyp2/9mwu93/jzx9vu5s/kf69/rmr/ktqv6sv1/uuajik3zz5vm/0pmltwwiyqw/rjfd",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 57
+  },
+  {
+    "input": {
+      "topic": "qbq/ccq9o3yk/7khd0k9t6z79/jgxu/m9j1w/jj6hjbd7/np2i7ywpkxgct/895rd37u2x/k980q9/soyoz7d/jxl_/3qqpa_wqr/y80v68s1qo7uan/9yfanean1n",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "vqjk/3bktiyzz/kw83/iw0l7gy/281/vkuism36ph_5u/ck__vi/t84spmgpztup/oi0nxkyy/2ehgn9e1rx/_bxne8/y9p_9_ooi/7klw8nwq",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "9_3chlgaoo9avb",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 33
+  },
+  {
+    "input": {
+      "topic": "52pya6td57/hb10a9irk/4/q8izffe56j/jk/2p1psy4lzz_lqq/w09/3s/w6ivjyo40w9kdgq/99m__82kh7zdu/j15knzk35/3fldlxw/06n",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "vkoj_i6xok/6/a66fpbi/5c7s9_ih9vu53/ud/sfpf/s3c2p5_pjdi1/x3ixk3_3k4v69q/t394fo/817um9y6z/erd3",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 905
+  },
+  {
+    "input": {
+      "topic": "x/p0vyfax1/gl/b/lv/huozoc0f06l6/5/ssbd3j/2y",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ylw8d/bm0c4oq/6blm0hgis/qwlonh/1_0_n9bjt6/xah81s9/r3gzr8t_/unifn0/mvt7lvqcjjtr/nusds8zcn/yt5a/bi07sdpw_183ay/7vdbb",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 900
+  },
+  {
+    "input": {
+      "topic": "nzw8e9/7lzfp4znvr3t4q/ut576d/9bsjc400uv/omxr4bcy0w45q/3dyrw_5",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "56_tlzykuw4dlt1/_q/141nn_qscp30p/02w3itj996/qya/53oe",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 86
+  },
+  {
+    "input": {
+      "topic": "6kz/4c/2k52a/mp4gd2f382jv/k8h16gbo/7/c74mqx29_4wxe/nqlmie7m/sguhh8g56jdlhw_/t/a8328yje8g0gv/3_s0ucn3f",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "i1w5764x5ybe1/jksh28bhry3xt/mrquj/f4d2x8/xcw5ivj28p/d/uy7a1ldii8/zk88mmpu_5/0nq9vy/mjp5w0ck2be2997/3z3/rbeu65flggp6/lj6q/n0iuj9c2uindkn9/xij8w8o",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "0sm/rize9_56jey_43/wob_plv4pxvug/yjnn36ix_ob/01cadch3z67/uuybqdo/pgcbtnvj1ao3/7pzq466ib5",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "gaedzxhfoz0/iuviq41f71jkbu/lmz8yw0q6wwyxp/j7vx_90hqa262/djn5bn665c4orw7",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "d49z8xcyhgb09v3/ua0fd86rds4/t/stkb_689/4ic3zimi684kn/gslb/3r/el2e8k/n2ics1/su15awzyh5x002/_dbu/p8_r/3pivckjtujpco/s6j_4nf9x8v_vo/yv6ljuti",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 1857
+  },
+  {
+    "input": {
+      "topic": "xzuig5_/8hs50t_udkb8r1/z56f1h6bb4iu2/vxulq6l39ha7mp8/8z0fjyt4okw6/xvupz9nr5xu",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 481
+  },
+  {
+    "input": {
+      "topic": "mbheztpfx5_vym/fdmrzed1cqy55/ignpg0c8c8q4t/kummvtf/fmt7hsdq2y2/m99zt8kqwte/mwjf1i8xz/z8z/1/rbb1rz14630ein8/e2zrxy_krr/4/uagamo_f3/1/gh731eg_e",
+      "depth": 2,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "w6r_7q/21xefw6a4eg5ld/v59flb35/vmjs27tz8x20/fa6xqlaax7_rx/l4fv2t/rz96yheyzayjhz/_ejkus3y2/_fmrmj/000l3luzm7e2oei/gamu/vpc9qg8wx/txndf/84jqfsv5zj_w1w/s0m329ltcu",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 2033
+  },
+  {
+    "input": {
+      "topic": "k3qu_t4oehtb30/go3/c87/b_e_5px1vqfg2/e5dc9n51/jfmgbn5p1/xor/pdamm3u57/wvzxpz42e4sjcv/k6r7v5c4osmlm4b/9u7es8s23z",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "fygjyy/__5o3/ictp0wm/d5bgft8pyr/2sk/qx6d376_o6",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 197
+  },
+  {
+    "input": {
+      "topic": "1mfgy43",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ypkpcd/eiu08u/ccjc8kn8m95n",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 50
+  },
+  {
+    "input": {
+      "topic": "u/yo04jcbnyr54kuc/zd0msh7",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 43
+  },
+  {
+    "input": {
+      "topic": "z48keg3tzu56q/bxc6d9hc_4kf8me/qyto8gvk4e2xe6/_hkg940hp0h6cb",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 45
+  },
+  {
+    "input": {
+      "topic": "audmqml7dm0kiw/x4x68_/25ie7g53u/nu6scgywc7q76j/en/441zkzlqh/4s0gbk9/nbel/oli97/g1fa30j4ywd3_y7/iqrd6x6j/5kkio96k8fkil",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "xqgv8/6v2f1jd7oyh3uv/t_5zqmi0afx3q/orqav/2qoa04/eec",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "mmscympir/v/52rwi/jw3j7qn2jn5/j1qa/4/2s1/dqr3zp8s/___28xyqr4zlpy/qzac34/kg0f/e7y4v9gxbd/k9us76xxyn0i/r2p493hdf5/qmixs1ry526t",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 84
+  },
+  {
+    "input": {
+      "topic": "4itd3bdh/5fjjg/2az4tauzqqri/sxz",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "ss0/k5clc7gqi1kk7jb",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 179
+  },
+  {
+    "input": {
+      "topic": "bkwuwl0kpcxz_pz/bc2aov3/4eatgk4t/0jlkthpln60",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 49
+  },
+  {
+    "input": {
+      "topic": "88ubf/tz101vi7trp174s/bli/w75g200j/2f5xg040/0qq1iw/5/gzfe/31k7t_au2lhl",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "07bswqp/welg5vyk3nh/4au8htau4/zitxsxz0/_b5qnl/cxytux070t/tejcpsrcktx_47",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "pkc4i60otnocs/fllx1ytu/z/27j_q/ed/6e6pl5/e0d1/4p",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 430
+  },
+  {
+    "input": {
+      "topic": "zzjqnocmzq8qd/wung783lk/bgy57p8shlua",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 857
+  },
+  {
+    "input": {
+      "topic": "u241djovg0g_bp/9_ml/0ifb6_2",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "pvfvur/gshok6c7w_ib/5h27eo0/794j/9r0d3c/80/5i/qb86pa6/fu_8dfh2lk/xhpf74w7g",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "gm9vqiqrrw2lf/ykwbpe5fl5/g0t7ho8_emv/6e5z4haf8_4k/4_212adbopa5/0tif2mrk3s85/a6kebnzlnhcv85/jva0y/9k0i/21z6fgndfg8bm/tq_n/2pmm_b69963t",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 305
+  },
+  {
+    "input": {
+      "topic": "bw334cvvjv/1/9/houofsknjc_r8vv/ivfr_y7/nm4efdjl6at_d/k9fckcbdd4z/l/r/5uk2/qo/k5lunvbjx/8ytb7qdna1e/agc3vf3g0wbs4wl",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 967
+  },
+  {
+    "input": {
+      "topic": "b_jyeof6037/4nnrs17iwx3l1/rzp/obkxzlrxp00b/omyssv92zn9y3fx/o7hy1uuv2/xtqaj3a0youk5bx/bw",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6zvrk67ss7wx/l0/kh4/32wpfw_sq6/h/q4lnqn5m2/m2j60ldb9/b1/cds/1yv26s/8akrks15y/no_mttg/at545kib6/tedfl7tnyf5e220",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "lk3vmu8pn",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "co/bts_0tluummy/eow7swphw3nh/_qnh6/348h9z08gn3xa5/14xwy6p0/4a5oa82ur/rf98kmy0q/19tevj2k/1uennx",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 749
+  },
+  {
+    "input": {
+      "topic": "nauy_x1x05ai/ep_uxxnqq/5hi702v/ferhh7z/5iac/td4/qil8r/vzjm44/kdtw9zqq2/lhelqj/npm_xm/si3sv10rzt34xwe/kg5n2vyw/9lcp_2rpde6r",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 63
+  },
+  {
+    "input": {
+      "topic": "lor4zns/jyvarc/a90whhg76g/5bncx9ojnovmoqc",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "vs3jeh027/wpyg/9sno/85akv3uqfv/xeg0oewz95nn",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "n7du82p/t2n5r/ne5p/o8xvkytiw2txme/0/r7r048s3cs/igpoz/4xk7dmjicqrz9/79l5rcjrzpako/wwujfrcptl",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 1022
+  },
+  {
+    "input": {
+      "topic": "xcfbxyl2/co7",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "skdy_bx85yxe6/23ce_/ey",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "hi8qjautj5ssvv/fs4gldm1dn7743/fhjaq1foqagp/3x/mai4c10_aswf7h/uko3oqja_hwm0/z6qx/bu3n0xwq/nnat_bf9lvc",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 13
+  },
+  {
+    "input": {
+      "topic": "vi5xsm/_mr_kpjqzh_fc/0/keq7e8",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "y4grrb2h_bpn44/p7_55kjqj5/w2nw6cah7t",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "te35/6vxz7nk4wdhnqup/y1m29q/9v0n669k/232brrzr/vs7kc7icbrcok",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 142
+  },
+  {
+    "input": {
+      "topic": "fknbtm5we/yymyg/uy_10sr/m9wiijl/kqz/7k8bic_o2k8hk/sc04/hp3anyytng/aum1d__ewsd6/4xgix75d/l8cunyhta2gdp/674k_/0dsteo2/pbgwaa32c2jr/wntavw4r4l",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "95miskei2/q9gic5sc/ep7/mog96whx/2l_qzf9g90x/_zc/3fe3nrv8/m/_263_15qla",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 755
+  },
+  {
+    "input": {
+      "topic": "_zmxoggxf3hy3a8/il/wa0qs1w1p88hcpd/bjwk3a3einoj2z2/3ni5/7_uvhvd/na4z07kmd35/x8x/3kdu4ezokk/8a/b1_334y/x9eci/g97t/57vsfd19_3aoi",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "m5/4otkg/uy_/je_h/h0w7/f4h/066/78o6h/okkn7a1/0ks9g/kn07p",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 646
+  },
+  {
+    "input": {
+      "topic": "7_vas9l/29hfd1kuzud6dm/9_h/ofrsedwhvhnulc/hn/9ubc41hi8av/bdk/k/w3jr5khnirls/lrzq/s85czsvei1x/860/e6dmp3fi423kwcc",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6tml1_f_7h/w5/1wv0hmay0xt3/9uii0wj5_g/jmlcv",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "1qrs9kl9e0",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 425
+  },
+  {
+    "input": {
+      "topic": "9bs/f_zw5_sg95/w_xvmi0teki2p8/q4v1z2sfoj_qyy/4cpn5yv7tzl1f7/ho/ou9yb0uf93/q/6mk5_zf9qr/jpeizmm4/lfprsc2rp4/x3z3h0ua3/ow65otmjphr/ehfti",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 305
+  },
+  {
+    "input": {
+      "topic": "m1roa61boo/adtnim42x44x/4pupiyoqnr68/dnlmwba9/jc833mg9bt/jg9f7s_1sb/mg_yk7w_38/6chgxmtjg0uz3qu",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 12
+  },
+  {
+    "input": {
+      "topic": "vbmxxlq5/7nhdb2_qo7qgz4/d/3g3jix/o09/asegjp3ti",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "574iwqgdziq/zf_g31wgoqh/_v3lm5r8/ecxqhlw6kj/gt5ebp9ktj1f/j565/8us6",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 52
+  },
+  {
+    "input": {
+      "topic": "opus6a0ppi5ow7/enbi7l06f7fc4/q26iaxv5qvd2d4b/vtoeu0xw7kn/7tjnsx2ayyu9fd/d9jw3n1z3g4",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 56
+  },
+  {
+    "input": {
+      "topic": "2v8_x7_ial9br/9cy1mbtcpson_/7on6/2snfyb4lytvrexa/6ak6tprz6h7a/hw/_t/uj42d81fii/b",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "v2kfpnrysmqgc6/tst11ojxml8bxu6/sl4sud2bmx6kp9k/0r4vapcuerke/3k57etnus_58/9g1",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 1189
+  },
+  {
+    "input": {
+      "topic": "8v2/ph8ec/0v5ugp1a/26xolrus/44ii/e7dhefc8req3fwc/5dh8ic36/olxwah59pm",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "wy",
+      "depth": 2,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "jmq28rm44m_hu/vvujnpr/6v0hrisat/_lwbdeeesx4pky/fw/xzlqn2ikceoos",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "hna9au43n7/jd96lf51/z1e2f/qvusqv/5pr9ndyyhyx/9w3ommpvh/u/iguu/t5jbbr9/6wok2f6ykpbjzj/6wu6/lveim7odp/jfxz5fibdvlfzw6/4zleqp45",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "f0gjdmi3i62ooxm/_7v_h1db5nm_/z_1rgq9/8",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "wg_/5upnbm6c2xwda/05/arjq_/gksx/lv3ggc/szhbetr5mt1npkr/dvotnp/ty_gg96zczk95l/ni/3hrn/2refgrwz_v3a/qp8v",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "n7/pz3o/k0vsqc05/j51o70g29qqij/slf6g_e__sy6u4v/cfsxyfma76bg15",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xugpwbalhn9s/zmd0mcs1/513q/epwaa07cv_/p9688m29kzp/19/xj8ui00xv2py6sk/f4b/22vp/9f_ez_73d6wk",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1880
+  },
+  {
+    "input": {
+      "topic": "4y7_69odx3x/jt1vqkqita1g/96l3dx25sw1/vowm7hb888/wge0w75f31sex/nwavwhy/8g2mg/kvh/a/yrxoqie4v5/j/h4r2hml",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "usv5s/nkc2_h/uxk7u3f7psoprkk/lp/ce2aqz1",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "b22/1twbq1hst/c6q7l/o0ytw/tl6py7d38/d5r/zko6b/5rkm8joxt0zwsr/dwbbix2m5wizuho/_a/8/jnkecfs/9d4v57/t9_g__/o6fq_vh1zs",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "cc",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 1379
+  },
+  {
+    "input": {
+      "topic": "d1sl4p3er6i/zj2fy8g0u7vn2y/q92c/ria73qfqc4/1n1lnk1b/j02n6v5v/7zx/n",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 429
+  },
+  {
+    "input": {
+      "topic": "8lcpdqlhm5z1/004r82/uql64ogk5w9/at7b7f0mn/k4179r/k3nmnpk8ksa",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "v0b7y1/qztde5c/gtpp6_r/wrl4ax5xlh0/gd8yiiyujil/02rg17z/mdv4fhtau_/a0kgjrflly/12pa3qd1j/k29o9pmya7x_4/h0sazzw2m6/o_jhspf1h/xc/pjiva4",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "4/_m74s8zwl0v/88wu5j0b61yss/z/_d57mk0v710nlq/u1_ou6c/e/r5w0wcu0jl58/u4lsum_1r",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 56
+  },
+  {
+    "input": {
+      "topic": "02pgh2",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 646
+  },
+  {
+    "input": {
+      "topic": "bt/bx/v_okx9ih/5ifb6791lbv/oo952lt8/i/vh6yk19afjj_wn/ee7fh/cligps2t/487/u8xr/y2h5njecb4v_/st0wbkgjecr/altpb7qc0n_v/8ifqdaj42mses",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 549
+  },
+  {
+    "input": {
+      "topic": "klf_d36kpx/1gd/zore0wsy46d/he9",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "u5wbiqaw0uwl/2icuvpno/9_we3tbhlu9yy9/8a/hhez8y2/xwld5n0oker4/12hsq6pm4qq/_cw8f1pr/vd1gdtj7rqnki/mwea9b8/8r4wecj2uno/0sq0j1gzl/seubfi_w53v4/dgqbruorusi/6efg0h",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "a_5qqm3zna5tb/x3bdr4o5a7td/j3/650hs/det2iqecvyxz/5p55h_ygo21upz/4btpij_7pwp9d",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "4ytz/6jdfih1nwdcecd/eee5yuy_c71kj/hqmm0c8qr15e/l_v1p7r9nsu/nm8rpau8r/w/mlxl/hfep7n8fp6/8izt0veau8",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "iw9c84bvyq/gzqrp4/1uz8yw/tpm/m6/d_j6mx/typpya7yjfdbd/dyh8yag/ifmg555/sxl3x5ly3ed/kvsg53jti5f5s2/9plur8mheb0udd_",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "cj8a2/8s/ssaxxavh/a/0sr3/411ovoy9susjte/hj8/e7a_k8t7tkgwl_h/v6wmyysh9uqhi/750m_daoj/l412etxd6l/xv/b7fzbw513t",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "fqjhvrqq5p8/l/ud_q/0kli1/qmd8cx4j3/yeprsyr2530t4",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 120
+  },
+  {
+    "input": {
+      "topic": "173xf0lfwgo4_/lxkbvyvlp/vut8m4jjowo/oev_j1lwu77onc/z6wial/dh/v8cfdn0v7m80pr7",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "l/h6_yx3f/gc0k8e4r/cor/dt6ycdv97vgxr/q/4oqcnn7yniz_/_xmcljxjx/hswtqf_/sps_v9joo/bd2y9q/3od1mu29vt",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 42
+  },
+  {
+    "input": {
+      "topic": "p2pi63e/amb1/2t0fl7/j6_t1zi/h6uok4fwunb3cft/oqe3mys7uoi4w/hnq22st4u1zk/2ppadlb8ukvw",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 47
+  },
+  {
+    "input": {
+      "topic": "t0skjces82q8bi/y1k96lwo/w2c6/kwvubdy/i4fa6muwk2/n6xx499v90_e/hjpo2/prx7dqgq38/vsb/s3a",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 473
+  },
+  {
+    "input": {
+      "topic": "d8ts2fcrcvsf1vg/xdm0umhjmb3so0/8tkd/pwtqv/8k28_a/9mcja0jgv",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "qeqgb9qbgh9lq/4f1_k89d1yik2/cvq9z_bnvg/sx975pean3/hxl4zv/pzwt/g_ki42egj3_/5vvoyn/7cpredl13lzz47/vam4/cduq/aw1258",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "jupjsk91wb0/w5vka2nd/e9d/3dw/7/10xp_/ionmo0upld/v",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "rp/6y9m7imo/_i1anl1d2n1x0z/znknq/f6t/gdw9gqz2897/u81nf3f/3748dp/vm_6_/t5djg75vjv6y7v/_vhmp5tvta1mo/b8esy/1",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 52
+  },
+  {
+    "input": {
+      "topic": "r8bxs1bjn8/uj7uezk/6oxb7",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "8f/fi9qyhl46y/fa9/_6zmp_q5rd02/avnws_86ky2d06/7qrv5rht4_l/29ctcon36/5bg/lvtl3/dbl_hdf73c/1/9f6/2hmhlowzqsbl/s8ze/t",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 1056
+  },
+  {
+    "input": {
+      "topic": "ch3umhsvk_vdilg/q0/3h6aqyex4yf9/wc",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "tp3w/cz_f_qczff6x/k/uu8a6vk/rb",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "o/f1fgdbp/qhnd/oty48vfgvt/09sg/ul8iliuub/c",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 638
+  },
+  {
+    "input": {
+      "topic": "mt2yeskixdc",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "uyaud/mbq/1ypie4ywqtoh/2/b0pl_o/gonytulyhd/gx/ygd9o3kt38a6j08/w_w3wwamn73jm7/8jrc7lp1fozy8u/99b01kni/b4yz/yoej15lslu/dydbafsp9h",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "yx/8r/nnht5z_gubb/7c1ic7k/izkyc1sk79/4nq9wxl/x1uqgw026t/smfwjxtgu4en",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 1140
+  },
+  {
+    "input": {
+      "topic": "v82dcpg/sn1tjuwmx0vnog5/6/u/4s7/dm_e_ah7lv/dcp8vfgl98/y79pwair2nxlkl/rfde39/d9786kqm9vgr/6c/r",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "qvmcz/g7a9ji1ngme",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 55
+  },
+  {
+    "input": {
+      "topic": "zdt3nq5hxwknk/qhz3u56ybidin/7t5wth4xqvho3x1/b8g8ie7kzdfsq9p/o9em14335/o73/z6r_1/doqmnrfu93/zh0acdu_05j",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "c4hpqt6cdjm/bd3oehz5_/ljq/83/y/5gog3errm6di6dj/e3xi679/eo1id1yth95/e0m913/n29eq3betb",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "i2qrru0oin5k6/9gcrab",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "na529grmrl/lp/vje5xqyco4q/clff9z9og5t",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "fkjfu_7si/4b9dv16u1k/4xq5z8qdd6h17/s9vsfvecqo9qgo8/c/phf2n78c8acn12p/tg1/z0ej8lcme3/sg/4698/a_vnu7sq/o0ar6zzoxy9",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "6j5vqqypw/3zfo3/deb12a9j/e3__g1fsz2f0u/m2b9mvgdhbcni/wzy/c/2duj3sm3ra9oaun/ennvu44h59/67/rjq/2vluj/i_ms98wht6r6zt/vs6t1/w62vm087ca",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ufyj/61_l5lmpyv/tdng1/h/5y0nk5i",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "rwb/3/6fq0tyz3i4dlzuu/jfgmz_z/ebw5g_ahnbwjomm/wpi7mkxs7ksyt3d",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "78q92r0t/tf_t60cuaa/ecugf_5xdoazgli/6yjkiv/y6al5eyn10r8ckj/_m2wrbp",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 48
+  },
+  {
+    "input": {
+      "topic": "ruq53hwsgrr9y8a/rxo5hf/suf/e/9/1r3u86z/ap6xlxf5x0n3z",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "ht/7_sw/ifduenb6o8q/j9b/5k/42dyrca1ugmkmz/92b_02i3qvw",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "tmg6p6tk6y/ovx/31tbxas666clba/b_7b/1zvthj6ph2719/6w6eh7/5",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "g3/afw7drrqixbxfy/lbr8c0un__u/osfqe/uq767op9/tmhjz2qwxwdkwi2/fa1y",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 23
+  },
+  {
+    "input": {
+      "topic": "1_tf6k5kxp2gi/m_89715/ndl81lkves00/lpsaha3m/e/7frhan2pxnppwxj/qvsorc1g3d6gm/hbl62w",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 220
+  },
+  {
+    "input": {
+      "topic": "taac/85mq/r_0/pu71lcy94v",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xpf2qkr/hskaqpy1uq7k2/d64cw5bf2z398u/f5jnn0kyzb3s6o9",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ceok7/fq8/jnqet_g6c5ul4y/vfuu24pybff_v/w2vb5wh5wnvu",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 722
+  },
+  {
+    "input": {
+      "topic": "9p99p91s/86jpgq/w/t5xuxj/34ghx3/lrarcbh1/p/1q1ofjq8zbkepwf/pd96klsug582c/eidcrju7yywa",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "wglv1vvop50h8/zcz110hh1nz25/0tq0zv4jm6/k69w/9gtxvs/rzqcrfnqnai9sve/rc6y9lfa/njctva8mzsu8/b5a5t/witat45si/4__dp6qdrk/6cv0erl8q",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "j7kyhw/f5rxs3pzb_qokle/v",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 430
+  },
+  {
+    "input": {
+      "topic": "p73pwc_bx8u7/nk4cpuhc/d5u5c7oq8iuoj/m4x1vli3u/cog/744a2/d/grhi0hqc6mjx",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "497b7bm/36qnb38relq7/pfc_d4nze1tysh/5hhmy",
+      "depth": 2,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "so4t2/pl98t1isej/3/dx/ao6e1/_tdgvqg748q6b6/6hpcnt/4i/w1i7l/5atqaaea4hn",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 24
+  },
+  {
+    "input": {
+      "topic": "1mtxl2rgm9vhj/dj97o9g",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "gzggoj_ppy/hpoqt2nem/7uk/u/092iv3za7/dobqfvfdsh/fc59fkrw4w/3a3/wt89vyve841t/33lo0/6dr5tdy4d9y/4_6zg9/8x",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1693
+  },
+  {
+    "input": {
+      "topic": "c9wqretdmx2_/pf32blzagq",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1587
+  },
+  {
+    "input": {
+      "topic": "89sf0rpozcq4/8csr_3vf/4/f/_rrs1/20mdel/66wabraqc686pm/wdfacd/m1k7/cl2tfree2dh/rxxa/7eg83g7k88/x3_93bfxw/_99tntc7",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 23
+  },
+  {
+    "input": {
+      "topic": "fls6903lmn/xfjvnkuvfnte/2j0e914k5h/vjfccvz4hsp7iz/_m/8upu871pjv9z5/7m5uz",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 1143
+  },
+  {
+    "input": {
+      "topic": "oj9gv4em3iqv/ir70/auia/v2893clpx4twd/ahfpf/hf2n_y3/gth8y/48cu_sx9utn8",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 32
+  },
+  {
+    "input": {
+      "topic": "4lw2k/jlufxhtcz/pmscs/r69xhtqdvecfor/9af/wv6v/c4rlydeq",
+      "depth": 12,
+      "partitions": 2048
+    },
+    "expected": 538
+  },
+  {
+    "input": {
+      "topic": "osuyhog/2/eb49/6c/p8i/9hubledtn6li7s3/937/rhd4okhestnr1x/4guo/qumc5qiewcqkg",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 499
+  },
+  {
+    "input": {
+      "topic": "ha_z/s6mk_8tw4a/8metts19imzyupq/57fwwg1cqni9i_/1aiy",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "efe98mohegp6r0e/spgxvbnjsxq_x",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 91
+  },
+  {
+    "input": {
+      "topic": "o/1h193wngtqjrx/ebu9clm/e2o4zqcn1k6a3w/15v9_99il_gu9r/8w8r1liog/k5z/y1mktxi3l9ppr6/u3b0pmgfw/e9fnvfd4812k14f/e1oznft5e/0b6rqm/20v5",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "_ff074q88/r24h5g2qgs6",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 1205
+  },
+  {
+    "input": {
+      "topic": "oq5wp8g/0g_rsp",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 776
+  },
+  {
+    "input": {
+      "topic": "eehct1cgk10188e",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "vyeudb55fap4",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 62
+  },
+  {
+    "input": {
+      "topic": "rmr54/dge339wuts/2_4f4d",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 758
+  },
+  {
+    "input": {
+      "topic": "yozf79_4pm9g/38bfcfq0445dk/0kujebtt8liy7/1vjfdoewzvq3z/2yk0ld0c22kg",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "bpo5iadzx5399vp/4x4x3bxcncsd1/b9rotbq9pfo6o/jdfhjf63hze56l4/oe4olr",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 94
+  },
+  {
+    "input": {
+      "topic": "yjo/eue6gyi85/5ykv9kk040eej/hsfzqu2s_wzited/vxwv203t7p/lokakt/sph_yqb01m7vu/9cz8/rlwp4tp/i_z1p/q649xxza/1nxr5i3/2x2wy9h_/4hgnh3hd",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 232
+  },
+  {
+    "input": {
+      "topic": "30tka8t7hqz0b",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 97
+  },
+  {
+    "input": {
+      "topic": "ylibz47y/sur0/6ikw71thjileeqt/sxe6d_hgrbx/z/cjcfdd_b/kexnek0wui",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 68
+  },
+  {
+    "input": {
+      "topic": "09zw/glr/n7addk3/k/bz/4k/w9yfmlcwhze70/60vo8cxcl/2kcxzlm4lqwx5x8/fylv7yc7s2fa/1_g4o/v_xc3d0/8b/a7v7ibt/x5p20r3p5uz4q",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 44
+  },
+  {
+    "input": {
+      "topic": "gwp/dk/a/y0sfm6j0/leqqg_5gc74rs/wkcmomteu2ig5lo/ffucad/g4ezuk3h4rf/p90_",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 37
+  },
+  {
+    "input": {
+      "topic": "n/1wgy4itfo4kmkbr/aiagh1/_7_x0la8o/tah/fwud5cdzm/w",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 85
+  },
+  {
+    "input": {
+      "topic": "rtq5qxgth/p7p3ei3sr/e5qtufyxfq63fv/w4q/t_o2og/iw6tyetb1deala/dbexjjt2y1qb5/00d7nf4uyf9",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "z4pa5_zu95mvb_w/yusj4ntga7w0wwo/u/ukh/e/7x5crsx/62jwyxzybk4c/1mcv1t24o/qocz",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "u3p9/f/je/g603h10ryt/q7/5j5va43107kjcl/nfi3ycrxls08z8l/ju/dud9/dbvmwqrlctz8/07m3/ofx2/1lo9ztb/h5d9x4sud31e_kw/oikujhzrzo1",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "n75ychnavz838mq/c2/42fva/1bvwast6v1/jm9ti0q0/8w4yry4_p27g6k/cfj0/qa/fjcknva28ok/v1qr_xyftweb/mmjnakxe9hc_cj/7sr_7na/fg1re/leemoyvd/_tsvq",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "nu83015cpil3/qn0s3_oj/dx384_w/x58k3_a/w89htpb5qwo/e/2y5gte/svmi3/w/w_5qt/5e_v2381rcg84",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "nc/_izm0/n65x/r/0hfyvfj6ibrq",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6/zeda/7/tynx1mwwgba/ik08x8ebd1z6/x462g3c_35/mxjspezs/qoy/a_szvsde0_0hp/wg1cpq1so7rln/hqd/e4yofp_j/3gy246nlaysti/n1sisczceok/1qdr0o",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 881
+  },
+  {
+    "input": {
+      "topic": "v8tdrt6ukagi_9/ayy505y/18fop3k8ys/5xb/g1f1w/h3d/j0q8u",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ebvzukcz27xqb/9pm2oqxfb/2nv1zz1s8_1u/5gfauhn/_6/_1rg9033akohzql/ls3ns/s4k3/980nq36mt/6k/yh/bxxyuio1b0onx5v/5d4z_3qvq/v8z04l0h/g",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "5bdumh6muynp/pguya8gu5qechwe/c77nd/ne/t44gzu4ffc6c/3iyqbcg4/zu5e5/d1gj3/88e_vi",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "0seq9iuy51/aj61k4nwvguy",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "d5m70nr/2/3usy7f0/x/h/7oqn8gzr_/m5dxi_tmgb0yr/_g/0nr/wgrxnfm24k0m/k/gw51o/yp27dp0fi1",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 19
+  },
+  {
+    "input": {
+      "topic": "zhov7f2i/9jv/1cn9/8kw8dr67/gq/fcp6l310gji9n/t8c_ttyjfgo/dvejsig2mq43/rgsn9/obn14/4u/_0au",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "wu1ulc/t_4cozjftfxyjd9/m10s4a3v72izq/rijshq/19hccy0zt5n5wav/y7sjpt_desiy/rdqwdu1nkzq7jj/oth6nmzhy4_p6bh/bnc8721i/6db/6b5ptaknxn4hve",
+      "depth": 12,
+      "partitions": 2048
+    },
+    "expected": 1411
+  },
+  {
+    "input": {
+      "topic": "v8f45c/0dn/29k6c31jxfo30p/nmfhi/plfpc/96/pswuxlsuse1/0go8huixj/z/w0ui70yim7n9d0b/odfgmw/v30f2w_m/od2jr6nkv9/rwa2l6qpp/cd0dw20_d",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "e0es5z7067yek_/ygoyk/4lq60xgy276/zr/08/_g0r/8w/hf/l_3c/_e9_k/r1na0gy24asv",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "99lzg/9sxv_5kvt_/ku777prjof/7z9/zeter7s/tv/nist/vmm92473/ukmn0hz/pn7l/dpe4gbh4_b5/3bvxmh1l8oi5/9lh_7lufo9gxq/vhsut9_j",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 34
+  },
+  {
+    "input": {
+      "topic": "3ucue/wx8sq7a95/_u/7pb/k/c21abkg_1/1wayroon_d5t/5n6x/acptgn_l2kcc/2/kqcxcjj2uzt6q/l0j9dw30c65g0j",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "kxsajcez/lp9clw1/s5zdz2/0prdqy6f/3v2/ps_zz/d/inq4q06skl0ol/a2msxb6hf1il",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 725
+  },
+  {
+    "input": {
+      "topic": "hebv8kh7mq/74iwjiso4kq7_o/80_r2hu4h/yhdd/f4xfy0/f687xyf/36ii13va42o/k5tzjc/cireszebjp095bp/bt7qwfor88/d_t/pxo1p3qt/c20skbb/t_2lgiel/s4txormsp",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 792
+  },
+  {
+    "input": {
+      "topic": "a2scy7432v/x2ajmd83q8/4gc9",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "m/a8xuvk0z16c/i_d7lj/4h209v26cj_qb0z/jpzavcu/3dk14s/yf4xy/06lapb2d4acywm/n_8hp",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 663
+  },
+  {
+    "input": {
+      "topic": "3iac3nf9/sf7zi4m42gnc4az/9gi/dwail/j2ihz0iyioc/1sqr7w0_ikmz/adgt98ns99d",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 617
+  },
+  {
+    "input": {
+      "topic": "7s_50s7w9o1b/xel2psslt/q62/9gd8mz0/kocni5xsv/azrlykt5sq7/wuadg2013pt/18fmuwkcu1b_64/s4u2w/sfj5p/0qx5d7954_v/l8w4zj/d8m/ji",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 168
+  },
+  {
+    "input": {
+      "topic": "y2onl7qo/vdfjyah3j8wd/ps1tw9tn/jiv8aacu7vqt/_zh38meg5qf_sc4/_/bc5jcva945f/o0wxb1_25gu/0pirvgkfe/o5",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "vq19jliif/0u8dabzuaxcvo/c6i06z6w5b/zu6qjipjw40kg/yn62/jnayq938_vm7g14/_rfys1y0932a_/3vy2nc_vb/5qm1/zyz98qoq/lujs2/vfjtn8g7m9iic/89xo656_dm_th4a",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 46
+  },
+  {
+    "input": {
+      "topic": "9woifdw6/f85gsiagwbi/kawfkospsixc/dgrf36qcxi28w9/75lv8z2i3zm8w/cv8x1jwe_3x/azv/pm1_oznj/uumx1pj",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 661
+  },
+  {
+    "input": {
+      "topic": "pyg9wcti05/blvfygf_22g/173/4ea_7fc7p6_i",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 198
+  },
+  {
+    "input": {
+      "topic": "516eusbz1mumha2/jrbb1s/gy0i_pgc6oxdl/zbi2t",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "qylbpi5a8/8oef8/bjy0b_wlh9af/7w0",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "x/g87u6oacuf/fa8vi/wf08ce0g_t/xij/zi__rmj/pwhf2w90mz_yc3h/28nroryz9/h_4vmewj/riw_4w/xbes0z2fn/rjx/c9stecbykbo4/j3quh134224",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "pbouxanaetm4l0/utrne7np2viwxf/2am1e12_dsg7/jpf/6h92",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "bjfmpstc/wbh8tsfxims3vm/nb1ybhd_8/qubfj_fc6u1iy6/ysphu/da07",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 81
+  },
+  {
+    "input": {
+      "topic": "obtj/3efwc6ptum0hp",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "crhhb_/rgsc49rvtj1mzs/mbotnipyen8dy/h4wnsxoff8p0/53vaxh/e/3yec3aq5rvv0k/a/jar42cc/93xl8u7tljxep5/su3y9oawn/t10gt5m9yt/msjlw__kpf2z",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7lmn0r65kts/upphay4a9o2/m9eo18jx6ndc24w/m7f4cfi0vmkt/s0bu/jcdsdiim6p3u",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "znk/50gohy/f9e4mx_6bt9/hcsl4c7c03s8lof/14vzaxe7k1/bxdj8qv/9vw4zw1fvudo/mdbeagv1gihry5o",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 72
+  },
+  {
+    "input": {
+      "topic": "et2belc_/r_lhb7ri_ct/0ogsm6t/8dejkf7w1uxtsw/rot1t5zhxf480",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "q3yp7sddsyt/2mc0rj8lh5/23hfd53ul/9_75z/f0250b/9/4lk7j0k2pjy/fwkfe/74n2v1alh7/9hd4xtvw7_rf8",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "jvnr",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 738
+  },
+  {
+    "input": {
+      "topic": "x_ne62eq1ah_4li/expx6hihzuprtoh/xb3tjkfy0ou/8msprp1f0/an8lmbfpvneg7/ec/ha1k3kacxpjcghf/s3g",
+      "depth": 12,
+      "partitions": 2048
+    },
+    "expected": 1714
+  },
+  {
+    "input": {
+      "topic": "w2t33bu3lthp5u/ini7xvttwdfo/k1y0jayzac/cji4ksiyakbg/gqo0psg8iwy/v/in6925a_4/bv4dfm1/6/as453z/41zbsuebag_g4v/u1/7/78msykebdcku3vn",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "b5kpj5r/x/z/f4qrb/1ijo5d_fh0bt2v",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "21qje7uho7w/kn03y6rq/us_49z8vp/d4ney2k6nqob41/nhqtu3un5xorjdr/cops08ybcpg/cv19bk8d2sk4kle",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "r634bf_8a1r1jl/_c_6/pfiq/4nm3rrzwxgkym/gz/477cemulyym_38/tefl14/uzabr9evz5m/9seudg5oslw/1x2r4",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 1219
+  },
+  {
+    "input": {
+      "topic": "g0tgjrdk8/psvb4/tu/a",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "fzdmtfknubr/nl/x_j/_xfr63o/i56_kqv/5jkb/e6hqt7083f98t/xbjdw83brq",
+      "depth": 9,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "5idgh5_g1zl0/l9hwgftz_6ouc/3spk8p23mepi7r8/tldhn/3zomlu30k7va7/en1baic/kladr9444h18jm/m871d/orr25/wktop_h/y/4/zvdal",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 38
+  },
+  {
+    "input": {
+      "topic": "cl9rhur8rd/q6y/j/jk4k_33cyi3jsjc/vn2/59f1lqt5/tn28zpcf2pd/8c34q",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "da10ih/k7uq_o21fqakh/8e30/b4v1b/c7kn2ipbvw/mx43j0i1kn9i/8cblm8osmn",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 28
+  },
+  {
+    "input": {
+      "topic": "dh7lcti48u/cbbwufe1lo/ta/pxy3hf0dlv_gt/fts3_8ld5m4ovk/hb442c9yk_",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 1509
+  },
+  {
+    "input": {
+      "topic": "qv/wl8o_ts/_ocldkm6570/oq/wl6ag9j/atopzdac7q7aj/i2rx7y/xr6/l910/tcce3dk6ec/5y",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "z78lru_b9c/nc5t0v_z6bi0keb/nqq1eow9fnae5jy/1djyyff1mq_/bew/hj9pwachsj/xdmc449cq8pl1g6/37e8y3qfa2bpi/eoi4g12z2hkk/ljk/t1jj4l/4gofji93",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 883
+  },
+  {
+    "input": {
+      "topic": "emwbyf/irn0skj1j/iqony3ts46wdho/x5pdf6cbp2mn/a__",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 218
+  },
+  {
+    "input": {
+      "topic": "jxjwtv/c_3sgdk",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "fsd2l0/kq3zl7nbdw2fbs/v76dllfmkma4/eb/x704/lmxf/x_akt6idoa/pjit97l8nro2o6f/guc4l_/bfzejxz4uamk191/mq2n8_9v9luui/kec0v326ytrq/5blj/t",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "2iwq86/31iol/p0hxvpsq5p2eef",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 22
+  },
+  {
+    "input": {
+      "topic": "34xpo0qn/gl/avzz5dwjpkb/385fbzxe98lk/t8wtniix/7kq/gf/3q_aly/kjprhhzb/ny022ir5ixreyt/udbu0087rz4/_o0gr9xq08r5r/pk4xw5xz",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 96
+  },
+  {
+    "input": {
+      "topic": "rer0czj/e2t/qgrq2x7dt/2000hutr_rwwk8/ue1xnldgaph/xi2z/cnotn8gz_g1/8zqyigxl35_ry/5o6kjr_x2c",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 67
+  },
+  {
+    "input": {
+      "topic": "m2llq2/yo2b/xmcc54bo54hzd/rly_nvecauhzg/nse8_mwvcvp/vb6ds7ew9c8w/glcatgcnhsq/r1sz7n0/zz9b2_4o/r_q8c8kivo7/x/go5z_gpopzjpbn",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "hm3aa/45rbaizdq5xxr/vn7_76vf",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 181
+  },
+  {
+    "input": {
+      "topic": "gsask9zkxwwf9p/powtsorv/s6uzwba/z3yr1vs3h/po4prk",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 197
+  },
+  {
+    "input": {
+      "topic": "3q8djt1_8/xeywavbpohdh0/ul_yhllb_n9a_/rh8u/clh/a604mths/9il9k6y7j/8wlxaua3/dtf2kmw6d/rkifxcnu3/0rkdytlf0u6y10/vynauqqod",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 712
+  },
+  {
+    "input": {
+      "topic": "mylrmwkolm/odow0/5dvz7/t/ob2tcc2hpi_zh/b/9bu7np/c/b_ret35p",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 910
+  },
+  {
+    "input": {
+      "topic": "ymbk2f6tto/mblb3/7o",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "k/b8vlf6sg3o01i/gnfc0i6rm/ufljpyp3t111iy/z4k0okbt/gyutw7bd/i5oqlbge0_/7dujf6r6s/3e/fhpjyxer",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "nfygnvqjf7o29/d421i/y8el/5qgooi_3sq_7pij/6q3tdyqmx896sgv/kvtp9taq_pqi32",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 412
+  },
+  {
+    "input": {
+      "topic": "7p/zbbhkqyx7kr15e/d8i7nfy/tmaxgz39hdq8/jxc62vd98/t6ucneu_t/s6zo_1xssj78iiv/dj/2xg2gr2k/ab63gitr4ma0_e/2dibj/g50s1dv/4cq",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 1003
+  },
+  {
+    "input": {
+      "topic": "0xx135v7q0/9p3r_bjy/x8d_i5oecy14/z5rrv/fomf/5g2fnf8t/t1k0n1/kz6_fasqnsp252/6xm4ytgcn1u/6l_t9_ikl2p/pbn93fv7ucfal5m/f_hd_ry",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 76
+  },
+  {
+    "input": {
+      "topic": "r",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 49
+  },
+  {
+    "input": {
+      "topic": "zz8rkm1",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 87
+  },
+  {
+    "input": {
+      "topic": "rbf4yg/t/3",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 73
+  },
+  {
+    "input": {
+      "topic": "fi1os/kzs4r7ez/_k25o8eec26ot/56yw4hbzpk/eipj5/msk8hr",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 536
+  },
+  {
+    "input": {
+      "topic": "a0/w2/h54/h/lh2y0bupm7o_3/c0po21rde/o0",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "hokdjfs/q35hz/gsn53uo/jipcd0bd/02ynlxjipf2",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 965
+  },
+  {
+    "input": {
+      "topic": "fyuy299tza/x7/whx7xmz9wb1ow/g87m_faa0xmby/9/ig376rnav/ior5xloqifyh",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 885
+  },
+  {
+    "input": {
+      "topic": "kyv1s/m0w9ti8srbwtq4v/hg7so9qkxrvz/0uwusbwtrgufn/merf8rhg48a6/9fzec70bsv/18/jfqtohkmtq6ym/s_q/6r3/rou/v6v1duyk",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7oriq/jkzw/odtg_/jkglv91e4v8/7eh45z/cjq2fxtbg/o3fq08mpib5a/9ellf1rymtq/qplowylmgn/7i9en1eqgjb/i1c0r/f2/lih97vqdah27mn",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 34
+  },
+  {
+    "input": {
+      "topic": "oek8o9orgapriuy/_lttd/fn7k/wux09wn14ep_dc/iwtqshefiie/r678l4ruz4yaw86/_fj9qbw7/azpi/qhq17e3j8/vg0xenz6g7hi5",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "d0izuqe8ec4_z/pj8i3aqkwz_c0c/87i8_i0zx6/cwztdmq1q/6i3r22nmfri4rek/rg_h/ik088jedqd/vqr/yrf5/q3t02w/iw20qe42qq/dcml2afkisi169a/4cq_zwnzuaezbp9/19x3rzfnn3",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "jv6epe4t10f/o/nx/qu62qxf95_9xd/pb62dt8l/yzm5n0/b98mrielm04m/hveeg_jg60m76r/i4k/1ut/8pox_r2m2ymdn/wuhtrf/ykavz7n0cebw/fm_84_xroxe4",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 655
+  },
+  {
+    "input": {
+      "topic": "atensk8_/u/lkieoyovt6/ih/s2hug8vdmq2c7r/83ejunc859ocaz/vye/vptm7pn/_a4aive/vqmkbpz3nz8w/6/db2/jf",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "q8a3n_o/y/e6k/xf5gdzv/y08dv8j020kjo/pgd/w860/6iaxu_q0w7st2t/m55z8w6/brmitvb/6skp/z9fjyima/cym4",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1794
+  },
+  {
+    "input": {
+      "topic": "fy/u9b6l19k/6zmmji10ts7ey/0gr80f/536s9/lldlt3rkejaz49p/3/so6w8rv6g8lbsmw",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "g6imk/5b_7ncbgk6/db0s53_k8y/9ar/ptc/4r96b5r",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 685
+  },
+  {
+    "input": {
+      "topic": "c9cpndzg/wzw/a/egvx2b",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 174
+  },
+  {
+    "input": {
+      "topic": "c8__u8o3e2eq/r_04xbgyx8fy/qotgt_0z8ldph/reopyec01w/jatxc96ym09i/xdno1lls816oh/c9_yjlz/bg_/fmyfbd/dlr8z/qlv8l6t0/qla2bhle9uzduta",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ng9/_y_5x/qqtvndnnu50j5s/wfe1egjo/5b7e/3o/0umu9v_b7qulnq/_sim89/fquie0jxdd6cwjc/tuda76ne0a/paknfu46zxc/rjib1zaoy_",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4n1ikzr/hqjm8/7/1q5cn0up5lgi/r4hfsqswqi/46q/y9i/eoi/q00nbpg",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "hxf0ov/sfa7x/3/2pw/k2ao/9ji2c366/j8sop_jfrbrsw",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "dgn/jgf0",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "08ct",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "cpya79r/bfg0d22/ds9r5msz/yp0vaf/0k_kxz/7micstmana/yfy",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 190
+  },
+  {
+    "input": {
+      "topic": "_sc7v/vf_1r3pli/9wc_k1vi6obkg",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "c9/d5s2/gar5b35/dckm/o8cr32c8wnsmq5/s5tivn70t/0dfneszp1sgo0x",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 201
+  },
+  {
+    "input": {
+      "topic": "gx/h7fwa6s8b1kavv/li/r5lfkrk_j/b6xo/jekjg/q0u_tpcrle/i0qaa3gf2/6x/kx/40iyni1l/325ywv/5tp3q8w9x5",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xld98fjy/8",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "bzkbar60k_qc/i/vodvv2/0s3n/fe12n6/7ex/m8kevjq3/145315_2qcymq7c/sw2heuv9d42ith7/xoskjbbkj/xcl9q14/sx/v772_g1dryifr/9xq6utlrr63s",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 299
+  },
+  {
+    "input": {
+      "topic": "kqpr0wolybl",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "3/mg2otoefhkzv2/k4gx/w/kiw2b/vinu5_mi/hr7g5/jbz62u5/kzzl7ekx2zfb5ow/22",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "_r70d7t_i6a/1_z9xi_/wqoj/050ht6fr/9qbkrq0bq_",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 661
+  },
+  {
+    "input": {
+      "topic": "cjo_yy/hxj018u/a2rgxk/a/82p43q2i6/x4l24u/uho/m5v67gt56dcvj_/x0i3_d8jzq/ifiyxlv",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "27wvunor6p23as/l/7k5m4qd66j6/u7",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "xg7/ikbxekioeo/gw/hfnouyuq0lndqud/1bntywxo0xk8tvo/z4_ibnk/xhp/pe4gb/1sk2t1q342w",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "ow_l/yddyon/5kv6tyl9kg3h0/0bvkh/9au/yukb/vzpij/x7emq9tc_/_ui5tuicrg/t6z/v621pdn/8xqb6s_lt523/y",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "eceac32v/5lrg6mvs/k2/ggun/t2t/h5f/pl43y90_sh/rw8qidprg2c0u/i3p9/xi/nxhi4uvrp5_/7fh",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 87
+  },
+  {
+    "input": {
+      "topic": "fl6_/fv4ew/o",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "bnd/r689remtm02vdv/a44a6hxjnw8/mcd51j/jbot0bys3oey/hdim57sophjofyk/4x63nbsovd4/50ir78wexc90e8/8izdfj75b5/b7k6cggx",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 273
+  },
+  {
+    "input": {
+      "topic": "ytntn/02o66v4uf/yfj9en8/mmyr/l1_cn3evoziy5i_/2bg_q52jw/6mjqd/mo/5_1sz98e7wbs_/le23yauk/gz56xgbl/kxdsa/yyx05jtj/3mca5jrcuj4od",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "3r9i0a8t99vf2ig/pxuvv5nj/6/sd0hvr6iueqtty/wrnf3l_9h4f_hz/9rgidra7shka/37k/5br/5x03b6wxok8g_/fozur53ik0_17su/x1jlv_fbu7fak4/nb85sz1b/84oziymvrfflrl/ldgn06cq1e",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "2vqpr/jvmpdrcy/ai1kn09i8at1ly/y/cmsqv0438h4chc/jzqa/v3/rndyplf/8058j8cwutqp__/nwkapj/l",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "z8y6t8/tt2225lma/37edj_y0aipq/5lzg/4lhggyyq_d7zf",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 1613
+  },
+  {
+    "input": {
+      "topic": "h1qvnbac73fdcfi/tlq9gh8lhf_fb/9lp9o/ivk14/hdrmd2nz/rwkj5ddnk8nu5pl/q4n0/pruwk4",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 86
+  },
+  {
+    "input": {
+      "topic": "b/pp83p_xmo11n/d96hc7_nktp/ld1175prmglcrxf/pa1k0vw3gifh/vi/y/7mbm2jjh9i3gz01/cyq7uqm/3jwwglthtj84/uhky51g2vcg/ytajv75wa3_iogc/iwhx0r6k_p3f6vy/inp5m7tub0_7u/nwjx93zws",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "0thw38/csxb21_0hvh/7msch5d8/r18hjv/mrreq/yrr_1ml919z4uy/gx33kbavmunl31/abjes7b0/0f562qvmrg",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 1652
+  },
+  {
+    "input": {
+      "topic": "rcwd6x6hiz8f18k/h3h29o3oll4/l3jpuet/180/26jwd/n47ga8uyj",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 765
+  },
+  {
+    "input": {
+      "topic": "u_q4ktjln/pdtu/y4j6bi9o_l8/lzw7b1mrj683",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "e69qab3ny/kzb9erd_ju/zz8wzdlcq/6lr_q9z0dx/omevsirz8paf",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 831
+  },
+  {
+    "input": {
+      "topic": "3sxpvozu_55mp/iwx17teisy/kv/u/vnads27w3h2yuc/2du22en2x9vgjqj/wojne/2cdkzl4kkn4ilg/hdlujj9ig4oy/dav8zhp/4syotmtk0w/arjg640c0fx/wd",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "txyoog/fl02po_ge6/jxahx/4u8bm41q/9br41nb/5l_66/6uz7w8f9dz/4d/dl/vq/ogq80858/oin687/3lffi0vbp/usuq3mrge4i4at0/y7vo2thsc_oy",
+      "depth": 5,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "tin/6uw1lfew9z80kwy/ijf5lw4n/j1abib/d8m46wdq4jl/t5w/0n/x1lj26i2p/fjqohdgzeby11x/4pawvkxh/atwno0r/u5rqks44wl/hmyt4yhde/zg8w46hvrht",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 475
+  },
+  {
+    "input": {
+      "topic": "mz/o_j34oj6zfx7em/yg0_/6q1ca5b/8dnn_5air/ch6tbkv_aisu8/qhh_nglt4/k_qc9d8km",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ybjaiy4fy/4p7b/9npo99ui0hc/7p6/o_55/3l/nyoa48gi/pqn0n1px067wwwf",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "a7/rllc2jib91g6ke/lyu13qsd/sksubrqz/9kgd19r4ft/3dcc1_ufa9z/f2u1gke4ayj2ih/hcwrhrou6/xeoxxx5djv84/ui3",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "aqa2kg/rzmlv6/xjqoab0iqo1_r7/_k7lp4_",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "fi9/tvz4wuu7wmx/fm2",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "nuj06s7o6p9/7y2_1b_s8dms/trke5zdv2rq89/5v73pzox2fph/kqnfb9fr/4p_2e4/bdnnoh7lrx63",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "c84cws6smn/hxteuempluze/4fbd/moov7/qo4o79zcq/vxsa7kziaj4y7ou/qjd85tb4/6aj6o8_irqv4px/xidf4a_n0ax/d81f21hn/utmdtonld/tv93sl4/z7_s9i",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 892
+  },
+  {
+    "input": {
+      "topic": "c52/56mlo",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 90
+  },
+  {
+    "input": {
+      "topic": "26uecn41bvk3rd/sqjtz5ok",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 18
+  },
+  {
+    "input": {
+      "topic": "mc2ajo0q/4fi0djf5wv36sip",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "7cr2/546lmduauhu24/nn7hlcty3ic/qn7m8tohw9rva7z/z",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "ni4zf0mkezelq/gh2snjvl9l/9fxsmajsqg3sn/uv1j4yu/0h4q86qx_m1l3/zdls7yayb/615ed_9kvbx/dsdznkv/3ti66nsjm1",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 1337
+  },
+  {
+    "input": {
+      "topic": "xbsl/yw9l/qpj3/a9jcwi0lcs",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 754
+  },
+  {
+    "input": {
+      "topic": "1wi/kbuk56o/1/aui",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "49g03da94x4mxl/m_z4ki3t_/qt7iyr/fngoge3jc93bmp_/bun/86/gawr_ulkgnje6ex/kbhiddjvfq/52ts1_oacw483/df5mgr1_/wkllwx0i/d8",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "dwly_onvstq3rw/d4abp7/xmi/hoi_v31zm62b6h/xs5qudwcah5g/4i5/6bhjj0impudq/f13nvyd8oq3l",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 82
+  },
+  {
+    "input": {
+      "topic": "ci2ql_1f14zal0u/45yq/x/bcpm/fyb2ahkx6",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "b/eqjrvr8krlevfpq/_tlk3hy/03z/rvgo40/t_5r/5om3xrwi0/13/65lyx",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 397
+  },
+  {
+    "input": {
+      "topic": "e_km8xr13c64w5/78/a/d_7r/m/0cwzr/5jwu9p9ts8rw0/s/ax32m/x0p4_/ye_15q/ukscwm1q0uyjf_/fm9ocw9p520zwmj/5d6jqu0p9gyd6o",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 544
+  },
+  {
+    "input": {
+      "topic": "mi3kmez8zcqip/vr8m0gp9uihx_r5/18i21_xpfi/014z4nlyoyd9ry/7bci1gmfaqagk/l82xftn2v56/94w03wm0",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "2cnn/wfphd0h6r8hhn0r",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "1yp29zf6daom0_y/p/rltwkrrgx/g89yc/d/ahk_ifpqki/xalat/xp8dw/35hu/2di5q7gx5hxmjc/i54qk2_1dd3n",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 18
+  },
+  {
+    "input": {
+      "topic": "e1t9zt93tl/_184xj6ojj/c1o/mru7sfkk6/fenloq9_7w1c911/6ncsij5aqhn/1iomvbfou3/q6vcl7/1hl04r6z/56vlgd29ushr",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 1565
+  },
+  {
+    "input": {
+      "topic": "ws3/w25unx60rue5/4l0nmf2v/cot/9_/8woapknna70/0dr/2",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "pfucqq_k",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 721
+  },
+  {
+    "input": {
+      "topic": "rv/wvzhasg/ft1d3/do257j9mpdp7ne2/uua2o",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "rpjrndtipe42ss/1h_242dkox93/bsk4r8e/cw/i/qbnp/qdvr5gayut/u25/zrkb/b378/b8o/86c9ox2cux8/o9j_49c4",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "wq",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "pnmkwdt/n4/d3zt2tjkju4yin/uj8bq23l/ycwrff/kr0t/fdh9pv3c6_e5/chw23__857kizoj/jfs_auqmb/8c/_1mtbhahuq6pzt2/61wqk8j0cu",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 60
+  },
+  {
+    "input": {
+      "topic": "9ja1k0c43xh",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6fopsgfs1o3a/39_",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 74
+  },
+  {
+    "input": {
+      "topic": "of5c30tn71/grtt78wufiu",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "5bi/nc/ba68hqhr8/8a/vitbd21v6z/a9zybno/2j_wwruzn6gp/86yau/k_8od417mjycjz/l5p2hpe/8c6sakflkt_eerr",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 1246
+  },
+  {
+    "input": {
+      "topic": "u/ccit/w8q6vr/y505w3si/5hdj/54",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "18w/6dnkx/z/v3vdl/51gry/rq3",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xdilqusfz1b/giuek_7483blehm/jmb0kdp48pb8/9r2fmrkcxh04e/so_5hf0u3atcqd/a81r4fag7m8",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 862
+  },
+  {
+    "input": {
+      "topic": "m1bk_/zz1oonamw/adwb9el5/zj7ixqu7/zd15w9k5fi1m/y7dxm4xr1tc",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "vw3/_d8ne5n9xtnp/xrlzbg17bptr8/n/vr1s/ofitxaam/ui43rgb5mm/flifpfy6sx4nf2d/swffbd0w8s/zt9qxss5xcld5/c6two/2rrtclk3p8es/5h1/t4b9",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 1519
+  },
+  {
+    "input": {
+      "topic": "dp",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "8cv5or_eh/0fb7ut/8aff/uxgoqc1f04s1",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 666
+  },
+  {
+    "input": {
+      "topic": "xbuofa8lsyk0zzo/xvc8i8n2_o2lt/1awwzitefun7f6p/w4plblo3mcz/d28ygkbb1fg/wjjf/oo20/olbdt_236/tzjb/eqq8e42a9v3t/3e4d/zeztutfa8/28gu694nqmis2",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "dxiv84x2x3t/yo0ihw8gzclnre/jenptx/0/e91pc/5xa5qo_6knun6/y3qv5sdk5lkas/iipk1g372xl/xq2xljk97w/03tremtrv_1c/fgpn_if7x7g60t/sgiiq6zlhtk7oq",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 424
+  },
+  {
+    "input": {
+      "topic": "t0sl5b5bsz/1v/61e/c_g0l/5co5q/nz24c/9dzu1ku8k7tb/85zniyt8slqu/oodcdke/wtfaamv9/j8wj1/5pe7cu9nxtq/yp",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 1988
+  },
+  {
+    "input": {
+      "topic": "nun2yw44/u9obkatw80sfhg/ivrased0doebc16/u4mbam/krb9vj/wkbgq/i6y4eq_5cbpr3s/9ij6rgj8kbykhu",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "5rdtwvvd2u9/uimb14hiwxo/km95yfeyka_4/5fqw/hcl860kl8p/ycg9kds6ip/b63/14_cp_vk/e",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "33e_pnto0dq4/fz808/z/p49yhflaa7wm/07hj7jvdf2/q8l0g64h11k6fi/0wy7byn7i1vi/9i77/j_cubd0igjc9/175ytu0p8/i63_ua/lo52ri8o6xfzjl/i2j3zgrr2to/o2xp/te4pn86_5sp9g",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 929
+  },
+  {
+    "input": {
+      "topic": "mcvbj/2mq0s44a/15ebtbmn/dci5cv7_y/tcjgvjiy5dw/fteylb/z",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 1050
+  },
+  {
+    "input": {
+      "topic": "z_qxixb_y1qw/fjsd3e6bqu7i8ce",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 95
+  },
+  {
+    "input": {
+      "topic": "gzpb9h72dyfk2o/yh0_8/j72ahsbfuqj/lm0y91a9wccx/84vr/ezcsvi1f0/23zr6rs8",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 47
+  },
+  {
+    "input": {
+      "topic": "a1ab",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "v6zh/0eexhkw0z0/uba1ub_qyzmw/z_",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 254
+  },
+  {
+    "input": {
+      "topic": "xh/hf5uxd/ivp5713_nsoysbv/5wiji7nr/igugb1/1bgu7_/pawg6l/z/4qlbuk12xfnum1q/hred9z5wclvss8n/g6",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "12izb/yjyhb8/h3ik52scp_ia/fhpv0hjet/ouzi9m84yd2v/vay1",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 315
+  },
+  {
+    "input": {
+      "topic": "pd6akrh/6zhxgqhrld/_h0v911v4mwqykg",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "d9/9431/gty124gs7ga2yc/ahdite9uyfk/jd_4u9f6/4uqnl1bouyr/bbhw67v_ict/p/fbqijygi7dikm/1s2350o9wuek/atfhzaop5m9xt",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 814
+  },
+  {
+    "input": {
+      "topic": "_b8qs1ejcd0f62a/xo60vj5o3a/pmt/4gf99rl4/64/a0fi_c9/aivkvac7k5jp/5/osixer86za0",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "yxas4bu7s001k/dhyz71gs4/7u_w018a0l5_qm9",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 49
+  },
+  {
+    "input": {
+      "topic": "7kq0d",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 185
+  },
+  {
+    "input": {
+      "topic": "pawd1sf/hvjfkqa53/piu8h75mr9nx_/qeh2i1vb7/q0/4c8uk9q07xf_zw/fhda/x5so1zwz0/vuofbe4s0rjwxbk/m8fiwkw/lh41io4toc/fm/2x/jvp_be",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 719
+  },
+  {
+    "input": {
+      "topic": "8_856nif6xz2uy6",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 87
+  },
+  {
+    "input": {
+      "topic": "anps/t/jk70uo2zcf54w/0u/c0up4b3uxk80eh/crnrbuwceft4agc",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "5/qk9mwc1xgdjgr1v/ur",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "lb1py3ech7n/vxw7y53h/sk2vcpw_uu3o/okorv/mp5/ri8mlnlzxt/a/hg0yrash/_nzydkd/eidsxzsmu30y/oicu1c",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 1495
+  },
+  {
+    "input": {
+      "topic": "z/06j/ql_jae9o32k5h/d9s4lz3icoyxd/4udumxyq7dc_gd/1cubeqp/vt/u7lnju62alb9l/9iw5031f30s6m/huksi_vt1ip5",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 31
+  },
+  {
+    "input": {
+      "topic": "oexe7lxrlf5d8n/ucwjn_k_od1vc/9vugjg/85w_3i1_qy/r61rgmhaps60841",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "bcf7gbva5/ltyz2ee6g0/z9lxn/aicpff0dwld_36g/gw2uzh60m",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "mfknbnff9cnx/sfd/pe0j0n3fnw/lr8rf6_",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "p2so/d_j0nf4/pwm/qrlu2y_xxom/woj3/0h3az9tx_59w5lf/y7/ww/4jcn7u/fpm/t_gfvpuw55",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 1165
+  },
+  {
+    "input": {
+      "topic": "ggiketa",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "ujydnx7loxd96/qpw7qvgem3fpdc/91k5a1lo27q3/m8c1/e8a_181yxq/w/dltedo/x5/y09zxllvsbj/tn14z3zl__/s8etroikzv_l8b/a4qflnsadu",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "em_2l55",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 538
+  },
+  {
+    "input": {
+      "topic": "5pe823/c6cgj_f/dtw8/l966fg2o00cy/x4o_cvl_ksmm/z2p137ofh6ybxb/j8l/g7",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "rz3ui0wch8qb/2sebznn9/yxk0cw7/q_tcnfvmpij5f83/xd6c835c8g3/xxnorkmity6kqo/_36fgo/7d2as0923gy8/s9m4c/uv4etza",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 69
+  },
+  {
+    "input": {
+      "topic": "auw2w1dnzztdm/ns/cai88a57gb",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "pbj7/te",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "hqiaaga6nwxs/i2pqriurj56n_u/qez40jrmrm7v_5m/13i24f3/i4lwdtcyxs/943185/ss/t_7",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 719
+  },
+  {
+    "input": {
+      "topic": "8i8tigi8m_n/xp9mc9t7h5rk2/htbm/8cokj5_3c3gqa/ui1i97bs7uo6/35vlp8f7f/t8q9ycrp9fsxi/5pfnv0pyj/gcpm5a7vjf9/ah4l14enthv5",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 67
+  },
+  {
+    "input": {
+      "topic": "h7911chkd/offg0_tu/onrhm9r6xbbd",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "mgk6n_kzj8wbgyi/nkvvk300df2vzh/etn0mxry/phytjzfrth7h/asj2h/we19a3f/b784r/quy5mofjot2sq/28x55pvat3nc/fuu6d/7hdpu/86901akr/cezy5/v9o8ktdr/w07aieb",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 164
+  },
+  {
+    "input": {
+      "topic": "n63_yyncpz0r/iw/02y7fn8sf/9k/e/et9nedh6/6izy",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 614
+  },
+  {
+    "input": {
+      "topic": "8nl/ylnmvxa7ujti3/ul5u/w56/79nhl/k7ge0mqaz/7m/88_jj6bsvu5m8/ipzq43c72r/r/26ag2tox_/jykmozxz03aee0",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 595
+  },
+  {
+    "input": {
+      "topic": "a5pu6qepup51c/ho19acb/zin_/h9/v59uxroyk/mbqtr8oq/m1bulys95/5c2dop3z8e1xfd/zsfde5c/dbh_/sfa3/dlj7/v4jq/v25_/n1cqx_iu",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "lb7_z/7z2pc6h/ep9uvfife9m2woi",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "a_42gwa26vbol/_b3tu6e5ucygj/6x0v3sw_se7stk/balcpno2a/mfxjqubn_08yfhm/ij87elfq1u/q068/c0yhsi/8jqchh8huky6luc/leb5lh96um02hzt/51ek8mxmrafan/bspdu0qaijx/78ok00gjvk",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "46uv26za1oa/xd/f52bry8ohemu48l/jivdh98n1pl_yy0/mbk4dgb70hdwdv",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 30
+  },
+  {
+    "input": {
+      "topic": "2hgr3hqes/mk82f9_7nm2l/yszn_sm/n/gkwn",
+      "depth": 14,
+      "partitions": 100
+    },
+    "expected": 42
+  },
+  {
+    "input": {
+      "topic": "beps3qf",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4lh/d_dpv_vlva_/04w0_49/abw5fet1daix/e/4p_5s_/t29v/kipb072844dnh3t/zh7xtz/3oicv0w/kiuypud4e7/9ov1/h4bm9/e",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 689
+  },
+  {
+    "input": {
+      "topic": "0w6ufpraad/8i/agnz8lezvbe/umj6/u0t3xa9k2g6un/d/uy6cms6gw2/z7zr4xzu/n/hbs3sotn5f4532v",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "gec6mxvickwfk/6x82twvvt/o39itl/fw63uj3lgh0/atpqh_e5nsx/ssts/wg5b058/fcpkkwrfltw61/w49b_3kdnzplk/vx8fx4/xzq69g0/2uoecg/o/6enw",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "blti/f1zx_eo_frkobp7/6wmo31/i_jk6t/elzt00/gnx/cfk1pn/l4exmfxq/266bcauk/935_cc1h",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "sj/45huhrrtrj3/unv1v3/wjj23z_xe4cbfuc/fomp0",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "i6fsri8f/pw4k10v6/tc/77n/fdzxgbmh2d7ckq",
+      "depth": 5,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "n1dn05xapi983h/klbk/mfo60ig9/a_gy2vndokn5/xve8c/ihpzw18sky66o/sgw5n/ztxss/x7j/nsenax29/xkgfwsefrm2rl1c/9h/3bf7o4/vu8dgrx8xk6t7",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "v/7wuyo2dzw72fu/fveh8_ea_0el/ldnlome/qyr77u2/hu/2bmunyx4fo6/rce4tv5v9",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "13uococovunrz/skl9/r1pl/ffempy3crtv58/t3c8t4hnx_ztb/on0smdgb5bx/tgs082xt/bi5pl68g/xmadr8iooo/iaxiqhx/nvgwkcx/rhqh",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 97
+  },
+  {
+    "input": {
+      "topic": "t1dv7ze/x5jvc/exmdbz8pul_mv93/qd2szu",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 1644
+  },
+  {
+    "input": {
+      "topic": "1ki/fy7cc/bs170six_k/vdoo4hp_e19t/qsloqumo3j0q/l/s5trsy5xjo9v",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "xs24iqlcb/rx/u63qd1ona/y54pgog05r/rp2pljfg91zf1r/ix3ww3ifx9san1a/cgnldku/vnjwxtlwpm/phtdcyd/q2lz313o8f/hjqqidd8ax98/g4fio5xyt_yd/uvtcj79t/5ewjgo7q315tez0/tikilg",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "sl/0ybmdg1wwxldf/jpbyfjziqc/paubqlu5q8s1s/_apnurawspci/f1p2xfybw7/0wbunff1/_5wodzic7pzmy47/eh9x54agw8gnp/s/q_zjq0v2gtq/13z0exisaddl",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 96
+  },
+  {
+    "input": {
+      "topic": "8aofqlm4k/5lkkiaouls0k/3hvofhcqbr124pl/7jno/g3c6mfjrqu1/d/qo219x/_yj_z7h1b/tgdpta/fgod/k/i978cl5ufwg/qfctld3h_pu",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1816
+  },
+  {
+    "input": {
+      "topic": "rincdn6r/zw5/f91fxlxn7d9/aw1zo22gnf2b/n68qq71roi",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 1789
+  },
+  {
+    "input": {
+      "topic": "3o54t1q7gjjo4br/yy/j7dsg5/ichuhay/rvukm/aziztqj0k/wkk8_4j/dhrsj3s/apf75o1",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 516
+  },
+  {
+    "input": {
+      "topic": "hjpy479b3r4y54/kgmit73xk7/17rnl9m/um/lmw/mhfpw0/6_h4/7p3frlcx5u6/li3ff5zq3el0e/793jcl1/s",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "1tmnznp2f6wti/c6uz32x1rn2l/bycqy/kk57dl7n/t45/5jx1nh/x2zf3zcik6bg28h/yo409fmurat6/sf9dtuz/g68afr1f/jx_6l7x8efm10/5ezzm9_hjmgkm5l/kbgnma/blh/hbd4crf9wx0c37d",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 597
+  },
+  {
+    "input": {
+      "topic": "j/klouxit4/zrhayv/pvov_/zhqn8y/wb0jn9sl2t/j7i5c37iifq94o/2b9xxbizcu_e2rk/ywrbmhxnxvcjed/wfxy6pdohp6f/os9pgvpwm/5u1u9phn",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "l1ymyaqnr2939r/o4/_v/gfgkbd4as7kgz/swnki/bfkquf/bwmuubuvf6/bnfsx2uwo60lj",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 91
+  },
+  {
+    "input": {
+      "topic": "h_mus/b35usdkwivxia/x8i_q1r3f/sqjfpjagu/_7taouuksm",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "5reqg04l0kn5903/ik6fiw9/8c4p6reiv809zq0/6kbtq9n5z2y35y/rl5ierp/ds5io/w1dr5t1qu9/g_660/cwi75iyaj/etxdkypdv/zvajfs7e/dd/r20r75b080wtqq",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 453
+  },
+  {
+    "input": {
+      "topic": "m15x7zl8xa2ve/h4u3orn32xz/9b08zwiuf6/l_/3zwip/0_3esqduq",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 28
+  },
+  {
+    "input": {
+      "topic": "3_2285_/vc3_b4dvknhz6nm",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "7vox/eq9gixvm_xw/_nu49ldtjul/lc4k2hbwr71/2ypbd7j1ho4b/c5_3",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ia55d15c2kwcjm0/31cynj5vja/ifugcpi4o99dpno/o1b3ndcxsz7/e6/lxv_ju8",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "snd7ibvhurr4/4/81ub95pfq3/95282/e4/fejzcngn/dzeko5c2u3o_y",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "ueg/aufm79l/z3b/f1o07ra4eeaq/m8thn_x/sy13/jwtw5u/ibftumpdj_26",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "x4mmeo082lb_",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "gv/987wkef5nyfsee/xw9rttszj3t/giuwj_n86i/6jxhmn6yy_e/1p38494/la/w/4hm1hs8/xo3wc0vu1b4y2/xpazeqg/5ow/fjd979snaugi",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "kyfcrptvbeu/mkytx1i3/vvostgacvuleir1/a6f8te0e6/atmvf39mnqk/c7glxj_j31v6/aui8w/6z1xv/1kosvg7q",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "wq8/e11q/6/ck1ae33/tbh1yuac0k9nms/a_oyakt9pbk4s7/gnv9_t0mkl",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "qflr5/lyk6d_/b4axi_/hcsd/yk6ms/govikxpobsrmh/g348q3lk3etbs/4pgtcw2bn/untmuiftudxzfj7/4t4hai/7oyehm7f/p687oz_5/hgnppmlr",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "8sw/kq/8a9v63",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 85
+  },
+  {
+    "input": {
+      "topic": "3ly7p0wwf30s/xzhujv/ch/_g2jhd/75m2adkiz4tted/8/bhp1_5_agjaqnf/y6wn7f/lzsxc4r",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "v6ydsblu0lo09/y69jdocrms8/c/7sja/j4okrmgbb5f/6e__tc3pzr5np/voo5n",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "1y1uuv5c/au_62f7ytud/8wpu90pwchcuk09/qzdykbkc3c/b5j/0215t/vz0u7xvsrx/2jbs0v94/7o/6ydsdn/okbp9x_vwo/6x2swl/c_xrojfa4pc9vo",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 955
+  },
+  {
+    "input": {
+      "topic": "cao/gi361/9gnp1u/q2/a2697ps1zo/mlur49h67ufkm9/mba/w/bik6/sesmzs6n/l",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 17
+  },
+  {
+    "input": {
+      "topic": "1kygzdsl75_min/_2248i/5hzff7u6uxvi/037pwbovi1lxe/y_vj_a8orlw38cb/unu51znj0ynyz_/pdliok83h84c4/gbyhy/vtg/soo22he45nojij8/shx0oce6wa_puqs/je6/th8g3mhn/ppsqzgdp1g9or0/yb",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "hwojk6/1c/l9m/tdj7vx2r80n/cr9/_19o3h_bm39/vjz1776m/j68gtqsjp9ves/wj5pa_a_mw4/p9zn",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 462
+  },
+  {
+    "input": {
+      "topic": "8jbsahvk9e63/yja01zm/jp266/y7k26y/ztse0z/7e/jfm/ai2g1nzyo/hbqp/qmuk24b1lr",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 369
+  },
+  {
+    "input": {
+      "topic": "yo/kfkue_eij7do2si/tdp_84czc_j_5_i/imu6e2mqcqpqt8/lcbkyi9r1v8w/mrq9w1",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "2pnrf00/7rcg/t6hweshjy/hys/kh2b0pki5wljfin/6hsp22chnpditv/h2t0d/0_d1s1kxi/rnxq/z6qsgt/ixjh",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 36
+  },
+  {
+    "input": {
+      "topic": "avmx/6kgt/ju7f1/qaxahi3dc8n_9ln/t03jmppr9/l1sy2rfnknu/tdxq/8f9fp4zj56dag/whfq5lr1yv32s2/1qs15aie/_v",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 286
+  },
+  {
+    "input": {
+      "topic": "g/zgka7_omr/72ltio5t_dz4",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "edpkbfj8rhae/5ntu2g6gjn",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 372
+  },
+  {
+    "input": {
+      "topic": "unbijp_cuptzz9/hep_3a",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1552
+  },
+  {
+    "input": {
+      "topic": "n9xfazny9rhk3w/d6gp/r7fd4h/2gxcg7/fb8ttu4n11sri/we_lm/xjc77/gtz74k7vpdnvh_/vt9uhjho5gyj5hr/g0/xpxw0irvugr/p30fldbsbqmnja5/eevovpkh",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "25vd7r/qc6zhskq9bvre4q/2_7ih1_808/fek81u9t578vc/voe3w27/nqrhsmsv9hjx52s/vvaer/7oyd8tb5cb",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "2vtx8h7mhn4s3/pxcf58/39o5ko56i2oyk5r/6dqrr9_5p/i/5q85a62pgb/j2ujycyy1oaq_mf/zcguo8t0",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "agwu6w8/ks5ol",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "w/oqh664aftfdn/y1zrf6bn5o/kyqr7z0n/ng35md6/fjcik3_905z8/se6l3axex/i1/l16v/oc16j3opiwsb6/cputsftq7s4/s09/mj7pj_t",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "7ce8lzg47d6sml4/0/63n3w/7vqx1j1usct/b8qv/clltq30/60z1krll/vk_xi81pjhfsx",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "flc9v6eqq0/oqm8/li5sa82tzx9c8t/1hcv8zc7/bcn7r87i2lje/g/x7oumfmy7/imv/olxn6_v/1e18xm0/3fgnnjw0q/suguyx/m_aidj",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "qraap3/533t6t6ouyb3odh/p1w_asamofb36l/bb/ap3_im1i23su5o/xu_g/u/02_d7i0c/6e4if3vw6fssa_",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "3qm28lu2cn76r/_jje/01j09/1vkdsyw243/i/gc/x7tzar363/a_mv2h8g/k2yg/6i5m/kzgqhlu7f/iy3uh/xzle7x8a/7h1axd",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "17ekpvxzc/tz4dk2t/35lxp2/5x0nknjas/zfasax/pe46en/sksl629",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "_wa2h59ozx/sus13yx6bmm/czn_l7/rb7_yvogrh0a7v/d3ijwjii4o/j/bm8m31g95hnybk9/w/c760qdkdgd5tal/vl/oxq989xd925x2a/09j9",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 662
+  },
+  {
+    "input": {
+      "topic": "gkjcq/e7xk5nc5b8k/4nblb43/tkfz2q7m2_/bp35cqr46ms/5pzq5shqjf3v/_zk9tsh7z7j/gxxj/8/snkrm76f",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 73
+  },
+  {
+    "input": {
+      "topic": "evomjws9eop13o",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 1006
+  },
+  {
+    "input": {
+      "topic": "xsr/b5d/tkf9muk7n/6/g4/49hbnbhgp/x2vnyvlxjgyspih/xf6xgtxflrab2h/jg1s9p0/_y",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 2009
+  },
+  {
+    "input": {
+      "topic": "k5mgssgv2/k0m3654z/lyqlvib/mcdf6t/erpnee_wev7/kwimoi/vq6n/q/iz8ccrdua/lj3co/4zr6fqx_85r_8ss/5wdat/eq71dm/i5maby0os0qenr0",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 33
+  },
+  {
+    "input": {
+      "topic": "gsk/venf3eu7/oyc60/7c4emj8l_grye",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "sbcsk1/l2l9ergswj7/mys/ofrdi_x3bifrfqy/xl/ug/oaktfgr_o1u2a2f/7cx",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 958
+  },
+  {
+    "input": {
+      "topic": "u101x3/lep3h4v01/y/5lsz36zh_9fg_",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 40
+  },
+  {
+    "input": {
+      "topic": "scqy/g6okjj/_ffpmjqv2bueg/wg8v74/xlkai/3z19/hcmnjd2cy/7tx/if_7",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 499
+  },
+  {
+    "input": {
+      "topic": "mf18sa7rapj7/3ojh/f/j6harjg/d4bq/nr3mc/3y1ujfwmzvfn4/c8p_j7catmy9/4jbiy",
+      "depth": 15,
+      "partitions": 2048
+    },
+    "expected": 1779
+  },
+  {
+    "input": {
+      "topic": "c_868rkdbqsxx/o9tx7qkjke/cxhmkffh/ptg5e/g94hagqjbnv7/tno37/f3n3clru8m1/6wxhs9so0/wxh1l3drgv0/e1ik0bo3avj301/gfj_wz0gqs7sh/7sxbb3w37fwm/z2a",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "1pzo0/5exvourp4q6p/q_eyib8es/cf5/2jvy5g5w6n74/h72n7j/93_/kpyusgpac6bn/sil9/191/fxgylsc8l9xz/8nmz4994g/dd142sl6gvzmddv",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "ez9/r4qv/tfn/lfg3294pwbv7z",
+      "depth": 9,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "daiirihhpfp9p4e/gj998hz/0/wa4paym484z",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 329
+  },
+  {
+    "input": {
+      "topic": "kofaeq/r2sp7/k5z9exzoq1t8i7/5fcub6f/phv9oa/t/ci/939otqba1ww/qsm44ymes/qff5juurrwxb/h21b5q3yna_uzh/b9w",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "88/59dq_v/plluetc/j9egbzw2ljyfo6/3xj/3vhh8uc_mdt/6nsv_f94puur/uw24u/9yq/nh0rji3hw/g/bzqub9z0z2t1",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 942
+  },
+  {
+    "input": {
+      "topic": "yynyekntvenx8/k_cs/x787lryp/i/ndrxi_/_zvuc/xy/dr90kb78c3zbc/2s5chugyc7pf3z/f1h/iv0tx3rjyrc/7yy/a4leg4c",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 1702
+  },
+  {
+    "input": {
+      "topic": "7yl1vkbetkahar5/6/kgiuxt4o5ecq8h/flkijy/1p/0hsg2c__4py/6o2y3wgdky",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 44
+  },
+  {
+    "input": {
+      "topic": "rxz/cc4/hiexgnuwh/45/0j3kxnmo2k4dswp/7ykiegv/fedewnvf1iu",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 311
+  },
+  {
+    "input": {
+      "topic": "rachg/hyffduy/i9wrqksuhfjkkmo/dae3krzkgj/l/wa5bdz_8aq/xpcx/t3j9j4fbzqw280",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "m88nntoy5/1rz_/4mnde5w8r5p/ek/5p7j6zqbi9u/6tvj2gc3m/p7n8navmkn1/83eq/v104vofg",
+      "depth": 5,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "aiets8bo/517/u00/idgdwmvah_cu/pj0qb0",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "nqqqv5vwhny/1yri/p_/5fs2zyp9n0v2v/4ia6/c1wfz8qezwqi1g",
+      "depth": 12,
+      "partitions": 2048
+    },
+    "expected": 506
+  },
+  {
+    "input": {
+      "topic": "cad/bhh/v5qt_5m/x8syke1qq9/hn/m83s8vve",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 344
+  },
+  {
+    "input": {
+      "topic": "nevcaztnzohv9/nkgq66edfj/8rag1oxm26/e1ycxytm5i7pv/23gt6m/v5_rh",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 410
+  },
+  {
+    "input": {
+      "topic": "fon2sotng_/a5ytciv3520ak5/7_zq/sfn/k4qgsnxaulbmf/_t91oz3qe1qk23/6/tqdzmzat50/udo3o/5_49rlc1q6gz3/uzuepiyvt2n/_",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 19
+  },
+  {
+    "input": {
+      "topic": "vfcszfqgjs/q58nv44gp/p1_h6fio66b4u/k_jgf/4a5dj8dsw0ae/aqx61fg19/sd/ignroxr/p8y4rza_p8xb/jlm0gshf/atk",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "5kbgaz3m/ooi7aa/i3iy3__mh3q/r9rb9w/_u7rg04q1/n0d934px33",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 377
+  },
+  {
+    "input": {
+      "topic": "cd582nte4eqw5/1i/dip4ng2z_nwsua/fwvcbcyl0p/ilh3bpti0yyektk/73fvrhjy6",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "3v6shkm4at31x/olkdo375gr/o9onebskuotps9/1w4um/7jj6cy_zcq9y/sy8xoo9_v5z5q/jzt_fvn/vupumyn0h3n43ct/pr2urps71uaa/71lg0nn/9arehjv90ispmp/fq9uw",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "hjfx/ajnxfmrryiz/0i6r8s",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 30
+  },
+  {
+    "input": {
+      "topic": "djsbn95/payflv/44vz6znw/0k46q3x6p_j3/xh9vuaahia8j0/svexmi48f0wcu9y/t9t8ss7/eynd/k/u3/12uqygbrp83e6i",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "apvvva/fp6m/e_ces7khc/fnd6gf3cafi/m3cn6s2xby0/44zb8ssiovz54w4/4wl/xbivu_4q/z3a305r/2/q9g74",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 112
+  },
+  {
+    "input": {
+      "topic": "8yqt0p_1m8olqw/4g_2_u/h9c3198px4vf1t/a98j2q5d75e/qj8aaq5mzu8f9/u9acn/5ogpr4p3zteah1",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 471
+  },
+  {
+    "input": {
+      "topic": "wcrhrx89ll",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 64
+  },
+  {
+    "input": {
+      "topic": "k6fy193wh",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "2my/of/s/iapt2123ytwm/97uxd87pf4r7c/juammkagzhp41/y1n5bc04d/7mt3zp39w4x3l0h/r8tvbu6ye5qdx/phx2og/1ntcqh2h7qg4",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 50
+  },
+  {
+    "input": {
+      "topic": "d65haoda74l5a3/ij/inymhktjio/s0bqnw6/zm/tof351q1a/he12/yxgdyrstwtjfvb_/147es0nahb64/3nfikuob_l/d7d4ruz35dmi9w8/dfden",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "bw0/969f_7gcp4n/7gbb_dd5ye/pk/o8sf5aacnqg",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 456
+  },
+  {
+    "input": {
+      "topic": "hedzm0/mi73jvoyexsh/oluj30/limahhky",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 1933
+  },
+  {
+    "input": {
+      "topic": "qlqd1ckwvw/skjhpwjar1/ooa2bss_/8g7ldcewf/d3nnjeuz6d7c",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1796
+  },
+  {
+    "input": {
+      "topic": "xsgbfgs",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 651
+  },
+  {
+    "input": {
+      "topic": "_9qiv8/wkkgtwymaw/2si",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 203
+  },
+  {
+    "input": {
+      "topic": "t3ku4d564q13/9ir5m/dlifjtdjful/4s/9i1pysg5ks8715/ou8wi/sa8pc6a1ax8o50/k5jr1/7zbgwk/_2l5yyiazqzig/u3q",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "8_skwkckn/2p7cwbgsec172o_/nj59_3ok43ncbe3/88xp7yqmki",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "m0gw/j2te_n5hj3uf3u/c9ng/61qhwop/ns8p40e9p/2weq7cdapu9a/ckab_ts862/_wo4s",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 40
+  },
+  {
+    "input": {
+      "topic": "3u6/w/5p642qc9zx/citlt/7j9r8r_w/mhjkw/gx/01jiw/kpyg/zwk8/mag8_7/aygxe7l/3x3yeyq_r42/d5u/54a",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "972/_ms9je69wd6/s4d6zox77we7",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4b8fes4wtma/ae",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "9xmk6yanvy/mek6035i5ko8/0db8f1enj/a8qfwnl_3o/cjvc3/ams2r/yqlr2wac7/jc/v078vu0lh6p3x/kzo4mm4_8_",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 2017
+  },
+  {
+    "input": {
+      "topic": "k026mt/0am",
+      "depth": 2,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "pq7o4trqq9h0/q6fqzg/4nrt18fj_xce7/5n/7p8",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1477
+  },
+  {
+    "input": {
+      "topic": "4prx3/mdutdky/ufu7gha7nj2yqq/fw3_bs/jt/drhtrb8l688c8x",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "2s8r43d89k22mx2/sok636qus79c/r1sxj77qf2/cyaa27eppv/jr",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 293
+  },
+  {
+    "input": {
+      "topic": "ywji4/6zup0_ufh1zxtj/j8e21/717/5ykwb/58m/51emv3l",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 601
+  },
+  {
+    "input": {
+      "topic": "mharj97btqaas7m/kln1iz0/ivc80l9wbp5cv8/kbpgtsbblf1ppba/wn6khd9sj/hzeq22ztbe",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 813
+  },
+  {
+    "input": {
+      "topic": "1n_83/iu0q6/c6icvtex__2jt/tv/elap_/7f4_d9/b4h8n_oah7qs7qd/qh9/jtjms_y_rzbo0a/r8xhpg8x2/plv1qpqv9gw6h9b/8cnbdbv/jqjmui1iwj7/aie_",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 785
+  },
+  {
+    "input": {
+      "topic": "hij1549nw/3_8w19bihhphu8y/69god8v/6qomvrooe2/_1zeijvytd/c/umd4/wwwp/92/jrdsis73/ooq6pi_4hf1o1/bu/hu484za6c5x2kw/7ll2s",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7_zikyqy2/zsnvy0t/q/ynzjnl3i",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 82
+  },
+  {
+    "input": {
+      "topic": "7ezppu",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "zqlgb9qtpq/oh2e5hgibxzu32x/7l5ov9pr2noepad/cdy7/p3b7ef_a00sv5s/amvrbj3a8/al_tilyz/u9wt9qwqw",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4ooraq5y1mz3m2r/n/krv7vrg7oz3s/t/2ua_tpq/5chwale/joc2y9ro1pwscb/unejysu/6u8uqzm/2ulzf9f3/jfsv",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "gwyxgzbzj28/95wq1nph/nrghiab2/8k72/pao2ttu/n/hu",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 724
+  },
+  {
+    "input": {
+      "topic": "ah/6buy2u/qk3nydk2/s303lv1nc/b1ovbk1s5_ky/o3byzw8s8_/bxx5p81bg2ms/o9dggxkfvs8m1y/xnw/ag7r4rbur2v2v80",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "vsuuz8eb7hfjj8/oxsn/r4tdypkv421/9l45jn/ra/2446utdgvjngv/dfjzt/r_/l4a6u_sr5/m14uh/egxhl2v/082lo/g8lb_fy/toqbnaf7eb59_aq/rpmw2pk44",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "voy/yn06i67vm4kx5/y7w2/mfnguuymazmga/rrghh99m/1hrlz_lgy4x/8uf4/byd/1apk1w4b90r7",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "6okvnbrz6fwx/0ns6f/z788j1z_e0/jb5cmd3utc4_/tx/p2zv2evd/rdrpype96r93/7_pk",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "u46/z4rqe9/u96o18jfju896o8/z2u/0j53z9da/1280r_6cdi/o_emsbda4paqwyy/sla0uxz5q/l86gxa/6bmln5nz_/tt25ozmzk2/wqsunhcw5/41p3q/mwxtx2qks95q",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "jas9wp2vidubk/t1b9m1e4j6y_t/rr4m9gwp/3/qg/mjw8sh/js1dtr/1bruncqnn_c9rb/yyae/0gx0knpwy/lorcgdmfhbk_v/u5hxpg/8t2ops",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "y",
+      "depth": 15,
+      "partitions": 2048
+    },
+    "expected": 276
+  },
+  {
+    "input": {
+      "topic": "hb57ne3dsf/coisz2wwuw/f7rkyk4o8rw3ax/5d_c1r5l1puo/gjfendc8u7k/hp10jvxsx/f/4ns/ng8/4q2r0/4e",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 875
+  },
+  {
+    "input": {
+      "topic": "c96njpt3/cnnfdd/p65sotlx/xwxql6vbomt0wle/g8mt/m0h_3ki9hbv/_obudbx8lx/ftcvi3cfmubjg/h3qebsgfnc1d/c1qd9/odlt6vv1g/r0y/klp/2_b",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 545
+  },
+  {
+    "input": {
+      "topic": "a_3mgfg/l10i27z/6dm6r/rjfih/acmj3tcae/n/1dsc9ori20o",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "yxg/3/nzb1iq",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 23
+  },
+  {
+    "input": {
+      "topic": "g5zus/99onpqx7k/9dziqistll61/2_8nf173ta0pjmh/sj4fn2/fzgno6/y1oaa9rh/wia0yf7wdcx70q/o8_fvne/6oq0dfm0",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "2maz3f_ro/2ix2rv0jhx/fd/ozo6fxxct/2/5rn36hr9_r/sju6i6v",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "35th/y9g7t3t/hgty3cse8/wevn9/8rxe_ocu4v4y_9h/8fedv1d/2vgj25",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "25u/k1/rrby50m04du6my/ouuto6cj/6qhn",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 651
+  },
+  {
+    "input": {
+      "topic": "o88731jgs08olqs/oamvg57tvz_jd/zfvzwkl1/2ss30ra/i6w2l",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 1163
+  },
+  {
+    "input": {
+      "topic": "e/4ubqsg_sqx2ruh/m0fx/_7dpwv834/y95_si/bazkrvsl/8ixy6af28/yyd7rptv9ildak/4oc7jic3h_q",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "errkg9bagn_qk/s/gmd5z15k/j_9msilkbkhk74/gvwhqtz2p/b78xd9rxveivkh/mkabegh4/nq4omvh722x/b50q/bql",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 58
+  },
+  {
+    "input": {
+      "topic": "tqxhxrd/xs1rw2/g6mm/5ade5v4eem/d/l81wmpj/e/oc5lf/ojv_/l/p7z52ysw3/_hlsokknp005/3egkaf172ycw/63wclei9/lpzyi6y_ydekkgs",
+      "depth": 12,
+      "partitions": 2048
+    },
+    "expected": 260
+  },
+  {
+    "input": {
+      "topic": "b/vub/la/5l/e/k973w/lwknrfe5y8/f7fzibn_nw4cl4_/d20l36/0fi/bpv_qmcfz0p/i2l/_a8gr",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 70
+  },
+  {
+    "input": {
+      "topic": "z_lyf3b92jwfle/jrfcbyu6f5/f306m/7ytex/1_jcmo36zd/q8mj__wuro",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 82
+  },
+  {
+    "input": {
+      "topic": "z3wqcmj_ppf00d/97s_s/a/3d/3j75g0ay7ezy6/ljhv1asswqa/wxvv790k_5op7nw",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "852i/r18qxljp98m6_v2/z6_7r6n54xq/tpqr1/3ua0qqmvgctww8/p/ifky/8olu/pq46y/q",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "lxkykc0v6_1trx/9jd0edvp/jf1tqe7/b/ki6ws5o",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "0713_ixmmiwnws/9qtffppc/cs9hwdb3i6k9_/_4/s7y5zam/no/imqi/t16r/n_lnle/0hkmq_2h6hli/_7p_kcq39e9zzr",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "w0pk7875snidxq/l",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 295
+  },
+  {
+    "input": {
+      "topic": "lo699/dps_/v41om/ia/teotk0cp6u5btsh/2clo87/9lnem6f/x8fixe5ymztf/4m7niwrcbo/fd7fnxb",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "epgouv0lydj/6x6776eseywgx/eduxm3wrfd71cev/6iijgek4a67m73x/evumb4p5w786typ/r8v1etg0b",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "wlcm/sx5cfgu460a9zo0/35htqe7f",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "cu/r/2xvytqgbuvbd_mv/fq61427hs29o3",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 728
+  },
+  {
+    "input": {
+      "topic": "knxbatpfi8/lpddzv/zguuebkk/2isd/l7m1/sr4/ug67jqzrkp/cwbe0t",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1382
+  },
+  {
+    "input": {
+      "topic": "6olr8b3b/74t/5gdi6/t_imrht3xa4bf/3d/pqxsnnj3xhu0/szmtlrvw0g/8qcjfvs/rcuqjet/c88buqbqfjex",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "zhiz6ehp/n97lcx2dn4fztv/acsolhuvwya/2jdo7/lpf29o_3e/iqym2gbq/u/gbglxtg0m8mi/5cx6b9skm8nx1i/to",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 96
+  },
+  {
+    "input": {
+      "topic": "w66/0i/duzg9qxx/knhkvne",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "pkc42/edk5x9zrz7hefn/en9fp4q/_8fwq40bzdi/iv",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "6ansgroc/lddn735jphcppha/0mwb2ne9ifeq_s/yz8_uufs5q6kq2/nsevp8k7qkfwim7/uxw7_8/osuv3gaa3/ltnpdu1re9ovi7h/6d65a0c/2dyq4bdzax/5o38daeszowozd/941tugr9ng/fyg97/4g7fkrulynr1l",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 1021
+  },
+  {
+    "input": {
+      "topic": "y2i_4/xp7dsqe8bs/s0w0/lc11ctz1/rofn/t/dm0vr",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7yxwb5/0nsxol45o/ez66unbcggu/dsbkhhrzsr6/dlx/5imse/rhjf0j7_01/7tfo1bsnhc3rvk/ko91242l268b2q",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 977
+  },
+  {
+    "input": {
+      "topic": "z_ujzmqkwv5vw5/a8u/h6icpusuak_b52",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 1173
+  },
+  {
+    "input": {
+      "topic": "z7il/ruqfr/lq7sh/63y/7updt2q29or/rpmr_shnp/cmxjz99/tt2/yie2/wtz_igzefmvsb/ifi3bmhjol4d8q/y8s7",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 398
+  },
+  {
+    "input": {
+      "topic": "yjk/j/wey1pdkfwddydys/v/025gxblt5/n3oaxx2n/o7zvf/_5f27o4n62d7h",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "6x36jbh0/yctj0ey_kgd/oulivkd/vm_qrh/eaagl4tshl0h/2m3lo9/vu/rn/lyh49lmf_e",
+      "depth": 12,
+      "partitions": 2048
+    },
+    "expected": 1340
+  },
+  {
+    "input": {
+      "topic": "58t2ooz83j/urlgipsl8/48lr753e4dk64rh/vu7lxx4n/mnk31swhxgsmpe/t/_6536e71os/z8esbrhrd5nb/w4hi2g2g/lqj4wqnzu/bxjgbhl3ul/65qhq5gf/a8a7cs/_u0auiw_0",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "z4wjrv4by8i_0a/qdp2uruvdv_th/t/r80f4dwz6yme/012xoq8b8zk/z2v/rowl7h761gbun5p/txli52aygf/4f7930tzfd1qn/v",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 1133
+  },
+  {
+    "input": {
+      "topic": "qj4_guw/iqsjx4a9o/bs0ru30guikb0/9/htm2yu/ni/mngusyouteyme/garzcbyj5/lmk85khg",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 41
+  },
+  {
+    "input": {
+      "topic": "7g/tgcowm/nyvaro1agucfvtb/3kfepw689_q8wr/8kflmdmu8trdf/y3vb/vmfr7uvc/xu4bsdt2/q65rb9l8cri2tx",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "x9v0f0tbk6/_801_wag5/jewv05biy/eyfk92qbaw7/ijlq3dul5m/y8_ik1_ztxt2/p6fcv46/g40g89zj_lfyxfk/d_wvyry9k0nm/jhos",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "zl7jg9i3xlmihy7",
+      "depth": 2,
+      "partitions": 2048
+    },
+    "expected": 1022
+  },
+  {
+    "input": {
+      "topic": "k_mftbmm0bre2w/zti739fqgzvz/o5iciejgfv/6hpfj6lxmmnbe/v2_g",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 394
+  },
+  {
+    "input": {
+      "topic": "3zu/7igptvyyqu2g3/y/b6jhxd7rya_o/q0b",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "1icpcd_clb9d/forzqwcydapu23",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 495
+  },
+  {
+    "input": {
+      "topic": "20p_bo7s/9r2u8c/gam542jm4_v8g/r_1n3k/r9ax7efm/ohu2z2/7kn85/77j/53ax5hwjb6t9t/fy7zrl3jm6d/yfld9ax35cvi1ur/ork/hhovnk004g",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "7/18l0cxdg25xqb",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "3as0/g/ce16bg94/1nrpvppq2ekohmw/t3bdnm28l96/5jtkubc/uitdsc_gwt/vxt4r4/u03wagmm2i4/l6w_09ls/0_x2312z/4f5i6",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ktcg0o0ec56",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 727
+  },
+  {
+    "input": {
+      "topic": "z4q21v1q9/ad_ummbz/wt14f6bmk334i/la8n5p/6q",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "3swx3t99a4/_y2",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "ctv0a21sn/0x/h3za/ayml",
+      "depth": 5,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ut7e131eawn36y7/l09d808fcb/e1",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 106
+  },
+  {
+    "input": {
+      "topic": "zuciex/ibx_zbl8zyu0p/pmmf1a/6zrch06zm4ctbyt/5ipkdel35c/ged8qhudlk6n/em5h/1maz_y526/6f3oaiylpq/vprw89g5qq/vbvrnn_/c1hia4zhme/j_9/stz2482",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "tsaivndljua27ol/h86_/u_5xc3k/huoo26mr8p/z/a6kmh5zr_cvmce3/6uzvd/f8fin1/rakaw7hr/jc13/i70",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "l/73f/1oovk8801kyxj6_/_ee0scxzihek6/wjf_so90x/1tvhxn6e/svk2lda",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 76
+  },
+  {
+    "input": {
+      "topic": "7odel/_m8n/2_ue_lu/gvu2jr/1awtc4f82eqj/b6zp/ozlq_wm/5p0u6j6b/6/kw",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "jyrt49ghzg5_m/jr15o/0u0j33vdx4wifwh/m_b0/bv35z/tqs4/hvkyb",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "f_w/upelz4b__mct6/v/dlhboj2w/78/5v",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 358
+  },
+  {
+    "input": {
+      "topic": "q00_hoq/t8qmwnrgdl3ekmr",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 11
+  },
+  {
+    "input": {
+      "topic": "7vu1bhrwg/iluj8y9ruwzc/mxm4j0ieuljkg09/u57/arbsv/au07/eym8h5or0t5i/r/c0saqhip_z/rixccvckva9i/vwzwn8fn3zgnxq8/tl5s9/4q87ymx_5/_lmv_1/65",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "4vx9/sgkmdy9wy63tmvp/9tkmbvpd1/y97ro6d1w6/v8e/1sqo/ode8cwz/y4oo/9lew7bcwh0p_p/iycabwob/g5e104bt_oqb/50vw8w39hetor/0vdzz_/3jy_5n_mtl",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "rnv_63hpzhtrk/zrv/4mebbdd/i6eceftc4r/enb/76w_oxbl",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 315
+  },
+  {
+    "input": {
+      "topic": "tz9i8/jw2bh506/bqy6ce00ga/e2rgapay/nxeg6a/4o8ygwx74",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "tyrr/t24e4g3_xo/upzc1kv8sabbz_/55f0ggzlzkk1hc/bmsn1_qn9ee5c_6/ljimdt8fmhg/8vqs129/fno/o98632mo44p/agn38yuogzz2c/vc8mki",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "0wqiesz4ihax/j3gr46dksd/55dpsm8ctz0",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "jymcvj37vcv/bsa/342c9w/bxjlh/cll7/36ht3gtf2_",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 68
+  },
+  {
+    "input": {
+      "topic": "axfn2lq/q9e579nt0_domn/3a0d3",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7k2x1c711swf_s/vtxhgwf2lm/c0i6npj/0as866vh/moqjan08/d7fc/woh_zosh9270/v0s87e9tg5j2a/k45d7n9/u6mrt/p_pon/5k97aeuo3boe/u8g6muimf3",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "jq2mnr5de/c2e9yosl5aor3/nxph27k60t5ri__/r72/g2iowxg/o",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "r/94eo9i52_/0jgufo2uk3rd/qkhv2pbptm32nj_/p76dptigka/z/wjx_ecdyyiwbr9/kx6lui",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1700
+  },
+  {
+    "input": {
+      "topic": "wod0byqpy/0p4gtvrl10p/68mxo34a15s99n5/e_0/yr3vsx/_1ga291t3xtuy4/jnki/0dnfev/uyea0temr/czpqny02y7uqn/u4d/_k_1ttt",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 175
+  },
+  {
+    "input": {
+      "topic": "f13ufcinb1wjmc/myo738p6n/v7j3ntyvur42pu/fjnem/2/d6/9bgd/onuggpwlj9ee7_4",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 32
+  },
+  {
+    "input": {
+      "topic": "6fu0dh68lxqhkwb/uzte74/d4nmvsf",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "c6iyfa/83/w0k9ijl29vozkb/kbznq2dyrp19d/dd/d3ryl_x5/mn1e/__8wwam6/k_m_t5l/io1y9/y4gehdcxn/dukvfbq8of",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 594
+  },
+  {
+    "input": {
+      "topic": "21to8dm20a7aeat/vug5a28/fih7ns38dab",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "x_b7ztmzcvvsboh",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "2vmd7pqjclse/qi3xi71a7_2vvli/bi2jd0mauvgd/d/o9teuqihrrj7v/pw855jcivxl5l3",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "03xhioiebzqym/2ueb7k/pjg0dkalnp/busfvgmk82/d",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 484
+  },
+  {
+    "input": {
+      "topic": "hwny6qr/spr5n3xt/i_3tuwuewg6/0c98iqv4t459y/_bmwtsi",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 2033
+  },
+  {
+    "input": {
+      "topic": "lppcum7v1h/wdd8/gkdbcmg/pgb69v65sp/0v3wcwam/wl/_ef/h0_r0hv3y/txukzict72/rfsgwno/e",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xg082/wc/7lulc0c59a45oo/6zlxvc46d9y/3wkz8ufd8xabor/giuis76pglj/a_nw4fveqls8cj0/z4v70s/juu50z/nol/ihj/ae5y6o8q/1c3vv2u/rhl",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 178
+  },
+  {
+    "input": {
+      "topic": "pbg7eycuq79y0so/qu82rrqtynh/7r/ou6tv0zh5zgbz/d76",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "60z/a6ff7gs0n5cv/thjaovedk290_aq/q6u4c9ajhm7h/rlktut76gexah",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "q0omoal/amcj_/8mdpdi744jv4j6/ofb7qigpyaak/r74u4t/crjg9_cpkw/1/1f0u9i6/j8aowki3g97/1zyoy/tzs5vl_3s097",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "enjqnfo68/71j/56dpbhruf/16hv9nzg/hy6k14a/s51hl92zx76tr/gxp9cyg/l2uqiff0b",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 413
+  },
+  {
+    "input": {
+      "topic": "5up17nsbbtn5/liut9u0uy4mn/pued_3bm1/wbt83yw_/4/cbchj/4c_uq2ifwm63/wd/k09/zz4xkorcv/pxl4/x5ff1gtw",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 51
+  },
+  {
+    "input": {
+      "topic": "bacn3ea1yi/wuu/aj6z7cxv/zs6bqv/_wa3npt/sqz/5zlzilejg_2pym_/5wlrq_baa2ywqqp/4aa7wawq69str/y/fjk0n8v_x2lys",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "n_1tcsw0/ldgdjq2dl0/etazbz51s/d3mvaepzrk1crq8/hk7mb5gbnbeb/_xs7/0l95_kna4o01/c7q2bb",
+      "depth": 4,
+      "partitions": 1024
+    },
+    "expected": 228
+  },
+  {
+    "input": {
+      "topic": "59atsn42do0s4u4/dbm0/3o0j2m_ja8sp/xwzf8",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "43c/xs1/eu/c35t/47p/2w1zobuhz/zi559fi/8f5h58vj/8gjev6q0p/5mssq2tg6/346tag1_jdep9",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "9k9avdjs4up/u53jspd/h0xapec8_if_/2pg_evku/_r8u/caiocif89/fj/r4w_qy6/5dm/km1ldvabtig39/yioe/07a5lg1/kwf_/p",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 399
+  },
+  {
+    "input": {
+      "topic": "1m768g9kzf/kwrud1gz8p9z",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 108
+  },
+  {
+    "input": {
+      "topic": "ilvo53gg/kjnejj75wp6fi/j0mbwcsr91ltu05/p_9_yh_vmix/t4kmfs3n_cwyp/neejqj5qi/j88k4/yoxv/xqwjwtowqq/xbsg5c36_yx/362_/5312b3l1k/t3a77kb8/pfau7pd6imgcso2/b03d",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "z7b9as/lvisv7bj6u4/68hi_itgd/a/llvlx38yuzgz/5q/icklvxyohx1a/qx38/iblwcfvnqoz8jye/5",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1620
+  },
+  {
+    "input": {
+      "topic": "mcr6isj0n/nn8heozmcpj_93h/371e2wo6o/krz2j5a/pin7bud8uoata/7j8z3ocu4/o_bn/z17xxp5l2/d8vk4d2yjc6qag/4jszupytvuo/csq7x59owcundj/1cwyg14/f__awc6l",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "e8e/xtxm__l/605qb6r3tb06y/mml6/h/h3",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 1187
+  },
+  {
+    "input": {
+      "topic": "r5dqv3es991pzkr/gncljk_pvtt/wuf9u8a1ga/wg5g03e169t9zll/ifd/933e4ny0lv/f5wfeasfn651i/cl361d04kg41/_y1gw0nnzt8sqb7/ub68/04rbtbpyjkqtk_n/jw_",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "0jg0hbvhlp/cnt0n_i5gyo0z2/p9y7a191t/bx_/3959c5sbcl7g2v",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 570
+  },
+  {
+    "input": {
+      "topic": "y82jxtyd/i/if/4oavhh/he5oc/1h1bhz6y5/h_mjw/i/ub0ngzsupx08/emtzdr/n7ysilzfk245/e42iinm4nyvp",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 66
+  },
+  {
+    "input": {
+      "topic": "iqe364zeynq/qk19nwgk/qn175691uqd0e6/gw/fw9zro_ktrf3zy/gry/aovue9bgxk",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ai2ai_v_uqq4/xap6qebzmcx673/ful8g/bngwwhjt2yo",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "u/d0es3/ww63qv3a1l1g88/xiqe382894/1/8dg48dc4/h029awblpp/r83/t_/k",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 191
+  },
+  {
+    "input": {
+      "topic": "2okhxsnbn/li0/kyqjr9mvuab5hy5/o7s4q3s0l/c08pg4w5ohb/8wf6nw/dknb4a4rj/y88n3el3bt8a/8846rw_klxcvpm/at5uas6_oc_sckg/t1zmz94wv6/0i1tquynmp/4c47s3d7u",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 18
+  },
+  {
+    "input": {
+      "topic": "4teft2u0sz0/g0gg2qecb6qvn/qs3m/qp_ynfj6r331/7paeuec1/1qj3bn7yw_/5pof",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 51
+  },
+  {
+    "input": {
+      "topic": "2tfqmgvnvpp4xw/ogk3d0/b/kx75/z0rd0o7l_/eqtut6pcik8p/tc12/6mon6aj_wgy",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "eyvg3o/9",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 1291
+  },
+  {
+    "input": {
+      "topic": "_w6ms9f3c/8vkmq09qed4/xt20ky9ov/98kbjl8wwu5u76x/hvvsp0ny",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 1246
+  },
+  {
+    "input": {
+      "topic": "viud/k48qzp239dzh/pmmc/hy4ejcxa9t14/vjnp50c41k/h3b4tiw",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "f/8n4r1wdd1russ/8cq98zsl3k39/xni/hvcri/z8m33tk/p1lip3y53/ws5px/f3vbl0od1y/0krloh40aep/_f2f",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "gpbb0ixtungaj_/kro4htwj6w/v2bhz/yt794xcv_rak59/ix3098fsv7/lhshplhzumc3/cggal37xpv6/k3_92iih2vj/6q/untx38ux55z/qe7/tkjanz39tjudy",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 341
+  },
+  {
+    "input": {
+      "topic": "2jilsuy_u_xh29/w0_l6s6xoixet/06xhhd38_2/v2y8mx5581z/v1re1m4as9q1y/td48g0hoazdha8q/84e1jbb8/b2o/64_7agg4y68i/h_b/941738l9r/q637/s4ladizl3htlv1/2qof27vj_scilda/9d3a",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "dlhq2tzlo_y/gp_z6ebh/_iezb1/07af57j2/ykf6615u370uu",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "h8n/90ex6i20g56h0/dx1vryoudcar68g/benq98snf4mn/9u8y1i/pr3kv8dqg4/qk/4td4t9vx64rrsx/_77jsa365t3/h1d6lq/ze2a3w_qvd_q4/_yqpw21xubm_80y/h6fs",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 25
+  },
+  {
+    "input": {
+      "topic": "ext3/pe_2vp0f0w1ex/gob9209t32rj0di/4e07_6z4jdmt54i/9neqjoj/uwg7cu_d7pw/1/c89fd_v8qjp0/c9",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "jtbxl3x/0upagmw/6r/g_dwn87/sk/2epur0/sqpmjtag1_y6/cdq2z/4h_a6sd/8p0bo1eoddu6rt/96ys9ik9i0an/55yk_70usqs0j",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 443
+  },
+  {
+    "input": {
+      "topic": "abj",
+      "depth": 13,
+      "partitions": 1024
+    },
+    "expected": 629
+  },
+  {
+    "input": {
+      "topic": "dcmhfgeo/9z8/6961yf3i715lz/mnt/4m22/7__r1iahj0/t_rdq/fwy/ets1mut9gc38r/mq/r88_h/z7ukt5mgvmj/twa",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 833
+  },
+  {
+    "input": {
+      "topic": "9p3m",
+      "depth": 4,
+      "partitions": 100
+    },
+    "expected": 62
+  },
+  {
+    "input": {
+      "topic": "4w5s2pt55/tv1taeycxbj/ut/s51ma4nbe/ff/o5qgf/u4z0",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 77
+  },
+  {
+    "input": {
+      "topic": "4nt1qtylaiw2xd2/0a465/jq7zph/dbm9f5zyp/i/5u2cd0sfq_oh/7ks95k/_3tuiep7k2lc22/ttrcqt1/std4frxx7vh",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "mw0d_/gfxyftmgid1/tpqr/qbjg7o/e4/j4cpqoen8e/k5/_uqdpte/bf1q",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "r/3bctw/3wax1_p/7r/6q09mnke586bud/dpfa22/i4/nzt6a_yn5_dm3w",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "yvy/he2t/ksntt5ds01/9qb4rsqpdogstb/uja4__v/0459a/kpvh8/p/j6on73fnk1839t",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "ula34jx25iisa/n5",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 45
+  },
+  {
+    "input": {
+      "topic": "9mgdl/wu81/i6pj0czr/n_mt/hko3thyxrc7ejwe/8ei0v1gg9b_c/bszj2w9ss4h/t8yhh0m/z8xqj/at2ukrm3jd/txb",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 512
+  },
+  {
+    "input": {
+      "topic": "e02eno2zcpy/llze4/6iws0ymac9k/az/i/h7r9aw/aeptlgt061q4",
+      "depth": 10,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "3wg/g/3wnxrinkpmd17/jkxc7/6d7uj5/qc4pqd/g/g05vm/q_skjh/e/eq/a8d__2h60uhjix",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "myjba_p/bwhvzxp0f9hc6p/rinji7k0",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "rfg9r_d9oo365/ec28i9nghwqigfa/13b9s/xs828vz2dyzl3x/fo/e0cnjkltprz98/fr0kps_g/nsgs96g3xie/5v_ll8p62/40le_2169i462",
+      "depth": 10,
+      "partitions": 1024
+    },
+    "expected": 125
+  },
+  {
+    "input": {
+      "topic": "pvx9gnc3hqx/23zn/ib",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "1_eeng99hmyg11/j5sxk10vu/rqu8zg8r8j/yk46bhsw8/s3tdcrwlxr/h6ky65tyi/4b9sf9zchqc/t3/nq/e/x65pn5xjxkdvz",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "412d2n8w2401/hmo/_qarfi7kyei/ft/95ahdk_xv8_/_7wrnyjye/08",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 71
+  },
+  {
+    "input": {
+      "topic": "_lc7/ml0hu/jjtpwear",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 60
+  },
+  {
+    "input": {
+      "topic": "9tdc9e_t4hj/b/1wh/nqwx_nuk09/v8bcmkos0v5l4rq/11o6ae8ejt_ewl/3mg/nkpsx8f8i/qel3slksd/lx6o1tj/q62vzbt/22qw_sqkih/adt6ng4c2c/e2mnhfshxnd27ug/ygcgyw",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "3i",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "hr43f_vdoqk/64/exfy09au9x/f2k7/y7/xsnbje8/yhh8/u",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 48
+  },
+  {
+    "input": {
+      "topic": "ymwkk01tywb1ogx/xma3k_d0g8s/89tpb8niz/pfwx3tio7vjc1/qtrxaqo/n/e59d00tgzn/8wcdm0y5g03/y3kfsyyq5olyy8i/68bldd/3/mqi3b14bo54",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "ts692u",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "nm7ef2t7kb2qf/p7/q3/pncwd51xa/j/4ko_ju/c1zwiermpqzl/q00sj8f8_jzt/jh2jhlk7eb/9qcniqj/y4y2/5n3l2g2d1heg89",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 1366
+  },
+  {
+    "input": {
+      "topic": "g/b1kqzn723nv0zxv/nzc2kc7/q5two3rr/d6y/h/2n/uufd40fu1/i9tzatz7gl/75223ngra/nag",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "w7z0yyp6tixhk_t/2yl/gx83qotp93m8m18/idmk_so2bi42ia/uhc/jrz95q9n5b/_",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 95
+  },
+  {
+    "input": {
+      "topic": "rk2ry/4dz1xhi8aj/n0i/ta4/vnl4zuwc/bzgeh/ia__13yuo/aw5a1su/j1ivkxc71__q/g3zmk/r7qr0/ohjxomvj6cc0sg5/l_d19zlmowjs/0muditecgo9bv",
+      "depth": 7,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "hqdd/pey2n2g",
+      "depth": 8,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "j8rtvgzf3/tughpd",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 790
+  },
+  {
+    "input": {
+      "topic": "7ih7j5v6k86/fhxm3g/290xljmi5z3/c0kwxab3ygo6/u/s3v75vot2gb/x_",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 89
+  },
+  {
+    "input": {
+      "topic": "78a/tp7nd6md7if/zmj5vfbdi/az89hgyxurnd/e33pzjgjhjwtd/0",
+      "depth": 4,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "absd2uxc/mhwu3g5itk/nvo0sgk94k7eh1/mf9vc80/oiby7vjszop/t38q4txe2vard/49",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 114
+  },
+  {
+    "input": {
+      "topic": "ccqj2z9kr/oty52mwelur29zh/mheudkg",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 181
+  },
+  {
+    "input": {
+      "topic": "q8n9va8xecreo84/w02__j4ly/e3/gsu/j9siw/8yi1ims/hcolbk/5k7/c4/l3ukjy2em_7sx9/3vw9pdsn2uke",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 53
+  },
+  {
+    "input": {
+      "topic": "canr67q6q5heo/0zh8j/m1r9mk/rp18dgq0l9ipl/452m7z0qf",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "j76fw91/cugfbr0mxa7/ii2amvhtn6v3a/avgx0i8gua5u1/e5izn/6b/qfe2/smm03v/yj5yug1n/agm2v9mebhcryw2/jzq571pdo/lq/j75_uj",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 8
+  },
+  {
+    "input": {
+      "topic": "8ftkmuh6eoyj_a/0wfnf/jjueu4q774yu5ho",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "z/1cq6p2",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "6bx5mbga/t58roysfjsit2om/excn_z8fg/rbpr85/0m7qga8rt",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 381
+  },
+  {
+    "input": {
+      "topic": "ql0glmljx/gbb_uvyu4dtlrp/zxj136l3iuer87e/0v6eu4vfzp3vvlc/y6hawxbpmqmi4zq/v/cxeam4loti/u90442jrx8/_r6ifx7mqyz6/_wbjv7jft7hfj_u/eca3dwz9i09/xazxv",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "o6y/yrm_5fw62g38hu6/pt/7g40ddk7i/xfp9xv9vu/1zf25sf/7/lvpti/9vd7i39_oh8w6b/2myjoaj/7z666/ccbbued4d/nbh8bgtbf104n5",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 226
+  },
+  {
+    "input": {
+      "topic": "a33u9v/l2n6vnen66/divke85/cunu9ig9yz0__2/8/1ivk_zz/twh1zx1/0kk_py80gn/9wrw1xxs1z7j",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "25ss6",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "exfa252p830e9k/sak5f/5/n9gbmajc0g1/4pn3khprsk/md93uwsway0fe4",
+      "depth": 10,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "sldxtk/009_0gir/hettjojvxxf/w3t2btxh0abn/iq/x/kz9s0/jbefm6xyrkz/7s_9/w1fx3itr4/t5gowcmqg3ms/sz6ecdmr/yny6aqq3nj3/zifb5uhr/cy7cfwl",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 90
+  },
+  {
+    "input": {
+      "topic": "po_f93rmm/xlahyaj652/hgybrba_8h4/98q6dg2/ngbm/99veiicu/fmk/p_0z6l/fd",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "0zweayvs_/ae/7swnggi/d77vh_d075/kbyw4o/oiy4t",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "2k_onnh8uopxk/jonykcit2/lx8svmi_201/ef9z/hteuwh/qesk815id/3x50pr3mdg9/dclztbcrqfpcm",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "8ud2skxvyag/o7wpe_tr6_tl/jzeds/e9np6r74/4oz0uysip0oh_1/s99wz54x/u/3a8_/lgn98zolvp/wvez91/xnd07hs721y/gj/n",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "g6d6qb/3/u9u66oonsk/ex9/w42vu/_rxpwi9sbur",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "y/12e7zk7wf95j/ra3xaozb/_dj2euvx51rv6/kqezbsnnj/e93t1qmn7gx/c9vg1k74mg/mei8fj/rqgx/y1bfgb/p/be68f3",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 276
+  },
+  {
+    "input": {
+      "topic": "6zfsu/teprj6/qxeb8qj9oqa/wm2_npsqostc/9/fe/nu9t9pqm2s6rz/h4kh3/1p1s8zn7/cp/j2is5o09f4w_t9w/se82hz36tcp/xcecl_qt3xbmi1",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "5b",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "54za/t/8cp7h4mw/uy8edd7x895/15kk82x7w_0m3b/w3nvg0dlgve",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "l5wq/5m8vj6q8a/e5x__0j/n3tgpix/fh0yuy/e8er3le22m1ggbw",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ny15v/uu0qy6cmwjqjbw/vh_om_6jj/tfjjwdg0g6/twdfkqtyer/w6fnvarn/5d3g564ts_/tvu4k/agj8t3azu_/fw4h9_d1jpm5j/1156",
+      "depth": 9,
+      "partitions": 1024
+    },
+    "expected": 773
+  },
+  {
+    "input": {
+      "topic": "y1k7rmps0/b8/37ahpok5/g/t/k502vxj6/uehujaoq",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 337
+  },
+  {
+    "input": {
+      "topic": "seiwfi/d4q/fzmna9h0z/0f36_nh87wpmqd",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "196_md7got/dm72ouo0f17",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "wf5gz5bew/4iikjcxe/i7inq/gm/ptyuh2hdup",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "scg8rxlv7ysdt/vr/p/whd00vg7y/dqk7xtnhijk/d9s740jue4/l7ubt6gak57to7/ydfmhsw",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "_ut0xuu2kes/j8km0j9k/7bhoh6oasrjs/r5/o5_h/jhflqjmqbcf",
+      "depth": 2,
+      "partitions": 1024
+    },
+    "expected": 681
+  },
+  {
+    "input": {
+      "topic": "4iao9iiqg/t8y9x9gl/54t0vds_kl9trmt",
+      "depth": 15,
+      "partitions": 10
+    },
+    "expected": 3
+  },
+  {
+    "input": {
+      "topic": "y8o8d99ew5/2t40/te48od/d9acwfnv219q/i/w93ud5ao/vgf4md/i/6w1kakxfnth_/dhx/blmx/o1gqwom6ki/i2g/ctk8ihbm3dv3n/hkzgs",
+      "depth": 5,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "08/mfilvuc3950dv/wh_/7ichic0/s8ln/oumszuj15sv/ahbp7xckveja9/6dk5h64/voi_qsbcy4r7/s_o/mn99_7/42r3ynuwtp",
+      "depth": 8,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "b",
+      "depth": 4,
+      "partitions": 2048
+    },
+    "expected": 2036
+  },
+  {
+    "input": {
+      "topic": "9vb4zdjujh0/05fovx/i6i7dp_4fhm0_/bp/ty6ofw2l6",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 84
+  },
+  {
+    "input": {
+      "topic": "n0sikau8/4i9wgi9fo92/xwyoynl/oge76jxe/8o/f/hii/gci0p_/hmosk_ot69q/uq6b/2/ldsmx/ym8k77ki",
+      "depth": 14,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "hv3o/f9c8i9ek9y72p/mhb5fz1m654lqsr/nuvefzr/46j7k9hpnth96z/2vlswnl7q/mlcy/2vft32nw/1ilo4/3s",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "1n5i2yvz4x_coo/gcu4p3auo37u3/109_fbhshxvegfw/ebz/eqkg8_7z/1y07230f9twf/cf74/arhl8nvpulej/jodzel3g4mo0/5rr2br3hyt91q/f38i/r/k2gfnc/19wzv75qc2i_",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 776
+  },
+  {
+    "input": {
+      "topic": "cv_stp/wsxfs/d8a_b/aqmkvzvlhesls/ps_5sz8e1/9o1x9af70tpmjkm",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "n73w/sv3kftw0a/0vkpk5rva/kmwkf9pbgjrzaj/wmjiieqhw2p111/bkck061/s0_p2pxp/khephvsozxn53dd/rkm/9/zsqdkf35nj34",
+      "depth": 12,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "fjupxf0bzcss/g62dknmndx9js/9atk2y3t3fgdtz/h/jma/_c3pl6sge0q5n/00/ng4fm8aq8xk/69lwok0ashrvb3/6jcmxs",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "hhf/w7y2066173j56g/nxueh4wngcym/6xsfuljox/9qez1m2qljmka_/ya3vrl8",
+      "depth": 4,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6vyge45d/vcmr58vyw/62n4nm/cm55mz/xlv/nqrru3yywhi/fvszhr7pn3/nrun9",
+      "depth": 13,
+      "partitions": 10
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "mvlbobn68a15jz/v875i1eszv_0g/_sbd2pzci/e3ny0lt/nu/5lp4w68u7/t/7h238gyz0u_/nh4i4df9ua/p/n/6le/vlche4apv0p1b",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "buaji/6/3ldt2nh/0e7j/1d3ujivu65/71pllac6p1fp/x74/4/s",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "agt4owp2zygn_/yv2dl0/wmmruwtl_97as5",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 358
+  },
+  {
+    "input": {
+      "topic": "sak4d/z63wiixr_u032/l53c",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 9
+  },
+  {
+    "input": {
+      "topic": "t_2/dplxf1/s/ma9h8c/7/74rb/zsy",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 64
+  },
+  {
+    "input": {
+      "topic": "p7/x6euj9q139lw/kk7wg0ll1jtba0m/r3wp17vt5p0a/gqd0e43u/jgndlor53ogh/sxa9z/yd3hemsz_j_o_w/t5/tbwk",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 16
+  },
+  {
+    "input": {
+      "topic": "_/sctvamssq0e7pj/nhms7_fqf/usqg/qg/wwfxwgobt1wq8b/v9s2629t/wnxo0i",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "mns8alope_um/ghe33mitvuf/vmd",
+      "depth": 5,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "6gavvhhwf/rx1q",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 1299
+  },
+  {
+    "input": {
+      "topic": "kfsgmxggs/0x09r/jcblj2/8gvlt2vbiu9hn2/62j1rcriqlijk/g/w_/eq3q_astv89f9c/ycb/77iy/qb5rodmfh/xpg/xd8bgu/7n3og43r",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "quknx2rirut/25hzbvz5g/4csajdv6dtvh/md",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 36
+  },
+  {
+    "input": {
+      "topic": "ophk5mz/xhiaieac/59/6_8hexeo6/4xvaykzjpp/hmb04lpkvn1bl6/_3_c4y034yhobrq",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "0y/jgzgjrvpb/8pcp9q34l/nln6o/2/en0aua91g/9lebsr2hn0s/ih678uop/i1roxca13x61ah6/6ge2bwzz3u/efgj71gmcmgnuwf/zbqi",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 28
+  },
+  {
+    "input": {
+      "topic": "s/ppu6tafzr8tpna/izkr1wt4s5gl0_/6lf_e1beng0jqi/e/2q2dmci7x",
+      "depth": 8,
+      "partitions": 2048
+    },
+    "expected": 672
+  },
+  {
+    "input": {
+      "topic": "4lxatv9_u1/yiuj/d47hd/nt5b/w1iywyxlp5y/uigwmxd5s/8ezht7ydvrbz0pn/bfpsm0xuq/ayl/s19v/cxhl0cheeopv",
+      "depth": 6,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ub5fkwzmxaqh/t/_46/4v4cdxeu/y2_fev8p3rg/cehfxjc_5sbh/cdui7xocv/tff8omw/gsqt/lpud2b6d4fepa78",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 67
+  },
+  {
+    "input": {
+      "topic": "9kj_7a/iew3/yp_twc1/i7knzto/tzjdtlp8/llk3liof8r0e/ojndrn2642i7j9l/zqf/siwqwhvh3gzdt/2qqlpq",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 23
+  },
+  {
+    "input": {
+      "topic": "vq33p4l_/8saf2gi/5clxvkdc0kf7xf/ybdt73chn9/24c4j/64ql271oda4/9se897pp3/nidfb80ndzjscv/a_",
+      "depth": 11,
+      "partitions": 2048
+    },
+    "expected": 1432
+  },
+  {
+    "input": {
+      "topic": "zrax_31/272xg/k/1c/ld6ifmxbun4/c1y01j/rwgg/xuzf15v6h/w3suobs38qg",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 726
+  },
+  {
+    "input": {
+      "topic": "k6muc/w39h_tobty7ylrd/c/eoic/1/gn4y7/jlmlwmg/_mtc0vtr/_u6",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 40
+  },
+  {
+    "input": {
+      "topic": "2h/k3/2e1evt2fmmdnfml/2/jj_bdfecovjm/2s9m83l6c",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 53
+  },
+  {
+    "input": {
+      "topic": "w81pbg6df/gv14c4ra0me87/c09do/08ic9pbrbz0/toqjn",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 56
+  },
+  {
+    "input": {
+      "topic": "qtelsu5vd/_r32_7v1sfp/og3169j2/_/aq0v85/00h4ki1l7kq_hc/jgkm/k1y8/_8pv5_rjy/3/oym1gowo69s8/jxruomfs",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 842
+  },
+  {
+    "input": {
+      "topic": "wq7lg/09sm/qe/u6tic3bxx_1/buyaw/wjsatr0xkv76/rf1_d/5fzjod",
+      "depth": 5,
+      "partitions": 2048
+    },
+    "expected": 1721
+  },
+  {
+    "input": {
+      "topic": "ms/ftsfcg_2ab0/o_ouw/z6jd/crmpescbh/9_omv9g9/9bvejgnz_/yc_5axrby0pg7/koyrw2duu26/af2hkyn0/h7du6tpm/ujp/zc0lz",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "9geqiulvkz1ntn_/vph/ay2del9noc2rv8c/lyxhotjfv",
+      "depth": 8,
+      "partitions": 100
+    },
+    "expected": 93
+  },
+  {
+    "input": {
+      "topic": "9zf3y9nkr2c/0eoygvbodbmjoi/9lbaqn4h72hjp/lxwu46karam",
+      "depth": 1,
+      "partitions": 2048
+    },
+    "expected": 1877
+  },
+  {
+    "input": {
+      "topic": "epge9tt4t8/0qq9ys1j_/3ug/cu/amg0kvp_q4/nqbxd8kd6yy0n2z/70f7",
+      "depth": 7,
+      "partitions": 10
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "pbb",
+      "depth": 3,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "j/m187k3v9cbts/mcm2c0a18/f9az2jf2z1hvzpz",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "yb9t3wy2us/r5l5/ay62vo/29wxufw4/ybw8egtreq9nr/tqt6/8dzk4oqgr79jpn/3g/gm2j3n0sr7vuuf/ti5u/3tbxrlaa7_vl/h4",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 357
+  },
+  {
+    "input": {
+      "topic": "9jdtw/8fk/d55z/uf1a5m5q/heftree/r2/fykim7y/orqe/c1/ok6ki/3p3sxrfxotpj3t7/pkukyjj",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 50
+  },
+  {
+    "input": {
+      "topic": "e4aac_bv0/wdt165/f9/zeu/u",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 1144
+  },
+  {
+    "input": {
+      "topic": "mntn/x5l_1c1/m/edfeopog671vj/g_8az/vdjhggg5m7lo/mstfm1sn/41a1/8irsjmyibny8/5s_z6hv/dj0fleu1h0ejob/r41rzpcnegp8",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "kf53araf96lfuau/ontegfazfdu6/x3ndqltkp/e0wzwfblgpgek/t1gctys7zjfztxw/sa56yqkr1yat7/7x0tk0/ur7uny6l/f/5fl0grfl5w4g",
+      "depth": 6,
+      "partitions": 100
+    },
+    "expected": 16
+  },
+  {
+    "input": {
+      "topic": "u95hek/mlmg7/9y6q9db7fg3/6pwd0mrqa7y1/6n8xgkfu_ayjk/1zplnwnnyx/xw3l614enf/w0d9/i7/rsvfghc89i95g/9cs8_y2vqh/d5/pfc/_/rlcub_zf",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "ev_o2kvvnbr2/11wwxxvwjr2t25q/js92wxgz91yh/lw1vj2ove/q4_o/izx100/xg_a_sbl7l2gw5/64djiyrmgq/_dx090dgx3s/9l8rxj/7iyl",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 79
+  },
+  {
+    "input": {
+      "topic": "2hldb3hm5/uau4oq2x/2w6ejjop/0x8rh8ceasyn/46aykouq9j/wt5l_2sziv7t38/9a4/z81sp7zpp0ds/q921zgufz/p7upziy22gvjve",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "h73nci6/j7tiaafe4q/_g0emhr/9g",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 98
+  },
+  {
+    "input": {
+      "topic": "az/p7g/fym2ptoixglnpl8/m/ivc/9/ih1ckl/o9pggi/m9dviqjj9tv9x/3",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "k4x03x5i33n61/tgtv7qld/dz9jggobvxltc/e0uw6p5oi4/8da31ntsxt29/0c1bjv965/80la562m7ezj0g/7t/3cgou",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "j31xc7eu/3ya0j42ge/idt7aqo_oe/igy49rj/pl55czxrq2_7y9/jm6qmw/rjne75q5",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 70
+  },
+  {
+    "input": {
+      "topic": "zdrwj2t3/0n49j8mcizxgc8/l5xd9m5m2en/140zlbc_bgix",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "um3pl_hale201/f8cbajttulq76/6eeb9e5/22/2_cc/84i4j2at75oyerp/hsu1k5/42dt/9/g/wx858/c_",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "e_h7zc2m_l40x/34e/aa10tgnu/skkdpgmiaikqv1k/bi3f7vwwkqe/w362bsc0/jewtsbxwjprawd/vk89/tmiiwlb2r1/phwzr",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "3k1ibybnnh4r42k/y/h04dir7t/6rqaxxjwo/zgydwhye/agkdexbd1vt833s/g5q/x6xwx4koannt/b2j/e/u4c/p/4z1c",
+      "depth": 14,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "fzeo1t8ts/x_jro668t9ufldr/7bctuo64ry9/vs/768soyqdad250/1/cu3oxu0id9r33o/5/9sme/9rwz6",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "dfg4gajslwk10/h2/d_7z119t1/e7p08w99yunuu3/s2sdi2c/mvxc6la1n35tlac/h26t80xq3_1214/dvdy3rh3cp7/cn/dx_9wt0r2gv0s5f/9qxiw/ea",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "fvx1wdwfb0xq/xirrp/2",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 1569
+  },
+  {
+    "input": {
+      "topic": "u04sr08d/kqo80kleahn05p3/s3df4x1r4st3zua/53/k3c9k/4k6t5r2u9eco/yje_dyyx2anmr/02pikh8/g72/icr/md82kk/si/_ug6a/tc66/rtybwh",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "so7090/g6xig3lmxg/fcy4mpq0b5wp8g/3pu2h9tls",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "h7ggwauf3488yf/uu3zqsob3/adck0n1zm/o/fqx881a4hqix/5kznfmex5bjytz/r8fwmn842y1di/0dq/0dput/x3f6le/jqsp16ku9kcdu",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 63
+  },
+  {
+    "input": {
+      "topic": "wlzgxxg5/rl3obw5x/5cfy/2/9m/kpz26t1sntple2/lb3xc/h/f37vxtxevfg",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "uiw/yo1q",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "tqf64i9ht7bq/iigvxkx87h/i76lwt2wlwudad_/lsgvyp9/y0mf800nv/76w48kx_65fiv",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "t75_3i2zfke76zn/rj/3",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "q0hne/q0u/b6faiyffd8wb3/m/kj4_kc2ipi",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 868
+  },
+  {
+    "input": {
+      "topic": "9v_/hjb7_zzz/gqhe5s0/7c1iqwpr6ea/abc3gbqtmkdx/cvijbo8m8g79/dv_/un15vx9bpyagu/8fqzprarra",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "i0r70szm/6b_c1e7/ezf7k38qt1/hk_vjbac/iujdxh/2y7f7cc/s5vom/awx9p5k1xley",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "e2hga9r6",
+      "depth": 10,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "ktf0k7gbkaf2/plfu/zphbwks",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "om5/oy9ibm/any3ptt85ylcf0m/fjzxh2x_9q2o5u/c/nhtkzzkbwdbm",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 40
+  },
+  {
+    "input": {
+      "topic": "njbkofuy0xpzsur/nvi9vq/33q/7_41pfo59/9thf4u7/veq8_yobl20v25/1ofy5n5x/mmywc1f7y/d97/1_8ed6/138zemfrx_vr82/ln5g8o3kbazo9g/c6hqt",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 80
+  },
+  {
+    "input": {
+      "topic": "htav0lw5/2c",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 40
+  },
+  {
+    "input": {
+      "topic": "r32yh1adyo/uemco2/5b_3xa95lcv9nvy/kiw6jniv6tlb/ve719e/gw4bgkpdvb/s4qtbi5rn/p/72dq_",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "rb1/8spbo4lxrk/s6ylj0/5j1dy/0yud65cttn6ith2/plzs6d4igxvyvjg/j42rov5ntro/al0csunexpcc3l/6fwtmb58/r_h8chyxvst",
+      "depth": 5,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "gth7__/90uyvnl/90hu9s_f7wafwm/ceve810ut4lq2h/cur3kdya8zfnhpu/0w2ivywtlgrd0kb/rps4g3l0l0_0h/l8/7j6zyiufz_b1jzk/drs_",
+      "depth": 11,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "3n7efxicxo0q1l/hx6w/7_6ay1t39b/bcg/qeljnad6fchvr4s/2ywnek4/6sk7do8i0mz48/bumzwsokky/gppr22k/yp/ci1/r6l5/timii10/3js6l3473cy9n/y8x6",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1682
+  },
+  {
+    "input": {
+      "topic": "s_7vq2v/sphkwrw9/t4e8u0_g66pq/8qd3xt3a2a3/g46y85ml/rl67vvdt5lw3bl6/r8_j_9jf",
+      "depth": 7,
+      "partitions": 100
+    },
+    "expected": 36
+  },
+  {
+    "input": {
+      "topic": "7_vl70k7/pp06/5mhi7x7_a8316lc/n/x3qmixf/w2l/56n7d2mo1/dr_6x5u_/nrb36qow/772xxc_7blt/rrq4dbm/hrtc21z2/fux69/jr/3_cu",
+      "depth": 3,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "9qq9s46d/xjj_/wq_topvk0/c/0ntp/xntops2b6uwj/yx96r7mzhepc6/ph7u26kv/ozwj8ro3",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 24
+  },
+  {
+    "input": {
+      "topic": "89a2n/rm/vj4hu/l/81n/j_u9q/lz2q5s9",
+      "depth": 13,
+      "partitions": 2048
+    },
+    "expected": 1068
+  },
+  {
+    "input": {
+      "topic": "dq45bybs/lw65c8vxd3d37i4/ou/x03/2djhmn/k70e/4m_49uqs/ek9y5qf56kveh/ziwblm11g67v4/iib/a/39pe4rmnnb3r2x",
+      "depth": 10,
+      "partitions": 2048
+    },
+    "expected": 1635
+  },
+  {
+    "input": {
+      "topic": "fj7mkptpzgnxg/gqeemij39s/mdl/ae/4wh_hhef79k7k/k7vdooca/d/ak2vqojmk7l/ib3/sheoafo/s_",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 898
+  },
+  {
+    "input": {
+      "topic": "13y0gm6lp3vozx/20n3t8ge2jlv/gxr6b/lmloq1/w7u7n_om7ik/_wt4l0be_1lf/9/46jmyp/9vnam/bks05j/10ardrvmaha/_1c84py",
+      "depth": 8,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "mjoiec5vsizm/vk16ih0/h/yy_wahkwsd_/yv/ls/efij/f7dzakf/1rw37osxcz3ys6/onwxva2js5vll/ze0fnm2u_flnba7/8o7xbo6fvyuz/4kmzr/rdag09xvs6iwtnc",
+      "depth": 2,
+      "partitions": 100
+    },
+    "expected": 46
+  },
+  {
+    "input": {
+      "topic": "on_td4e_xh4wsyf/clq/r51/b2v1c_sxtw/_lurw/z5vur19zsy8/ls9u0v599",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 20
+  },
+  {
+    "input": {
+      "topic": "ypylsypivsmbnxn/emofjzudq7yxa/iu96094_q9tc93/j/yaq7bj/13sq1rd6bew4/pzupg5ltx6w/viiqsr3f6",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 86
+  },
+  {
+    "input": {
+      "topic": "ynqs3k/j8z6efbzeutcgw/cs/qu/ciwbxo/bjs8mpmwe4d/mtbzr0o_7owy9h8/ndxco_qbdpm/1l7l8",
+      "depth": 7,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "o34q41/yr8_oz0b",
+      "depth": 9,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "cccburg_5m7",
+      "depth": 5,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "qwg2kg/0h99oql_g/ehxokk/drs6yu_3/vs/5be1h1vsk0foav",
+      "depth": 9,
+      "partitions": 10
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "3miljcfg2hke9/wxx9dy5ac/9p1f/fdwqs/2k4q13cf5/d/twxjhmnw1lt/01ch50gzk4/d6qs1izt/9lm3tuh/ejv4jxsvv/z4k2ie7k81mt",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 265
+  },
+  {
+    "input": {
+      "topic": "dg/4z/w/t_s77/898rbbwyfl2d/4wdaq5rx934rmi8/i2agmzwfeg1amo/h2ai/g",
+      "depth": 11,
+      "partitions": 1024
+    },
+    "expected": 762
+  },
+  {
+    "input": {
+      "topic": "iudblf",
+      "depth": 1,
+      "partitions": 10
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "otzjns/mov6jjjbckh_/vfxcwk5e1_97",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "h75az2fpzs/i2x0/ax2pq/25alwskzacyg090/nbc1tf94edq",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "wg0us/tky5a8qru/ict/1i231/ssy7q_/cse/7m2o_t",
+      "depth": 7,
+      "partitions": 1024
+    },
+    "expected": 168
+  },
+  {
+    "input": {
+      "topic": "ppgt6w0dudhigk/dj/oi11sg/vd045ze4ekr/0gz/u",
+      "depth": 3,
+      "partitions": 2048
+    },
+    "expected": 1387
+  },
+  {
+    "input": {
+      "topic": "qqqkymy1cpxvwy4/0cliz1h1dg3zxhb/4horpsy",
+      "depth": 15,
+      "partitions": 2048
+    },
+    "expected": 298
+  },
+  {
+    "input": {
+      "topic": "a5w3je6aj/m2l/ea/d55rf104u0/e4xgewx/5okbugo2tl7/uz56pg0_o683/563lp8/6/beup46y7j3tx/35e",
+      "depth": 15,
+      "partitions": 100
+    },
+    "expected": 51
+  },
+  {
+    "input": {
+      "topic": "7bnpkhwdi/_/ny5a93isbpbuaq/jn/67gc/65zzk/g0kvroue0j",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "d8/qekoryr7/wrlz/n9l3wdeqxg5rk/30/qjbgy_my8/k8ail/so/b81p0jkwsq/hv/cxd/o51g39i_ozu6nc2/csm41abgr/g6ottf/hv_nyw",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 1335
+  },
+  {
+    "input": {
+      "topic": "pknpn5/faxg7abvo4e/kfg3",
+      "depth": 12,
+      "partitions": 100
+    },
+    "expected": 78
+  },
+  {
+    "input": {
+      "topic": "d8i/cyxr1xpa/a47svvjh4jgod1/ih5dch5jv/7hus/04tuxq48ajbpfx_/omimx06hghkb2/rw9cgtnuw_libou",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "izcb1sh/fu7l5i8w3tjsvjn",
+      "depth": 2,
+      "partitions": 10
+    },
+    "expected": 6
+  },
+  {
+    "input": {
+      "topic": "sw0ln6v/qz/0xjt8/w6ioqsjipt06c0/ov/bj5xtt05vs2fv5/rvx0h8vq/tkdkg4ebcd3h/a3n5qqn9_7u/341/gano83bk0lqn992/6tcsf9yrf8dsk/o65thujm44__cmn",
+      "depth": 12,
+      "partitions": 1024
+    },
+    "expected": 299
+  },
+  {
+    "input": {
+      "topic": "ulro/_lc/j/vwpwyrpg9n5/ga/pca2bfchzy6_ihs/umlf_nk/6vi519464/a0ejigb6v1k0",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "nox493abrlxolc/o8pg6o/q6jqha98j9638l_/ih7ah5l0x9whc95/crm7l/4bpwbotlk7gjo/tss/5bnsti8_cq_a50m/oiy/x67irzk3",
+      "depth": 9,
+      "partitions": 2048
+    },
+    "expected": 1631
+  },
+  {
+    "input": {
+      "topic": "j2ty/vh4o7oyiat/bjcqze/dv/zo4zgeg/wob6/_y/jmr5/s1wksr2b6lt5/46enlh2d",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 4
+  },
+  {
+    "input": {
+      "topic": "0n1r1lk6/3ds7bbttd/5ublruyo_9/2hwrx4fnmusz8fs/87",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 21
+  },
+  {
+    "input": {
+      "topic": "ek_dwbr/xlscdbnx3l3nd/7nrqx5oe69lji0d/byi16vijf5/djvw76",
+      "depth": 15,
+      "partitions": 2048
+    },
+    "expected": 1409
+  },
+  {
+    "input": {
+      "topic": "gg4ad/hrs/mxiswvvytjkw6z0/8chur_01cg1v5k5/q7mm4uvy/7/jds3l4sxjj6/lf_vm0bzqzc/v6rjmzsk31m/askdl/2o/h6gsk8mcug2hwu",
+      "depth": 13,
+      "partitions": 100
+    },
+    "expected": 14
+  },
+  {
+    "input": {
+      "topic": "s_13gvnywvgsgg/x7l/q4v33u2vi3_w3",
+      "depth": 1,
+      "partitions": 1024
+    },
+    "expected": 220
+  },
+  {
+    "input": {
+      "topic": "ga61c33/yh8/8oln/sgwp_pttnmndbm/fq0votcqdt/2ndz0yus4qeqkbj/8p8zz4v5hwghok/8/elze26z9xjo4yf/y2s9hp5/5bkds",
+      "depth": 13,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "n65enodh9/33vjtyqyqe1zmm/kugg92g4gz/asnu/t5wvrci6e/ccp/dy2mtphjqee",
+      "depth": 12,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "f__ua/gt07v5k/s3882e/_krz2zh1spbk4zj/brlblumq6gsz4/g3wgwvh0n/1ptpx_lkhmwq/p97/_q9gb3k2kk",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 61
+  },
+  {
+    "input": {
+      "topic": "na/fhr3xbha",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 1419
+  },
+  {
+    "input": {
+      "topic": "dp8qoxxgsya6pzl/s8sdfb7w",
+      "depth": 15,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "2rho4zxqfod/g/4ry4v/40nngdz94o/a0pw5u/nmqjatb5lv/g198zp01tjxzkx1/wj11/0ehuahu21p/da1mdv63hnd",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "50es/okcyxzq/s5gqtxhkvc5sk/ted5qi01d/us3r01/fz8mk_/k8u7/j_",
+      "depth": 6,
+      "partitions": 2048
+    },
+    "expected": 1564
+  },
+  {
+    "input": {
+      "topic": "k5d7w7ze16/g4vx/glghg7_tg8_h_h/g5/cqzoo5xsekl49e/tdu/m2sq6/2zr54fpruhwmh/ajij91arursho58",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "7m/sv_av1agry",
+      "depth": 11,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "r6s0a2u/tfy/d_k_w6qpcv4n/jgp5daiw/zsd48/c/xo3m/5s2z6hri8pyb1p/3hj/mb_x966mtrbc14/02s8yhs5wy",
+      "depth": 14,
+      "partitions": 1024
+    },
+    "expected": 531
+  },
+  {
+    "input": {
+      "topic": "pk/s82l/an5fap58/rzpu4a/tdz_yjga/lun",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 206
+  },
+  {
+    "input": {
+      "topic": "lyw0vlx1e6/3va974z2irv/dwtt2n8axr5ka9/np_rcriuy9m/9te8lhxdmaeq/9/r37f/nq7xu1n0g/fljlld77_/m5cga3bfoz0lgq/reen69hx1184al/4/jl59a_",
+      "depth": 8,
+      "partitions": 1024
+    },
+    "expected": 594
+  },
+  {
+    "input": {
+      "topic": "hp/4qt3hqamn/elqs/0oe8cspioqvvk/xl0r5rex6k/hgmr_nldwdt/0j/tau9m/qoue7d",
+      "depth": 13,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "jc6md3g",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "xecg575n/cmjn/22nsr2/j6r3mtdr1us/fgiamf4/wms_89xwe3ny/bm8g2eg",
+      "depth": 9,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "a_2k22dbmfk2k3/t/nvf4xbo/y/zqq/mio6tehd5_rvv5/zg05h9jza5c/ekv/k57x/t/g1nd0377ow88t",
+      "depth": 14,
+      "partitions": 2048
+    },
+    "expected": 130
+  },
+  {
+    "input": {
+      "topic": "dmh6py0fptp",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "lcu0sktuq/d7nejux_go/u6v1ramdkh4do",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "f82sg443azi8/05lg5p10lh1cc9a/f_1m/jmwgj_x8ffwuh18/7/kr1m/55ucx4icu0b",
+      "depth": 2,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "_/60obz_x_07hqm/e98/4qrvz/9m8q",
+      "depth": 15,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "cvlkq99/2ly01anwdm745/w4z9",
+      "depth": 1,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "zmy5/woiuh/fzipicfb592cv/f_zfcqrj3/i75x8l/0/j5o7ij4_p8qtlhm/rsoo59014d/kbg5m6fhm_i7s1/nkhtkpocd3o/d1oocm5ons/f61o9zp2abzri72",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "rg7aok7/2ii8gm/w/4u2n3eg10/47db/qnsya66jk3gf/tofp7nau8646/qddyiqqk8/o7f7u/5m0d3ckzn/o/lupph6gc/3/boz7ab5",
+      "depth": 14,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "_tvsr4yeo0hkg/c/49grfyx8akhfzw/m59ro3/s3on/7064r1qqmuaa/g5k/yhx/9iwzandr/l_dpuozvrljn4of",
+      "depth": 7,
+      "partitions": 2048
+    },
+    "expected": 1369
+  },
+  {
+    "input": {
+      "topic": "7qvlu",
+      "depth": 1,
+      "partitions": 100
+    },
+    "expected": 7
+  },
+  {
+    "input": {
+      "topic": "ngik/idypo_reay4v4",
+      "depth": 11,
+      "partitions": 3
+    },
+    "expected": 1
+  },
+  {
+    "input": {
+      "topic": "l1293yehd9xnt2/kl/wk5w32n/us3nggmyya41j7t/0ln_ezzrg_h7/k/9qkrk/w0fzc/g7e13fu23195/ejcrzz1/_l6ssm/_da2f4",
+      "depth": 9,
+      "partitions": 100
+    },
+    "expected": 22
+  },
+  {
+    "input": {
+      "topic": "a4wrb6nf0l/xoy61if7/xko/cincx29/lirth/zjs/u1yrj/nb",
+      "depth": 12,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "g997dzbsow3/kng40ugno/k_/pdozb7/u185yye1cfev/xbr9__/uslg1au9lg/fi1l1l8r97u8g31/okbfcpxwkhh/3u/y76ntnh3",
+      "depth": 15,
+      "partitions": 1024
+    },
+    "expected": 619
+  },
+  {
+    "input": {
+      "topic": "fe/nv0oktaa/xtx81jd7sor6qj/0l9oy7f_0/8s3",
+      "depth": 6,
+      "partitions": 1024
+    },
+    "expected": 711
+  },
+  {
+    "input": {
+      "topic": "e1yajxpwhhp85/37u7g/wcd9m4achx_u/8xhwzb/rsvdodbb/ykdxzi/ian7_c3xy/wwn7/byfp2s8miio",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "a1v/k8yt_ku/m57my7e/eeufsrrft0d3qyt/qav/kn4g8f",
+      "depth": 3,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "lppydwdyb9xlmk/q/r2_bew7q0f9cs/nb4/kwb7plsuwmjw7v/i7opv90tb/5q/6/6svpa3k/xbjtuqrs6sxd/8q6n22eizrzsr/79j/blqxz6l7orfsm",
+      "depth": 3,
+      "partitions": 1024
+    },
+    "expected": 241
+  },
+  {
+    "input": {
+      "topic": "8fx7iu_qdcuk5u_/lnea0dj4yb3eosh/u2x1335f48z6",
+      "depth": 10,
+      "partitions": 100
+    },
+    "expected": 99
+  },
+  {
+    "input": {
+      "topic": "qp3yw_yk1behuy8/inot13t68/frjo4b6",
+      "depth": 6,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "deupv2k_vap7_8/0bj2j8zpqu/ccef05/ovbk344s0z8t/7xb4uhccf72/h1lex/49ztbj_8h34qjwb",
+      "depth": 2,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "ksahe/isiffm_nykai/qfx/yojwa/kr8h92bkyoi2nfc/pn3vlm/5yqvgn47wq",
+      "depth": 1,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "f2h0boo/bdjekv4d1o5d/8tf0j/k5o/qtq7xm36lq",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 64
+  },
+  {
+    "input": {
+      "topic": "sfd3zcz2rr/_g_akgl/hsds6r9/c/87bjg/9nbk5j6oln/q9cmwf5be8/9/kc7ub8_zzjjp/3s/bcrse2x9/mki50mwz2t/_kv7/9",
+      "depth": 4,
+      "partitions": 3
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "h9e/zqzxwr0/74s/25cw6edyu3/jq9un7fkvvv/aqxh2yyqw58/adfw_6dy/6tw5m42dhdd2znq/hux664cz/l751an/cksr/ojo_64qemav0qs",
+      "depth": 9,
+      "partitions": 10
+    },
+    "expected": 5
+  },
+  {
+    "input": {
+      "topic": "vpg9qog/vkf8c1/mf5ezl99i1f4/m7ennkmv8kxl/hw1_1yi6qs7s/d38v7bb1zsnlu/qxop/h0v7/qt3v2bnerkjy/43_w28383c7/fgsqx7a7tt04jn/279jegmx29h/z1h6k1lwal6jrg",
+      "depth": 9,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "ep10oq5p53ihm/1tb3_5/y03ku/0_e/w/53lnz8cq/f5pvs8s0hosme4/qwm/g7p6mo3pjctakv5/94/_todc08yfa6rmd0/e5_m0sh63/_gh7nmf6/jbc0u/k6qnvq",
+      "depth": 5,
+      "partitions": 100
+    },
+    "expected": 63
+  },
+  {
+    "input": {
+      "topic": "rby71/q9lwqs5/iakxlwd_tjjmmp/p8p_lm/5k0f/2otmwy/061xlg8lm1u9/k6rkk84a8jx4og/pi3a09uc63/vg/hk4/ns8nun7bb7a",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  },
+  {
+    "input": {
+      "topic": "p9/khelh1ls4u7/iiape1/tmegiclf/se8jel/z9atzrgfwm/afc7e7o031_",
+      "depth": 3,
+      "partitions": 100
+    },
+    "expected": 24
+  },
+  {
+    "input": {
+      "topic": "ujd7i/_v8e/vb43cm6blycmn/162bk2/bdvkuujc3wrlol1/j",
+      "depth": 2,
+      "partitions": 1
+    },
+    "expected": 0
+  },
+  {
+    "input": {
+      "topic": "e8q4rcpbb/jvnqpvsz4ipub2/ef2svyosrru4i_/un63mknt/ts19cjd09o/zn9wh7e6494as8e/wpqdmmhoxpiippo/6spezgxrm5jfd/fqyi8p/1yf8rj/4f5j",
+      "depth": 5,
+      "partitions": 1024
+    },
+    "expected": 893
+  },
+  {
+    "input": {
+      "topic": "v2nyne9r/np5ah62/fegc/1opsi5/u9odsxxzbxq5/o8073oqqlv5bi/hnauczp",
+      "depth": 11,
+      "partitions": 100
+    },
+    "expected": 56
+  },
+  {
+    "input": {
+      "topic": "34/coj9/6dtu4c_emp4h/duh4/um54ihpl0k7b/1y6gftqzrgoj7oa/jis05wj5mp/qvlatyz0wvlr_90/pi8t7d_/1/gmofv2l95g6/zmt5v7_87t/0qcder08u/ba2ele6yvz317/7k57a",
+      "depth": 6,
+      "partitions": 3
+    },
+    "expected": 2
+  }
+]

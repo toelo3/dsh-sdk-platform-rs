@@ -46,7 +46,7 @@ def generate_golden_data(output_file="golden_data.json", num_cases=1000):
     with open(output_file, "w") as f:
         json.dump(data, f, indent=2)
     
-    print(f"Generated {len(data)} test cases in {output_file}")
+    print(f"Generated {len(data)} test cases in `{output_file}`")
 
 if __name__ == "__main__":
-    print(generate_golden_data())
+    generate_golden_data()

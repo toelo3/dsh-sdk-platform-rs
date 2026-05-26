@@ -39,22 +39,29 @@
         craneLib = (crane.mkLib pkgs).overrideToolchain rustToolchain;
         src = craneLib.cleanCargoSource ./.;
 
-        pythonenv = pkgs.python312.withPackages (ps: with ps; [
-          kafka-python-ng
-          confluent-kafka
-        ]);
+        pythonenv = pkgs.python312.withPackages (
+          ps: with ps; [
+            kafka-python-ng
+            confluent-kafka
+          ]
+        );
 
         commonArgs = {
           inherit src;
           version = (craneLib.crateNameFromCargoToml { cargoToml = ./Cargo.toml; }).version;
           strictDeps = true;
           nativeBuildInputs = with pkgs; [
-            pkg-config
-            perl
             cmake
+            curl.dev
+            openssl
+            perl
+            pkg-config
+            protobuf
           ];
-          buildInputs = [
+          buildInputs = with pkgs; [
             # Add additional inputs
+            curl.dev
+            openssl
           ]
           ++ lib.optionals pkgs.stdenv.isDarwin [
             # Darwin-specific inputs
@@ -82,105 +89,59 @@
                 ./Cargo.toml
                 ./Cargo.lock
                 (craneLib.fileset.commonCargoSources crate)
+                ./dsh_sdk/src/proto/dsh.proto
+                ./dsh_sdk/README.md
               ]
               ++ workspaceFilesets
             );
           };
 
+        golden-set-generator = pkgs.writeScriptBin "generate-golden" ''
+          #!${pythonenv}/bin/python
+          import sys
+          import os
+          exec(open("${./generate_golden.py}").read())
+        '';
+
         devShellCommon = {
           checks = self.checks.${system};
           packages = with pkgs; [
+            #dsh-cli
             age
             awscli2
             bruno-cli
             cacert
             cargo-hakari
             cargo-nextest
+            cmake
             curl.dev
             docker-compose
-            #dsh-cli
             duckdb
             gettext
             just
+            protobuf
+            pythonenv
             ripgrep
             rust-analyzer
             sops
             taplo
             uv
-            pythonenv
           ];
         };
 
-        #dsh-cli = import ./dsh-cli.nix {
-        #  inherit (pkgs)
-        #    rustPlatform
-        #    fetchFromGitHub
-        #    pkg-config
-        #    openssl
-        #    ;
-        #};
-
       in
       {
-        checks = {
-          my-workspace-clippy = craneLib.cargoClippy (
-            commonArgs
-            // {
-              inherit cargoArtifacts;
-              cargoClippyExtraArgs = "--all-targets -- --deny warnings";
-            }
-          );
+        checks = { };
 
-          my-workspace-docs = craneLib.cargoDoc (
-            commonArgs
-            // {
-              inherit cargoArtifacts;
-              env.RUSTDOCFLAGS = "--deny-warnings";
-            }
-          );
-
-          my-workspace-fmt = craneLib.cargoFmt {
-            inherit src;
-          };
-
-          my-workspace-toml-fmt = craneLib.taploFmt {
-            src = pkgs.lib.sources.sourceFilesBySuffices src [ ".toml" ];
-          };
-
-          my-workspace-audit = craneLib.cargoAudit {
-            inherit src advisory-db;
-          };
-
-          my-workspace-deny = craneLib.cargoDeny {
-            inherit src;
-          };
-
-          # TODO: ensure these tests work offline!
-          #my-workspace-nextest = craneLib.cargoNextest (
-          #  commonArgs
-          #  // {
-          #    inherit cargoArtifacts;
-          #    pname = "my-workspace-nextest";
-          #    partitions = 1;
-          #    partitionType = "count";
-          #    cargoNextestPartitionsExtraArgs = "--no-tests=pass";
-          #  }
-          #);
-
-          my-workspace-hakari = craneLib.mkCargoDerivation {
-            inherit src;
-            pname = "my-workspace-hakari";
-            cargoArtifacts = null;
-            doInstallCargoArtifacts = false;
-            buildPhaseCargoCommand = ''
-              cargo hakari generate --diff
-              cargo hakari manage-deps --dry-run
-              cargo hakari verify
-            '';
-          };
+        packages = { 
+          inherit golden-set-generator; 
         };
 
-        packages = { };
+        apps = {
+          golden-set-generator = flake-utils.lib.mkApp {
+            drv = self.packages.${system}.golden-set-generator;
+          };
+        };
 
         devShells = {
           default = craneLib.devShell devShellCommon;

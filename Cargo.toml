@@ -1,15 +1,14 @@
 [workspace]
 members = [
-    "example_dsh_service",
-    "dsh_sdk",
-    "dsh_rest_api_client"
+  "dsh_rest_api_client",
+  "dsh_sdk",
+  "example_dsh_service",
+  "example_stream_producer",
 ]
 resolver = "2"
 
 [workspace.package]
-authors = [
-    "KPN",
-]
+authors = ["KPN"]
 description = "SDK for KPN Data Services Hub"
 edition = "2024"
 exclude = ["/tmp", "/test_files"]

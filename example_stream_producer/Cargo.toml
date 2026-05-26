@@ -1,0 +1,13 @@
+[package]
+name = "dsh-stream-producer"
+version = "0.1.0"
+description = "An example of a DSH service producing to a public stream, using the dsh-sdk crate."
+edition = "2021"
+
+[dependencies]
+dsh_sdk = { path = "../dsh_sdk", version = "0.8", features = ["rdkafka-config", "metrics", "graceful-shutdown"] }
+rdkafka = { version = "0.39", features = ["cmake-build", "ssl-vendored"] }
+log = "0.4"
+env_logger = "0.11"
+prometheus = "0.14"
+tokio = { version = "^1.35", features = ["full"] }

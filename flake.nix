@@ -58,43 +58,18 @@
             pkg-config
             protobuf
           ];
-          buildInputs = with pkgs; [
-            # Add additional inputs
-            curl.dev
-            openssl
-          ]
-          ++ lib.optionals pkgs.stdenv.isDarwin [
-            # Darwin-specific inputs
-            pkgs.libiconv
-          ];
+          buildInputs =
+            with pkgs;
+            [
+              # Add additional inputs
+              curl.dev
+              openssl
+            ]
+            ++ lib.optionals pkgs.stdenv.isDarwin [
+              # Darwin-specific inputs
+              pkgs.libiconv
+            ];
         };
-
-        cargoArtifacts = craneLib.buildDepsOnly commonArgs;
-
-        individualCrateArgs = commonArgs // {
-          inherit cargoArtifacts;
-          inherit (craneLib.crateNameFromCargoToml { inherit src; }) version;
-          doCheck = false;
-        };
-
-        fileSetForCrate =
-          crate: workspaceDeps:
-          let
-            workspaceFilesets = map craneLib.fileset.commonCargoSources workspaceDeps;
-          in
-          lib.fileset.toSource {
-            root = ./.;
-            fileset = lib.fileset.unions (
-              [
-                ./Cargo.toml
-                ./Cargo.lock
-                (craneLib.fileset.commonCargoSources crate)
-                ./dsh_sdk/src/proto/dsh.proto
-                ./dsh_sdk/README.md
-              ]
-              ++ workspaceFilesets
-            );
-          };
 
         golden-set-generator = pkgs.writeScriptBin "generate-golden" ''
           #!${pythonenv}/bin/python
@@ -113,20 +88,17 @@
             cacert
             cargo-hakari
             cargo-nextest
-            cmake
-            curl.dev
             docker-compose
             duckdb
             gettext
             just
-            protobuf
             pythonenv
             ripgrep
             rust-analyzer
             sops
             taplo
-            uv
           ];
+          inputsFrom = [ commonArgs ];
         };
 
       in
@@ -134,13 +106,15 @@
         checks = {
           workspace-fmt = craneLib.cargoFmt { inherit src; };
           workspace-toml-fmt = craneLib.taploFmt {
-            src = pkgs.lib.sources.sourceFilesBySuffices src [ ".toml" ]; 
+            src = pkgs.lib.sources.sourceFilesBySuffices src [ ".toml" ];
             #taploExtraArgs = "--config ./taplo.toml";
           };
+          workspace-audit = craneLib.cargoAudit { inherit src advisory-db; };
+          #workspace-deny = craneLib.cargoDeny { inherit src; };
         };
 
-        packages = { 
-          inherit golden-set-generator; 
+        packages = {
+          inherit golden-set-generator;
         };
 
         apps = {

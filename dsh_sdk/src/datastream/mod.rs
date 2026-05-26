@@ -481,7 +481,7 @@ impl Stream {
     }
 }
 
-#[derive(Clone, Debug, Serialize, Deserialize, PartialEq)]
+#[derive(Clone, Debug, PartialEq)]
 pub enum PartitionerType {
     Default,
     TopicLevel,
@@ -499,6 +499,19 @@ impl<'de> Deserialize<'de> for PartitionerType {
             "topic-level-partitioner" => PartitionerType::TopicLevel,
             _ => PartitionerType::Unknown(s),
         })
+    }
+}
+
+impl Serialize for PartitionerType {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        match self {
+            PartitionerType::Default => S::Ok("default-partitioner"),
+            PartitionerType::TopicLevel => S::Ok("topic-level-partitioner"),
+            PartitionerType::Unknown(s) => S::Ok(format!("{s}")),
+        }
     }
 }
 

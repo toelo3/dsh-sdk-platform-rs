@@ -38,7 +38,7 @@ use std::fs::File;
 use std::io::Read;
 
 use log::{debug, error, info};
-use serde::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize, Serializer};
 
 #[cfg(feature = "kafka")]
 use crate::protocol_adapters::kafka_protocol::DshPartitionerBuilder;
@@ -508,9 +508,9 @@ impl Serialize for PartitionerType {
         S: Serializer,
     {
         match self {
-            PartitionerType::Default => S::Ok("default-partitioner"),
-            PartitionerType::TopicLevel => S::Ok("topic-level-partitioner"),
-            PartitionerType::Unknown(s) => S::Ok(format!("{s}")),
+            PartitionerType::Default => serializer.serialize_str("default-partitioner"),
+            PartitionerType::TopicLevel => serializer.serialize_str("topic-level-partitioner"),
+            PartitionerType::Unknown(s) => serializer.serialize_str(s),
         }
     }
 }

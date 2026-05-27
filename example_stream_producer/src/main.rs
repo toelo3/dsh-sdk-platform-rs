@@ -14,7 +14,7 @@ use std::{collections::HashMap, time::Duration};
 use dsh_sdk::{
     prost::Message,
     protocol_adapters::kafka_protocol::DshPartitioner,
-    utils::kafka::dsh_envelope::{
+    protocol_adapters::kafka_protocol::dsh_envelope::{
         data_envelope::Kind, identity::Publisher, DataEnvelope, Identity, KeyEnvelope, KeyHeader,
     },
     DshKafkaConfig,

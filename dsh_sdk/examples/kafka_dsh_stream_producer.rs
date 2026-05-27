@@ -13,24 +13,15 @@
 //! implementation in order to provide our `DshPartitioner`. It is up to the user of the SDK to
 //! create one, an example is provided here.
 
-use std::{collections::HashMap, time::Duration};
+use std::time::Duration;
 
-use dsh_sdk::{
-    prost::Message,
-    protocol_adapters::kafka_protocol::DshPartitioner,
-    protocol_adapters::kafka_protocol::dsh_envelope::{
-        data_envelope::Kind, identity::Publisher, DataEnvelope, Identity, KeyEnvelope, KeyHeader,
-    },
-    DshKafkaConfig,
-};
-use log::{debug, info};
+use dsh_sdk::{DshKafkaConfig, protocol_adapters::kafka_protocol::DshPartitioner};
+use log::info;
 use rdkafka::{
-    config::FromClientConfigAndContext,
-    message::ToBytes,
-    producer::{FutureProducer, FutureRecord, ProducerContext},
-    ClientConfig, ClientContext,
+    ClientConfig, ClientContext, config::FromClientConfigAndContext, producer::{FutureProducer, FutureRecord, ProducerContext}, util::DefaultRuntime
 };
-use tokio::time::sleep;
+
+const TOTAL_MESSAGES: usize = 10;
 
 struct DshContext {
     pub partitioner: DshPartitioner,
@@ -68,55 +59,21 @@ impl ProducerContext<DshPartitioner> for DshContext {
     }
 }
 
-async fn produce(
-    producer: FutureProducer<DshContext>,
-    topic: &str,
-    identifier: Option<Identity>,
-    retained: bool,
-    qos: i32,
-) {
-    info!("start producing");
-
-    let mut counter: usize = 0;
-    loop {
-        debug!("starting loop {counter}");
-        // Create the key envelope
-        let key_envelope = KeyEnvelope {
-            header: Some(KeyHeader {
-                identifier: identifier.clone(),
-                retained,
-                qos,
-            }),
-            key: counter.to_string(),
-        };
-
-        // Our payload
-        let payload = format!("hello world {}", counter);
-
-        // Create the data envelope
-        let data_envelope = DataEnvelope {
-            tracing: HashMap::new(),
-            kind: Some(Kind::Payload(payload.as_bytes().to_owned())),
-        };
-
-        // Produce the record
+async fn produce(producer: FutureProducer<DshContext>, topic: &str) {
+    for key in 0..TOTAL_MESSAGES {
+        let payload = format!("hello world {}", key);
         let record = producer
             .send(
                 FutureRecord::to(topic)
-                    .payload(data_envelope.encode_to_vec().to_bytes())
-                    .key(key_envelope.encode_to_vec().to_bytes()),
+                    .payload(payload.as_bytes())
+                    .key(&key.to_be_bytes()),
                 Duration::from_secs(10),
             )
             .await;
-
         match record {
-            Ok(_) => info!("Message {} sent to {}", counter, topic),
+            Ok(_) => info!("Message {} sent to {}", key, topic),
             Err(e) => info!("Error sending message: {}", e.0),
         }
-
-        counter += 1;
-
-        sleep(Duration::from_secs(1)).await;
     }
 }
 
@@ -125,18 +82,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Start logger to Stdout to show what is happening
     env_logger::builder()
         .filter(Some("dsh_sdk"), log::LevelFilter::Debug)
-        .filter(Some("dsh_stream_producer"), log::LevelFilter::Debug)
         .target(env_logger::Target::Stdout)
         .init();
 
-    info!("Starting dsh-stream-producer");
-
     let sdk = dsh_sdk::Dsh::get();
-
-    let identity = Identity {
-        tenant: "accelerator".to_string(),
-        publisher: Some(Publisher::Application("dsh-stream-producer".to_string())),
-    };
 
     let stream = sdk
         .datastream()
@@ -146,16 +95,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let partitioner = stream.partitioner_builder()?;
 
     let ctx = DshContext { partitioner };
-
     // Create a new producer from the RDkafka Client Config together with dsh_prodcer_config form DshKafkaConfig trait
     let producer: FutureProducer<DshContext> =
         FutureProducer::from_config_and_context(ClientConfig::new().set_dsh_producer_config(), ctx)
             .unwrap();
 
-    info!("producer created");
-
     // Produce messages towards topic
-    produce(producer, stream.write(), Some(identity), true, 1).await;
+    produce(producer, stream.name()).await;
 
     Ok(())
 }

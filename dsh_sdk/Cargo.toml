@@ -57,7 +57,7 @@ bootstrap = [
   "serde_json",
   "tokio/rt-multi-thread",
 ]
-kafka = ["bootstrap", "dep:prost", "dep:prost-build"]
+kafka = ["bootstrap"]
 rdkafka-config = ["rdkafka", "kafka"] # Impl of config trait only
 schema-store = [
   "bootstrap",
@@ -88,6 +88,7 @@ dlq = [
   "rdkafka/tokio",
   "graceful-shutdown",
 ]
+dsh-envelope = ["dep:prost", "dep:prost-build"]
 http-protocol-adapter = ["serde_json", "dep:reqwest", "bytes"]
 
 [dev-dependencies]

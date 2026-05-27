@@ -56,7 +56,6 @@
             openssl
             perl
             pkg-config
-            protobuf
           ];
           buildInputs =
             with pkgs;
@@ -97,6 +96,7 @@
             rust-analyzer
             sops
             taplo
+            protobuf
           ];
           inputsFrom = [ commonArgs ];
         };

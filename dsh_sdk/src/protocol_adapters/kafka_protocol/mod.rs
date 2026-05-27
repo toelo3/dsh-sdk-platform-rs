@@ -27,6 +27,8 @@ pub mod config;
 
 #[cfg(feature = "rdkafka-config")]
 pub mod rdkafka;
+#[cfg(feature = "dsh-envelope")]
+pub mod dsh_envelope;
 
 /// Trait defining core DSH configurations for Kafka consumers and producers.
 ///

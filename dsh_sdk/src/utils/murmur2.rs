@@ -90,7 +90,7 @@ mod tests {
     use serde::Deserialize;
     use serde_json::from_str;
 
-    use crate::utils::kafka::reduce_topic_prefix;
+    use crate::protocol_adapters::kafka_protocol::utils::reduce_topic_prefix;
 
     use super::*;
 

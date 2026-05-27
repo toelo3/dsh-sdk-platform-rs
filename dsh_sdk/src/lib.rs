@@ -34,7 +34,7 @@ pub use protocol_adapters::kafka_protocol::DshKafkaConfig;
 pub use utils::Platform;
 #[cfg(feature = "dsh-envelope")]
 #[doc(inline)]
-pub use utils::kafka::dsh_envelope::prost;
+pub use protocol_adapters::kafka_protocol::dsh_envelope::prost;
 #[cfg(feature = "bootstrap")]
 #[doc(inline)]
 pub use {dsh::Dsh, error::DshError};

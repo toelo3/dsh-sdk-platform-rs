@@ -4,7 +4,7 @@ use rdkafka::producer::Partitioner;
 
 use super::{DshKafkaConfig, DshPartitioner};
 use crate::Dsh;
-use crate::utils::kafka::reduce_topic_prefix;
+use crate::protocol_adapters::kafka_protocol::utils::reduce_topic_prefix;
 use crate::utils::murmur2::{murmur2_32, to_positive};
 
 impl DshKafkaConfig for ClientConfig {

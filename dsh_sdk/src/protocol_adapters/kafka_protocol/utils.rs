@@ -36,9 +36,6 @@ pub(crate) fn reduce_topic_prefix(topic: &[u8], depth: usize) -> &[u8] {
 
 #[cfg(test)]
 mod tests {
-    use prost::Message;
-    use rdkafka::message::ToBytes;
-
     use super::*;
 
     #[test]

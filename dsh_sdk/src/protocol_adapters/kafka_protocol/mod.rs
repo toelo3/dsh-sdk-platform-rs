@@ -97,34 +97,26 @@ pub trait DshKafkaConfig {
     fn set_dsh_certificates(&mut self) -> &mut Self;
 }
 
-pub enum DshPartitionerBuilder {
+pub enum DshPartitioner {
     Default,
     TopicLevel { partitioning_depth: usize },
 }
 
-impl DshPartitionerBuilder {
-    #[cfg(feature = "rdkafka-config")]
-    pub fn build_rdkafka(
-        &self,
-    ) -> crate::protocol_adapters::kafka_protocol::rdkafka::RdkafkaPartitioner {
-        use self::rdkafka::RdkafkaPartitioner;
-        match self {
-            DshPartitionerBuilder::Default => {
-                RdkafkaPartitioner::Default(DefaultPartitioner::default())
-            }
-            DshPartitionerBuilder::TopicLevel { partitioning_depth } => {
-                RdkafkaPartitioner::TopicLevel(TopicLevelPartitioner {
-                    partitioning_depth: *partitioning_depth,
-                })
-            }
-        }
-    }
-}
-
-#[derive(Debug, Default)]
-pub struct DefaultPartitioner {}
-
-#[derive(Debug)]
-pub struct TopicLevelPartitioner {
-    pub(crate) partitioning_depth: usize,
-}
+//impl DshPartitioner {
+//    #[cfg(feature = "rdkafka-config")]
+//    pub fn build_rdkafka(
+//        &self,
+//    ) -> crate::protocol_adapters::kafka_protocol::rdkafka::RdkafkaPartitioner {
+//        use self::rdkafka::RdkafkaPartitioner;
+//        match self {
+//            DshPartitioner::Default => {
+//                RdkafkaPartitioner::Default(DefaultPartitioner::default())
+//            }
+//            DshPartitioner::TopicLevel { partitioning_depth } => {
+//                RdkafkaPartitioner::TopicLevel(TopicLevelPartitioner {
+//                    partitioning_depth: *partitioning_depth,
+//                })
+//            }
+//        }
+//    }
+//}

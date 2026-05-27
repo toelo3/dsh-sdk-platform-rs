@@ -13,10 +13,9 @@ use std::{collections::HashMap, time::Duration};
 
 use dsh_sdk::{
     prost::Message,
-    protocol_adapters::kafka_protocol::rdkafka::MyContext,
-    utils::kafka::{
-        data_envelope::Kind::Payload, identity::Publisher, DataEnvelope, Identity, KeyEnvelope,
-        KeyHeader,
+    protocol_adapters::kafka_protocol::DshPartitioner,
+    utils::kafka::dsh_envelope::{
+        data_envelope::Kind, identity::Publisher, DataEnvelope, Identity, KeyEnvelope, KeyHeader,
     },
     DshKafkaConfig,
 };
@@ -24,14 +23,48 @@ use log::{debug, info};
 use rdkafka::{
     config::FromClientConfigAndContext,
     message::ToBytes,
-    producer::{FutureProducer, FutureRecord},
-    util::DefaultRuntime,
-    ClientConfig,
+    producer::{FutureProducer, FutureRecord, ProducerContext},
+    ClientConfig, ClientContext,
 };
 use tokio::time::sleep;
 
+struct DshContext {
+    pub partitioner: DshPartitioner,
+}
+
+impl ClientContext for DshContext {}
+
+// implement `get_custom_partitioner`
+impl ProducerContext<DshPartitioner> for DshContext {
+    type DeliveryOpaque = ();
+
+    fn delivery(
+        &self,
+        delivery_result: &rdkafka::message::DeliveryResult<'_>,
+        _delivery_opaque: Self::DeliveryOpaque,
+    ) {
+        if let Err(e) = delivery_result {
+            self.log(
+                rdkafka::config::RDKafkaLogLevel::Warning,
+                "",
+                &format!("{e:?}"),
+            );
+        } else {
+            self.log(
+                rdkafka::config::RDKafkaLogLevel::Debug,
+                "",
+                "Record delivery success",
+            );
+        }
+    }
+
+    fn get_custom_partitioner(&self) -> std::option::Option<&DshPartitioner> {
+        Some(&self.partitioner)
+    }
+}
+
 async fn produce(
-    producer: FutureProducer<MyContext, DefaultRuntime>,
+    producer: FutureProducer<DshContext>,
     topic: &str,
     identifier: Option<Identity>,
     retained: bool,
@@ -58,7 +91,7 @@ async fn produce(
         // Create the data envelope
         let data_envelope = DataEnvelope {
             tracing: HashMap::new(),
-            kind: Some(Payload(payload.as_bytes().to_owned())),
+            kind: Some(Kind::Payload(payload.as_bytes().to_owned())),
         };
 
         // Produce the record
@@ -105,11 +138,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .get_stream(&std::env::var("STREAM_NAME").expect("`STREAM_NAME` should be set"))
         .expect("provided stream not found:");
 
-    let partitioner = stream.partitioner_builder()?.build_rdkafka();
+    let partitioner = stream.partitioner_builder()?;
 
-    let ctx = MyContext { partitioner };
+    let ctx = DshContext { partitioner };
+
     // Create a new producer from the RDkafka Client Config together with dsh_prodcer_config form DshKafkaConfig trait
-    let producer: FutureProducer<MyContext, DefaultRuntime> =
+    let producer: FutureProducer<DshContext> =
         FutureProducer::from_config_and_context(ClientConfig::new().set_dsh_producer_config(), ctx)
             .unwrap();
 

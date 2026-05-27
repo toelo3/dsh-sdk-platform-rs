@@ -41,7 +41,7 @@ use log::{debug, error, info};
 use serde::{Deserialize, Serialize, Serializer};
 
 #[cfg(feature = "kafka")]
-use crate::protocol_adapters::kafka_protocol::DshPartitionerBuilder;
+use crate::protocol_adapters::kafka_protocol::DshPartitioner;
 use crate::{
     VAR_KAFKA_BOOTSTRAP_SERVERS, VAR_KAFKA_CONSUMER_GROUP_TYPE, VAR_LOCAL_DATASTREAMS_JSON,
     VAR_SCHEMA_REGISTRY_HOST, utils,
@@ -467,12 +467,12 @@ impl Stream {
     /// # Errors
     /// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
     #[cfg(feature = "kafka")]
-    pub fn partitioner_builder(&self) -> Result<DshPartitionerBuilder, DatastreamError> {
+    pub fn partitioner_builder(&self) -> Result<DshPartitioner, DatastreamError> {
         match self.partitioner() {
-            PartitionerType::Default => Ok(DshPartitionerBuilder::Default),
+            PartitionerType::Default => Ok(DshPartitioner::Default),
             PartitionerType::TopicLevel => {
                 let partitioning_depth = self.partitioning_depth;
-                Ok(DshPartitionerBuilder::TopicLevel { partitioning_depth })
+                Ok(DshPartitioner::TopicLevel { partitioning_depth })
             }
             PartitionerType::Unknown(s) => Err(DatastreamError::PartitionerError(format!(
                 "Unknown partitioner type {s}"

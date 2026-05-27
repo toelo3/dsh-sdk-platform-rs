@@ -109,7 +109,7 @@ mod tests {
 
     #[test]
     fn golden_samples() {
-        let json = include_str!("../../tests/data/golden_data.json");
+        let json = include_str!("../../test_resources/murmur2_golden_data.json");
         let cases: Vec<GoldenCase> = from_str(json).expect("golden dataset invalid.");
 
         for (idx, case) in cases.iter().enumerate() {

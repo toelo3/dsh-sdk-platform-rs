@@ -391,9 +391,22 @@ impl Stream {
         self.replication
     }
 
-    /// Returns the partitioner (e.g., “default-partitioner”).
-    pub fn partitioner(&self) -> &PartitionerType {
-        &self.partitioner
+    /// Returns an appropriate [`DshPartitionerBuilder`].
+    ///
+    /// # Errors
+    /// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
+    #[cfg(feature = "kafka")]
+    pub fn partitioner(&self) -> Result<DshPartitioner, DatastreamError> {
+        match &self.partitioner {
+            PartitionerType::Default => Ok(DshPartitioner::Default),
+            PartitionerType::TopicLevel => {
+                let partitioning_depth = self.partitioning_depth;
+                Ok(DshPartitioner::TopicLevel { partitioning_depth })
+            }
+            PartitionerType::Unknown(s) => Err(DatastreamError::PartitionerError(format!(
+                "Unknown partitioner type {s}"
+            ))),
+        }
     }
 
     /// Returns the partitioning depth (a more advanced Kafka concept).
@@ -460,24 +473,6 @@ impl Stream {
         })?;
 
         prefix.try_into()
-    }
-
-    /// Returns an appropriate [`DshPartitionerBuilder`].
-    ///
-    /// # Errors
-    /// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
-    #[cfg(feature = "kafka")]
-    pub fn partitioner_builder(&self) -> Result<DshPartitioner, DatastreamError> {
-        match self.partitioner() {
-            PartitionerType::Default => Ok(DshPartitioner::Default),
-            PartitionerType::TopicLevel => {
-                let partitioning_depth = self.partitioning_depth;
-                Ok(DshPartitioner::TopicLevel { partitioning_depth })
-            }
-            PartitionerType::Unknown(s) => Err(DatastreamError::PartitionerError(format!(
-                "Unknown partitioner type {s}"
-            ))),
-        }
     }
 }
 

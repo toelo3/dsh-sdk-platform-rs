@@ -13,67 +13,85 @@
 //! implementation in order to provide our `DshPartitioner`. It is up to the user of the SDK to
 //! create one, an example is provided here.
 
-use std::time::Duration;
+use std::{collections::HashMap, time::Duration};
 
-use dsh_sdk::{DshKafkaConfig, protocol_adapters::kafka_protocol::DshPartitioner};
-use log::info;
-use rdkafka::{
-    ClientConfig, ClientContext, config::FromClientConfigAndContext, producer::{FutureProducer, FutureRecord, ProducerContext}, util::DefaultRuntime
+use dsh_sdk::{
+    DshKafkaConfig,
+    protocol_adapters::kafka_protocol::{
+        DshPartitioner, compute_partition,
+        dsh_envelope::{
+            DataEnvelope, Identity, KeyEnvelope, KeyHeader, data_envelope::Kind,
+            identity::Publisher,
+        },
+    },
 };
+use log::info;
+use prost::Message;
+use rdkafka::{
+    ClientConfig,
+    config::FromClientConfig,
+    message::ToBytes,
+    producer::{FutureProducer, FutureRecord},
+};
+use tokio::time::sleep;
 
 const TOTAL_MESSAGES: usize = 10;
 
-struct DshContext {
-    pub partitioner: DshPartitioner,
-}
+async fn produce(
+    producer: &FutureProducer,
+    topic: &str,
+    identifier: Identity,
+    retained: bool,
+    qos: i32,
+    partitioner: DshPartitioner,
+    partition_count: usize,
+) {
+    for counter in 0..TOTAL_MESSAGES {
+        // MQTT topic
+        let key = format!("foo/bar/count/{counter}");
 
-// `ProducerContext` requires `ClientContext`, default implementations will do.
-impl ClientContext for DshContext {}
+        // Calculate partition
+        let partition = compute_partition(key.as_bytes(), &partitioner, partition_count);
 
-// implement `get_custom_partitioner`
-impl ProducerContext<DshPartitioner> for DshContext {
-    type DeliveryOpaque = ();
+        // Create the key envelope
+        let key_envelope = KeyEnvelope {
+            header: Some(KeyHeader {
+                identifier: Some(identifier.clone()),
+                retained,
+                qos,
+            }),
+            key,
+        };
 
-    fn delivery(
-        &self,
-        delivery_result: &rdkafka::message::DeliveryResult<'_>,
-        _delivery_opaque: Self::DeliveryOpaque,
-    ) {
-        if let Err(e) = delivery_result {
-            self.log(
-                rdkafka::config::RDKafkaLogLevel::Warning,
-                "",
-                &format!("{e:?}"),
-            );
-        } else {
-            self.log(
-                rdkafka::config::RDKafkaLogLevel::Debug,
-                "",
-                "Record delivery success",
-            );
-        }
-    }
+        // Our payload
+        let payload = format!(
+            "{:?}: message #{} on partition #{}",
+            identifier.publisher, counter, partition
+        );
 
-    fn get_custom_partitioner(&self) -> std::option::Option<&DshPartitioner> {
-        Some(&self.partitioner)
-    }
-}
+        // Create the data envelope
+        let data_envelope = DataEnvelope {
+            tracing: HashMap::new(),
+            kind: Some(Kind::Payload(payload.as_bytes().to_owned())),
+        };
 
-async fn produce(producer: FutureProducer<DshContext>, topic: &str) {
-    for key in 0..TOTAL_MESSAGES {
-        let payload = format!("hello world {}", key);
+        // Produce the record, we must manually set the partition of the Kafka record
         let record = producer
             .send(
                 FutureRecord::to(topic)
-                    .payload(payload.as_bytes())
-                    .key(&key.to_be_bytes()),
+                    .payload(data_envelope.encode_to_vec().to_bytes())
+                    .key(key_envelope.encode_to_vec().to_bytes())
+                    .partition(partition),
                 Duration::from_secs(10),
             )
             .await;
+
         match record {
-            Ok(_) => info!("Message {} sent to {}", key, topic),
+            Ok(_) => info!("Message {} sent to {}", counter, topic),
             Err(e) => info!("Error sending message: {}", e.0),
         }
+
+        sleep(Duration::from_secs(1)).await;
     }
 }
 
@@ -87,21 +105,35 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let sdk = dsh_sdk::Dsh::get();
 
+    let identity = Identity {
+        tenant: "accelerator".to_string(),
+        publisher: Some(Publisher::Application("dsh-stream-producer".to_string())),
+    };
+
     let stream = sdk
         .datastream()
         .get_stream(&std::env::var("STREAM_NAME").expect("`STREAM_NAME` should be set"))
         .expect("provided stream not found:");
 
-    let partitioner = stream.partitioner_builder()?;
+    let partitioner = stream.partitioner()?;
 
-    let ctx = DshContext { partitioner };
+    let partition_count = stream.partitions();
+
     // Create a new producer from the RDkafka Client Config together with dsh_prodcer_config form DshKafkaConfig trait
-    let producer: FutureProducer<DshContext> =
-        FutureProducer::from_config_and_context(ClientConfig::new().set_dsh_producer_config(), ctx)
-            .unwrap();
+    let producer: FutureProducer =
+        FutureProducer::from_config(ClientConfig::new().set_dsh_producer_config()).unwrap();
 
     // Produce messages towards topic
-    produce(producer, stream.name()).await;
+    produce(
+        &producer,
+        stream.name(),
+        identity,
+        true,
+        1,
+        partitioner,
+        partition_count,
+    )
+    .await;
 
     Ok(())
 }

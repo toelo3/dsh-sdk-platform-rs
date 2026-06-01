@@ -99,6 +99,9 @@ This SDK accommodates multiple environments to connect to DSH Kafka, including:
 
 For more information, see the [CONNECT_PROXY_VPN_LOCAL.md](https://github.com/kpn-dsh/dsh-sdk-platform-rs/blob/main/dsh_sdk/CONNECT_PROXY_VPN_LOCAL.md) document.
 
+> **Note**
+> Be sure to enable the `dsh-envelope` feature when interacting with [public streams](https://docs.kpn-dsh.com/reference/kafka-on-dsh/message-envelopes/).
+
 ### MQTT Protocol Adapter
 To connect to DSH using MQTT, you can use the Protocol Token Fetcher to obtain the necessary authentication tokens. 
 This allows you to interact with DSH's MQTT protocol adapters securely. 

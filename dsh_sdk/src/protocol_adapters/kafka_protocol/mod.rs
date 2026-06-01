@@ -23,6 +23,12 @@
 //! # }
 //! ```
 
+use crate::{
+    datastream::{DatastreamError, Stream},
+    protocol_adapters::kafka_protocol::utils::reduce_topic_prefix,
+    utils::murmur2::{murmur2_32, to_positive},
+};
+
 pub mod config;
 
 #[cfg(feature = "dsh-envelope")]
@@ -105,21 +111,34 @@ pub enum DshPartitioner {
     TopicLevel { partitioning_depth: usize },
 }
 
-//impl DshPartitioner {
-//    #[cfg(feature = "rdkafka-config")]
-//    pub fn build_rdkafka(
-//        &self,
-//    ) -> crate::protocol_adapters::kafka_protocol::rdkafka::RdkafkaPartitioner {
-//        use self::rdkafka::RdkafkaPartitioner;
-//        match self {
-//            DshPartitioner::Default => {
-//                RdkafkaPartitioner::Default(DefaultPartitioner::default())
-//            }
-//            DshPartitioner::TopicLevel { partitioning_depth } => {
-//                RdkafkaPartitioner::TopicLevel(TopicLevelPartitioner {
-//                    partitioning_depth: *partitioning_depth,
-//                })
-//            }
-//        }
-//    }
-//}
+/// Computes the partition a key should be produced to given the target [`Stream`].
+///
+/// # Errors
+/// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
+pub fn compute_partition_from_stream(key: &[u8], stream: &Stream) -> Result<i32, DatastreamError> {
+    let key_to_hash = match stream.partitioner()? {
+        DshPartitioner::Default => key,
+        DshPartitioner::TopicLevel { partitioning_depth } => {
+            reduce_topic_prefix(key, partitioning_depth)
+        }
+    };
+
+    Ok(partition(key_to_hash, stream.partitions()))
+}
+
+/// Computes the partition a key should be produced to given a [`DshPartitioner`] and partition
+/// count.
+pub fn compute_partition(key: &[u8], partitioner: &DshPartitioner, partition_count: usize) -> i32 {
+    let key_to_hash = match partitioner {
+        DshPartitioner::Default => key,
+        DshPartitioner::TopicLevel { partitioning_depth } => {
+            reduce_topic_prefix(key, *partitioning_depth)
+        }
+    };
+
+    partition(key_to_hash, partition_count)
+}
+
+fn partition(key: &[u8], partition_count: usize) -> i32 {
+    to_positive(murmur2_32(key)) % partition_count as i32
+}

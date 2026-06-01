@@ -1,11 +1,8 @@
 #[cfg(feature = "rdkafka-config")]
 use rdkafka::ClientConfig;
-use rdkafka::producer::Partitioner;
 
-use super::{DshKafkaConfig, DshPartitioner};
+use super::DshKafkaConfig;
 use crate::Dsh;
-use crate::protocol_adapters::kafka_protocol::utils::reduce_topic_prefix;
-use crate::utils::murmur2::{murmur2_32, to_positive};
 
 impl DshKafkaConfig for ClientConfig {
     fn set_dsh_consumer_config(&mut self) -> &mut Self {
@@ -87,33 +84,6 @@ impl DshKafkaConfig for ClientConfig {
                 .set("ssl.ca.pem", certificates.dsh_ca_certificate_pem())
         } else {
             self.set("security.protocol", "plaintext")
-        }
-    }
-}
-
-/// Partitioner for Kafka on DSH
-///
-/// Default uses the full MQTT topic from the `key` as input to calculate the partition if provided.
-///
-/// Topic level partitioner only uses the first `partitioning_depth` levels of the MQTT topic to
-/// calculate the partition.
-///
-/// We implement the Murmur2 hashing algorithm as is done in the librdkafka implementation.
-///
-/// Returns 0 when no key is provided.
-impl Partitioner for DshPartitioner {
-    fn partition(
-        &self,
-        _topic_name: &str,
-        key: Option<&[u8]>,
-        partition_cnt: i32,
-        _is_partition_available: impl Fn(i32) -> bool,
-    ) -> i32 {
-        match key {
-            Some(k) => match self {
-                DshPartitioner::Default => to_positive(murmur2_32(k)) % partition_cnt,
-                DshPartitioner::TopicLevel { partitioning_depth } => to_positive(murmur2_32(reduce_topic_prefix(k, *partitioning_depth)))},
-            None => 0,
         }
     }
 }

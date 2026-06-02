@@ -510,7 +510,7 @@ impl Serialize for PartitionerType {
     }
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Clone, Copy, Debug, PartialEq)]
 pub enum StreamType {
     Scratch,
     Internal,
@@ -657,11 +657,11 @@ mod tests {
     fn test_partitioner() {
         let datastream = datastream();
         let stream = datastream.streams().get("scratch.test").unwrap();
-        assert_eq!(stream.partitioner(), &PartitionerType::Default);
+        assert_eq!(stream.partitioner().unwrap(), DshPartitioner::Default);
         let stream = datastream.streams().get("stream.test").unwrap();
-        assert_eq!(stream.partitioner(), &PartitionerType::Default);
+        assert_eq!(stream.partitioner().unwrap(), DshPartitioner::Default);
         let stream = datastream.streams().get("stream.speed").unwrap();
-        assert_eq!(stream.partitioner(), &PartitionerType::TopicLevel);
+        assert_eq!(stream.partitioner().unwrap(), DshPartitioner::TopicLevel { partitioning_depth: 12 });
     }
 
     #[test]

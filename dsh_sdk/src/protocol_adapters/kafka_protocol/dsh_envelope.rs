@@ -22,8 +22,10 @@
 //! [`encode_to_vec`](prost::Message::encode_to_vec):
 //!
 //! ```
-//! use dsh_sdk::prost::Message as _;
-//! use dsh_sdk::utils::kafka::{DataEnvelope, data_envelope::Kind::Payload};
+//! use dsh_sdk::protocol_adapters::kafka_protocol::dsh_envelope::{
+//!     prost::Message as _,
+//!     data_envelope::Kind::Payload, DataEnvelope
+//! };
 //!
 //! let envelope = DataEnvelope {
 //!     tracing: Default::default(),

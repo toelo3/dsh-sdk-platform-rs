@@ -106,6 +106,7 @@ pub trait DshKafkaConfig {
     fn set_dsh_certificates(&mut self) -> &mut Self;
 }
 
+#[derive(Clone, Debug, PartialEq)]
 pub enum DshPartitioner {
     Default,
     TopicLevel { partitioning_depth: usize },

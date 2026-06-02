@@ -661,7 +661,12 @@ mod tests {
         let stream = datastream.streams().get("stream.test").unwrap();
         assert_eq!(stream.partitioner().unwrap(), DshPartitioner::Default);
         let stream = datastream.streams().get("stream.speed").unwrap();
-        assert_eq!(stream.partitioner().unwrap(), DshPartitioner::TopicLevel { partitioning_depth: 12 });
+        assert_eq!(
+            stream.partitioner().unwrap(),
+            DshPartitioner::TopicLevel {
+                partitioning_depth: 12
+            }
+        );
     }
 
     #[test]

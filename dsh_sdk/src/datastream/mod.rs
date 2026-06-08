@@ -733,7 +733,7 @@ mod tests {
     }
 
     #[test]
-    fn test_read_deserialization_prepends() {
+    fn test_read_deserialization_without_wildcard() {
         let stream: Stream = serde_json::from_str(
             r#"{
                 "name": "scratch.reference-implementation",

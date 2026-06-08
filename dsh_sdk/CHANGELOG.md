@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [unreleased]
+### Fixed
+- Return librdkafka compatible anchored read pattern in case of regex wildard
+- verify_list_of_topics now properly checks write topics including tenant name
+
 ## [0.8.1] - 2026-4-08
 ### Added
 - HTTP Protocol Adapter client

@@ -19,7 +19,7 @@ use dsh_sdk::{
     DshKafkaConfig,
     prost::Message,
     protocol_adapters::kafka_protocol::{
-        DshPartitioner, compute_partition,
+        DshPartitioner,
         dsh_envelope::{
             DataEnvelope, Identity, KeyEnvelope, KeyHeader, data_envelope::Kind,
             identity::Publisher,
@@ -51,7 +51,7 @@ async fn produce(
         let key = format!("foo/bar/count/{counter}");
 
         // Calculate partition
-        let partition = compute_partition(key.as_bytes(), &partitioner, partition_count);
+        let partition = partitioner.compute_partition(key.as_bytes(), partition_count);
 
         // Create the key envelope
         let key_envelope = KeyEnvelope {

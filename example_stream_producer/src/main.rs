@@ -18,7 +18,6 @@ use std::{collections::HashMap, time::Duration};
 use dsh_sdk::{
     prost::Message,
     protocol_adapters::kafka_protocol::{
-        compute_partition,
         dsh_envelope::{
             data_envelope::Kind, identity::Publisher, DataEnvelope, Identity, KeyEnvelope,
             KeyHeader,
@@ -54,7 +53,7 @@ async fn produce(
         let key = format!("foo/bar/count/{counter}");
 
         // Calculate partition
-        let partition = compute_partition(key.as_bytes(), &partitioner, partition_count);
+        let partition = partitioner.compute_partition(key.as_bytes(), partition_count);
 
         // Create the key envelope
         let key_envelope = KeyEnvelope {

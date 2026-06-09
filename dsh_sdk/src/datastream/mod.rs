@@ -401,9 +401,10 @@ impl Stream {
         &self.cluster
     }
 
-    /// Returns the read pattern (regex or exact topic name).
+    /// Returns the read pattern (regex or exact topic name) or an empty string when no read access is granted.
     ///
-    /// Use [`Self::read_access`] or [`Self::read_pattern`] to confirm read permissions.
+    /// ## Recommended Usage
+    /// Use [`Self::read_pattern`] to get a `Result` based on access.
     ///
     /// ## Example
     /// How to use the read pattern in rdkafka to consume from.
@@ -423,7 +424,7 @@ impl Stream {
     ///     .set_dsh_consumer_config()
     ///     .create()?;
     ///
-    /// consumer.subscribe(&[stream.read()])?;
+    /// consumer.subscribe(&[stream.read_pattern()?])?;
     /// # Ok(())
     /// # }
     /// ```
@@ -431,9 +432,9 @@ impl Stream {
         &self.read
     }
 
-    /// Returns the write pattern (regex or exact topic name).
+    /// Returns the write pattern (regex or exact topic name) or an empty string when no write access is granted.
     ///
-    /// Use [`Self::write_access`] or [`Self::write_pattern`] to confirm write permissions.
+    /// Use [`Self::write_pattern`] to get a `Result` based on access.
     pub fn write(&self) -> &str {
         &self.write
     }
@@ -476,22 +477,62 @@ impl Stream {
         self.can_retain
     }
 
+    #[deprecated(
+        since = "0.8.1",
+        note = "This method is deprecated in favor of `is_readable()` and `is_writable()`, which provide clearer semantics."
+    )]
     /// Checks if the stream has a `read` pattern configured.
     pub fn read_access(&self) -> bool {
+        self.is_readable()
+    }
+
+    #[deprecated(
+        since = "0.8.1",
+        note = "This method is deprecated in favor of `is_readable()` and `is_writable()`, which provide clearer semantics."
+    )]
+    /// Checks if the stream has a `write` pattern configured.
+    pub fn write_access(&self) -> bool {
+        self.is_writable()
+    }
+
+    /// Checks if the stream has a `read` permission.
+    pub fn is_readable(&self) -> bool {
         !self.read.is_empty()
     }
 
-    /// Checks if the stream has a `write` pattern configured.
-    pub fn write_access(&self) -> bool {
+    /// Checks if the stream has a `write` permission.
+    pub fn is_writable(&self) -> bool {
         !self.write.is_empty()
     }
 
     /// Returns the read pattern, or errors if the stream has no read access.
     ///
-    /// # Errors
+    /// ## Errors
     /// Returns [`DatastreamError::TopicPermissionsError`] if the stream has no read pattern set.
+    ///
+    /// ## Example
+    /// How to use this method to check for read access before consuming.
+    /// ```no_run
+    /// use rdkafka::config::ClientConfig;
+    /// use rdkafka::consumer::{Consumer, StreamConsumer};
+    /// use dsh_sdk::DshKafkaConfig;
+    ///
+    /// # #[tokio::main]
+    /// # async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    /// let datastreams = dsh_sdk::Dsh::get().datastream();
+    /// let stream = datastreams
+    ///     .get_stream("stream.example-topic")
+    ///     .expect("stream.example-topic should be available to your tenant");
+    ///
+    /// let consumer: StreamConsumer = ClientConfig::new()
+    ///     .set_dsh_consumer_config()
+    ///     .create()?;
+    ///
+    /// consumer.subscribe(&[stream.read_pattern()?])?;
+    /// # Ok(())
+    /// # }
     pub fn read_pattern(&self) -> Result<&str, DatastreamError> {
-        if self.read_access() {
+        if self.is_readable() {
             Ok(&self.read)
         } else {
             Err(DatastreamError::TopicPermissionsError(
@@ -506,7 +547,7 @@ impl Stream {
     /// # Errors
     /// Returns [`DatastreamError::TopicPermissionsError`] if the stream has no write pattern set.
     pub fn write_pattern(&self) -> Result<&str, DatastreamError> {
-        if self.write_access() {
+        if self.is_writable() {
             Ok(&self.write)
         } else {
             Err(DatastreamError::TopicPermissionsError(
@@ -905,14 +946,14 @@ mod tests {
             datastream()
                 .get_stream("scratch.test.test-tenant")
                 .unwrap()
-                .read_access(),
+                .is_readable(),
             true
         );
         assert_eq!(
             datastream()
                 .get_stream("stream.test.test-tenant")
                 .unwrap()
-                .read_access(),
+                .is_readable(),
             true
         );
     }
@@ -923,14 +964,14 @@ mod tests {
             datastream()
                 .get_stream("scratch.test.test-tenant")
                 .unwrap()
-                .write_access(),
+                .is_writable(),
             true
         );
         assert_eq!(
             datastream()
                 .get_stream("stream.test.test-tenant")
                 .unwrap()
-                .write_access(),
+                .is_writable(),
             false
         );
     }

@@ -17,7 +17,7 @@ pub mod graceful_shutdown;
 #[cfg(feature = "metrics")]
 pub mod metrics;
 #[cfg(feature = "kafka")]
-pub mod murmur2;
+pub(crate) mod murmur2;
 
 mod platform;
 

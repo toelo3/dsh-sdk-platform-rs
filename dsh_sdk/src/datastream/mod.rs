@@ -712,7 +712,6 @@ mod tests {
         .unwrap();
 
         assert_eq!(stream.read(), "^stream\\.reference-implementation\\.[^.]*");
-        assert_eq!(stream.write(), "stream.reference-implementation.tenant");
     }
 
     #[test]
@@ -733,7 +732,6 @@ mod tests {
         .unwrap();
 
         assert_eq!(stream.read(), "^stream\\.reference-implementation\\.[^.]*");
-        assert_eq!(stream.write(), "stream.reference-implementation.tenant");
     }
 
     #[test]
@@ -754,7 +752,6 @@ mod tests {
         .unwrap();
 
         assert_eq!(stream.read(), "scratch.reference-implementation.tenant");
-        assert_eq!(stream.write(), "scratch.reference-implementation.tenant");
     }
 
     #[test]

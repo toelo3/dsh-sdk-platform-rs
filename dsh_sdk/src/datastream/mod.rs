@@ -77,7 +77,7 @@ const FILE_NAME: &str = "local_datastreams.json";
 /// # async fn main() -> Result<(), Box<dyn std::error::Error>> {
 /// let datastreams = dsh_sdk::Dsh::get().datastream();
 /// let stream = datastreams
-///     .get_stream("stream.example-topic")
+///     .get_stream("stream.example")
 ///     .expect("stream.example-topic should be available to your tenant");
 ///
 /// let consumer: StreamConsumer = ClientConfig::new()

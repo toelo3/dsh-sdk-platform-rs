@@ -67,8 +67,8 @@ const FILE_NAME: &str = "local_datastreams.json";
 /// - A Schema Store URL  
 ///
 /// ## Example
-/// How to get a [Stream] and subscribe to it rdkafka:
-/// ```no_run
+/// How to get a [`Stream`] and subscribe to it using rdkafka:
+/// ```
 /// use rdkafka::config::ClientConfig;
 /// use rdkafka::consumer::{Consumer, StreamConsumer};
 /// use dsh_sdk::DshKafkaConfig;
@@ -84,7 +84,11 @@ const FILE_NAME: &str = "local_datastreams.json";
 ///     .set_dsh_consumer_config()
 ///     .create()?;
 ///
-/// consumer.subscribe(&[stream.read()])?;
+/// let pattern = stream
+///     .read_pattern()
+///     .expect("should have read access to stream");
+///
+/// consumer.subscribe(&[pattern])?;
 /// # Ok(())
 /// # }
 /// ```
@@ -369,7 +373,7 @@ pub struct Stream {
     can_retain: bool,
 }
 
-/// Custom deserialization function for the `read` field of `Stream`.
+/// Custom deserialization function for the `read` field of [`Stream`].
 ///
 /// This makes it librdkafka-compatible by prepending a `^` anchor to any pattern that ends with `*` but doesn't already start with `^`.
 /// Librdkafka requires regex patterns to be anchored, and this ensures that common wildcard patterns are correctly interpreted without requiring users to manually add the anchor in `datastreams.json`.

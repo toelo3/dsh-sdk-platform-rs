@@ -22,7 +22,7 @@ def dsh_partitioner(key, topic_depth, partition_count):
     key_depth = '/'.join( key.split('/')[:(topic_depth)])
     return (murmur2(key_depth.encode('utf8')) & 0x7fffffff) % partition_count
 
-def generate_golden_data(output_file="golden_data.json", num_cases=1000):
+def generate_golden_data(output_file="murmur2_golden_data.json", num_cases=1000):
     data = []
     # Random cases
     for _ in range(num_cases):

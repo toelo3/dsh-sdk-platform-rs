@@ -577,7 +577,7 @@ dependencies = [
 
 [[package]]
 name = "dsh_sdk"
-version = "0.8.1"
+version = "0.8.2"
 dependencies = [
  "apache-avro",
  "base64",

@@ -88,7 +88,7 @@ dlq = [
   "rdkafka/tokio",
   "graceful-shutdown",
 ]
-dsh-envelope = ["dep:prost", "dep:prost-build"]
+dsh-envelope = ["dep:prost", "dep:prost-build", "kafka"]
 http-protocol-adapter = ["serde_json", "dep:reqwest", "bytes"]
 
 [dev-dependencies]

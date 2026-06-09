@@ -16,6 +16,7 @@
 use std::{collections::HashMap, time::Duration};
 
 use dsh_sdk::{
+    prost::Message,
     DshKafkaConfig,
     protocol_adapters::kafka_protocol::{
         DshPartitioner, compute_partition,
@@ -26,7 +27,6 @@ use dsh_sdk::{
     },
 };
 use log::info;
-use prost::Message;
 use rdkafka::{
     ClientConfig,
     config::FromClientConfig,

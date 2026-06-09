@@ -34,7 +34,7 @@ pub mod config;
 #[cfg(feature = "dsh-envelope")]
 pub mod dsh_envelope;
 #[cfg(feature = "rdkafka-config")]
-pub mod rdkafka;
+mod rdkafka;
 pub(crate) mod utils;
 
 /// Trait defining core DSH configurations for Kafka consumers and producers.

@@ -38,7 +38,7 @@ use std::fs::File;
 use std::io::Read;
 
 use log::{debug, error, info};
-use serde::{Deserialize, Serialize, Serializer};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 
 #[cfg(feature = "kafka")]
 use crate::protocol_adapters::kafka_protocol::{
@@ -66,16 +66,27 @@ const FILE_NAME: &str = "local_datastreams.json";
 /// - Mapping of topic names to [`Stream`] configurations  
 /// - A Schema Store URL  
 ///
-/// # Example
-/// ```
-/// use dsh_sdk::Dsh;
+/// ## Example
+/// How to get a [Stream] and subscribe to it rdkafka:
+/// ```no_run
+/// use rdkafka::config::ClientConfig;
+/// use rdkafka::consumer::{Consumer, StreamConsumer};
+/// use dsh_sdk::DshKafkaConfig;
 ///
-/// let dsh = Dsh::get();
-/// let datastream = dsh.datastream(); // Typically loaded at init
+/// # #[tokio::main]
+/// # async fn main() -> Result<(), Box<dyn std::error::Error>> {
+/// let datastreams = dsh_sdk::Dsh::get().datastream();
+/// let stream = datastreams
+///     .get_stream("stream.example-topic")
+///     .expect("stream.example-topic should be available to your tenant");
 ///
-/// let brokers = datastream.get_brokers();
-/// let streams = datastream.streams();
-/// let schema_store_url = datastream.schema_store();
+/// let consumer: StreamConsumer = ClientConfig::new()
+///     .set_dsh_consumer_config()
+///     .create()?;
+///
+/// consumer.subscribe(&[stream.read()])?;
+/// # Ok(())
+/// # }
 /// ```
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
 pub struct Datastream {
@@ -146,27 +157,25 @@ impl Datastream {
             .map(|datastream| match access {
                 ReadWriteAccess::Read => datastream
                     .read
+                    .trim_start_matches('^')
                     .split('.')
                     .take(2)
                     .collect::<Vec<&str>>()
                     .join(".")
                     .replace('\\', ""),
-                ReadWriteAccess::Write => datastream
-                    .write
-                    .split('.')
-                    .take(2)
-                    .collect::<Vec<&str>>()
-                    .join(".")
-                    .replace('\\', ""),
+                ReadWriteAccess::Write => datastream.write.clone(),
             })
             .collect::<Vec<String>>();
         for topic in topics {
-            let topic_name = topic
-                .to_string()
-                .split('.')
-                .take(2)
-                .collect::<Vec<&str>>()
-                .join(".");
+            let topic_name = match access {
+                ReadWriteAccess::Read => topic
+                    .to_string()
+                    .split('.')
+                    .take(2)
+                    .collect::<Vec<&str>>()
+                    .join("."),
+                ReadWriteAccess::Write => topic.to_string(),
+            };
             if !read_topics.contains(&topic_name) {
                 return Err(DatastreamError::NotFoundTopicError(topic.to_string()));
             }
@@ -350,6 +359,7 @@ impl Default for Datastream {
 pub struct Stream {
     name: String,
     cluster: String,
+    #[serde(deserialize_with = "deserialize_read_pattern")]
     read: String,
     write: String,
     partitions: usize,
@@ -357,6 +367,23 @@ pub struct Stream {
     partitioner: PartitionerType,
     partitioning_depth: usize,
     can_retain: bool,
+}
+
+/// Custom deserialization function for the `read` field of `Stream`.
+///
+/// This makes it librdkafka-compatible by prepending a `^` anchor to any pattern that ends with `*` but doesn't already start with `^`.
+/// Librdkafka requires regex patterns to be anchored, and this ensures that common wildcard patterns are correctly interpreted without requiring users to manually add the anchor in `datastreams.json`.
+fn deserialize_read_pattern<'de, D>(deserializer: D) -> Result<String, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    let read = String::deserialize(deserializer)?;
+
+    if read.ends_with('*') && !read.starts_with('^') {
+        Ok(format!("^{read}"))
+    } else {
+        Ok(read)
+    }
 }
 
 impl Stream {
@@ -373,6 +400,29 @@ impl Stream {
     /// Returns the read pattern (regex or exact topic name).
     ///
     /// Use [`Self::read_access`] or [`Self::read_pattern`] to confirm read permissions.
+    ///
+    /// ## Example
+    /// How to use the read pattern in rdkafka to consume from.
+    /// ```no_run
+    /// use rdkafka::config::ClientConfig;
+    /// use rdkafka::consumer::{Consumer, StreamConsumer};
+    /// use dsh_sdk::DshKafkaConfig;
+    ///
+    /// # #[tokio::main]
+    /// # async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    /// let datastreams = dsh_sdk::Dsh::get().datastream();
+    /// let stream = datastreams
+    ///     .get_stream("stream.example-topic")
+    ///     .expect("stream.example-topic should be available to your tenant");
+    ///
+    /// let consumer: StreamConsumer = ClientConfig::new()
+    ///     .set_dsh_consumer_config()
+    ///     .create()?;
+    ///
+    /// consumer.subscribe(&[stream.read()])?;
+    /// # Ok(())
+    /// # }
+    /// ```
     pub fn read(&self) -> &str {
         &self.read
     }
@@ -637,7 +687,70 @@ mod tests {
         let stream = datastream.streams().get("scratch.test").unwrap();
         assert_eq!(stream.read(), "scratch.test.test-tenant");
         let stream = datastream.streams().get("stream.test").unwrap();
-        assert_eq!(stream.read(), "stream\\.test\\.[^.]*");
+        assert_eq!(stream.read(), "^stream\\.test\\.[^.]*");
+    }
+
+    #[test]
+    fn test_read_deserialization_prepends_anchor_for_wildcard_suffix() {
+        let stream: Stream = serde_json::from_str(
+            r#"{
+                "name": "stream.reference-implementation",
+                "cluster": "/tt",
+                "read": "stream\\.reference-implementation\\.[^.]*",
+                "write": "stream.reference-implementation.tenant",
+                "partitions": 1,
+                "replication": 1,
+                "partitioner": "default-partitioner",
+                "partitioningDepth": 0,
+                "canRetain": false
+            }"#,
+        )
+        .unwrap();
+
+        assert_eq!(stream.read(), "^stream\\.reference-implementation\\.[^.]*");
+        assert_eq!(stream.write(), "stream.reference-implementation.tenant");
+    }
+
+    #[test]
+    fn test_read_deserialization_already_anchored_for_wildcard_suffix() {
+        let stream: Stream = serde_json::from_str(
+            r#"{
+                "name": "stream.reference-implementation",
+                "cluster": "/tt",
+                "read": "^stream\\.reference-implementation\\.[^.]*",
+                "write": "stream.reference-implementation.tenant",
+                "partitions": 1,
+                "replication": 1,
+                "partitioner": "default-partitioner",
+                "partitioningDepth": 0,
+                "canRetain": false
+            }"#,
+        )
+        .unwrap();
+
+        assert_eq!(stream.read(), "^stream\\.reference-implementation\\.[^.]*");
+        assert_eq!(stream.write(), "stream.reference-implementation.tenant");
+    }
+
+    #[test]
+    fn test_read_deserialization_prepends() {
+        let stream: Stream = serde_json::from_str(
+            r#"{
+                "name": "scratch.reference-implementation",
+                "cluster": "/tt",
+                "read": "scratch.reference-implementation.tenant",
+                "write": "scratch.reference-implementation.tenant",
+                "partitions": 1,
+                "replication": 3,
+                "partitioner": "default-partitioner",
+                "partitioningDepth": 0,
+                "canRetain": false
+            }"#,
+        )
+        .unwrap();
+
+        assert_eq!(stream.read(), "scratch.reference-implementation.tenant");
+        assert_eq!(stream.write(), "scratch.reference-implementation.tenant");
     }
 
     #[test]
@@ -837,7 +950,7 @@ mod tests {
                 .unwrap()
                 .read_pattern()
                 .unwrap(),
-            "stream\\.test\\.[^.]*"
+            "^stream\\.test\\.[^.]*"
         );
     }
 

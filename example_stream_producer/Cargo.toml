@@ -7,6 +7,7 @@ edition = "2021"
 [dependencies]
 dsh_sdk = { path = "../dsh_sdk", version = "0.8", features = [
   "rdkafka-config",
+  "dsh-envelope",
   "metrics",
   "graceful-shutdown",
 ] }

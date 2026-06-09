@@ -118,7 +118,7 @@
         };
 
         apps = {
-          golden-set-generator = flake-utils.lib.mkApp {
+          murmur2-golden-set-generator = flake-utils.lib.mkApp {
             drv = self.packages.${system}.murmur2-golden-set-generator;
           };
         };

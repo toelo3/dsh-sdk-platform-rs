@@ -16,8 +16,8 @@
 use std::{collections::HashMap, time::Duration};
 
 use dsh_sdk::{
-    prost::Message,
     DshKafkaConfig,
+    prost::Message,
     protocol_adapters::kafka_protocol::{
         DshPartitioner, compute_partition,
         dsh_envelope::{

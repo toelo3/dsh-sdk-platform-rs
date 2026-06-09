@@ -70,11 +70,11 @@
             ];
         };
 
-        golden-set-generator = pkgs.writeScriptBin "generate-golden" ''
+        murmur2-golden-set-generator = pkgs.writeScriptBin "generate-golden" ''
           #!${pythonenv}/bin/python
           import sys
           import os
-          exec(open("${./generate_golden.py}").read())
+          exec(open("${./dsh_sdk/murmur2_golden_set_generator.py}").read())
         '';
 
         devShellCommon = {
@@ -114,12 +114,12 @@
         };
 
         packages = {
-          inherit golden-set-generator;
+          inherit murmur2-golden-set-generator;
         };
 
         apps = {
           golden-set-generator = flake-utils.lib.mkApp {
-            drv = self.packages.${system}.golden-set-generator;
+            drv = self.packages.${system}.murmur2-golden-set-generator;
           };
         };
 

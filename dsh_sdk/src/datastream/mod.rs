@@ -44,7 +44,9 @@ use serde::{Deserialize, Serialize, Serializer};
 use crate::protocol_adapters::kafka_protocol::DshPartitioner;
 use crate::{
     VAR_KAFKA_BOOTSTRAP_SERVERS, VAR_KAFKA_CONSUMER_GROUP_TYPE, VAR_LOCAL_DATASTREAMS_JSON,
-    VAR_SCHEMA_REGISTRY_HOST, utils,
+    VAR_SCHEMA_REGISTRY_HOST,
+    protocol_adapters::kafka_protocol::utils::{partition, reduce_topic_prefix},
+    utils,
 };
 
 #[doc(inline)]
@@ -391,7 +393,7 @@ impl Stream {
         self.replication
     }
 
-    /// Returns an appropriate [`DshPartitionerBuilder`].
+    /// Returns an appropriate [`DshPartitioner`].
     ///
     /// # Errors
     /// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
@@ -473,6 +475,25 @@ impl Stream {
         })?;
 
         prefix.try_into()
+    }
+
+    /// Computes the partition for a given key directly from the [`Stream`].
+    ///
+    /// # Errors
+    /// Returns [`DatastreamError::PartitionerError`] if partitioner is [`PartitionerType::Unknown`]
+    pub fn compute_partition(&self, key: &[u8]) -> Result<i32, DatastreamError> {
+        let key_to_hash = match self.partitioner()? {
+            DshPartitioner::Default => {
+                log::debug!("Default partitioner");
+                key
+            }
+            DshPartitioner::TopicLevel { partitioning_depth } => {
+                log::debug!("TopicLevel partitioner (depth: {partitioning_depth})");
+                reduce_topic_prefix(key, partitioning_depth)
+            }
+        };
+
+        Ok(partition(key_to_hash, self.partitions()))
     }
 }
 

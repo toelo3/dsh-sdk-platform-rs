@@ -21,10 +21,7 @@ const R: u32 = 24;
 /// Implementation mirrors the original C++ code by Austin Appleby, placed in the public domain.
 /// Found on [SMHasher](https://github.com/aappleby/smhasher).
 ///
-/// Uses a Kafka-specific seed as found in common implementations like
-/// [librdkafka](https://github.com/confluentinc/librdkafka/blob/54e000ef4ccabda759a1cf4fcbc06ba9edb193bb/src/rdmurmur2.c#L58)
-/// and [Java
-/// SDK](https://github.com/apache/kafka/blob/62db165d2af99c489010688fcaa4addf4c398964/clients/src/main/java/org/apache/kafka/common/utils/Utils.java#L505)
+/// Uses a Kafka-specific seed as found in common implementations like [librdkafka](https://github.com/confluentinc/librdkafka/blob/54e000ef4ccabda759a1cf4fcbc06ba9edb193bb/src/rdmurmur2.c#L58) and [Java SDK](https://github.com/apache/kafka/blob/62db165d2af99c489010688fcaa4addf4c398964/clients/src/main/java/org/apache/kafka/common/utils/Utils.java#L505)
 ///
 /// Values for `M` and `R` constants taken from implementation.
 #[inline]

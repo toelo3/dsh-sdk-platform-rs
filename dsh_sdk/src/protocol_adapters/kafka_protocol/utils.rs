@@ -8,6 +8,8 @@
 //! required when computing the partition for the DSH
 //! [topic-level partitioner](https://docs.kpn-dsh.com/reference/kafka-on-dsh/kafka-partitioners/#topic-level-partitioner).
 
+use crate::utils::murmur2::{murmur2_32, to_positive};
+
 /// Reduces an MQTT topic's depth to `depth` levels.
 ///
 /// The DSH's [topic-level
@@ -32,6 +34,15 @@ pub(crate) fn reduce_topic_prefix(topic: &[u8], depth: usize) -> &[u8] {
         }
     }
     topic
+}
+
+/// Calculcates the correct partition for a key, given the number of partitions
+///
+/// Uses murmur2_32 for hashing, replicating the official Kafka Java client. Converts the hash
+/// result to a positive integer and casts to i32 to ensure compatibility with Java's modulo
+/// arithmetic behaviour.
+pub(crate) fn partition(key: &[u8], partition_count: usize) -> i32 {
+    to_positive(murmur2_32(key)) % partition_count as i32
 }
 
 #[cfg(test)]

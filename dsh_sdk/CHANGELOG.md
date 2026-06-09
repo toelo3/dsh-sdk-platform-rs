@@ -5,12 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [unreleased]
+## [0.8.2] - 2026-06-09
+### Added
+- Add `DshPartitioner` enum incl. a topiclevel partitioner based on the murmur2 algorithm
+  - `Stream` have now `compute_partition` method which uses the partitioner to compute the partition for a given key
+  - Correct `DshPartitioner` can be returned aswel from a `Stream`
+- Add feature flag `dsh-envelope` to have DSH Envelope structs and deserializer based on Prost
+
 ### Changed
 - `read_access()` and `write_access()` are deprecated in favor of `is_readable()` and `is_writable()`, which provide clearer semantics.
+
 ### Fixed
-- Return librdkafka compatible anchored read pattern in case of regex wildard
-- verify_list_of_topics now properly checks write topics including tenant name
+- Return librdkafka compatible anchored read pattern in case of regex wildard from a `Stream`
+- `verify_list_of_topics` now properly checks write topics including tenant name
 
 ## [0.8.1] - 2026-4-08
 ### Added

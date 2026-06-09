@@ -219,7 +219,10 @@ impl Dsh {
         &self.task_id
     }
 
-    /// Returns the current datastream object (fetched at initialization). This cannot be updated at runtime.
+    /// Returns the [Datastream] object (fetched at initialization of SDK).
+    ///
+    /// This cannot be updated at runtime.
+    /// Use [`fetch_datastream`](Self::fetch_datastream) or [`fetch_datastream_blocking`](Self::fetch_datastream_blocking) to retrieve the latest datastream from DSH.
     pub fn datastream(&self) -> &Datastream {
         self.datastream.as_ref()
     }

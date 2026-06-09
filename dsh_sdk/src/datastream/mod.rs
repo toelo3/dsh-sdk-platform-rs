@@ -41,12 +41,13 @@ use log::{debug, error, info};
 use serde::{Deserialize, Serialize, Serializer};
 
 #[cfg(feature = "kafka")]
-use crate::protocol_adapters::kafka_protocol::DshPartitioner;
+use crate::protocol_adapters::kafka_protocol::{
+    DshPartitioner,
+    utils::{partition, reduce_topic_prefix},
+};
 use crate::{
     VAR_KAFKA_BOOTSTRAP_SERVERS, VAR_KAFKA_CONSUMER_GROUP_TYPE, VAR_LOCAL_DATASTREAMS_JSON,
-    VAR_SCHEMA_REGISTRY_HOST,
-    protocol_adapters::kafka_protocol::utils::{partition, reduce_topic_prefix},
-    utils,
+    VAR_SCHEMA_REGISTRY_HOST, utils,
 };
 
 #[doc(inline)]
@@ -477,6 +478,7 @@ impl Stream {
         prefix.try_into()
     }
 
+    #[cfg(feature = "kafka")]
     /// Computes the partition for a given key directly from the [`Stream`].
     ///
     /// # Errors

@@ -23,10 +23,15 @@
 //! # }
 //! ```
 
+use crate::protocol_adapters::kafka_protocol::utils::{partition, reduce_topic_prefix};
+
 pub mod config;
 
+#[cfg(feature = "dsh-envelope")]
+pub mod dsh_envelope;
 #[cfg(feature = "rdkafka-config")]
 mod rdkafka;
+pub(crate) mod utils;
 
 /// Trait defining core DSH configurations for Kafka consumers and producers.
 ///
@@ -95,4 +100,24 @@ pub trait DshKafkaConfig {
     ///  
     /// If certificates are missing, `security.protocol` remains `plaintext`.
     fn set_dsh_certificates(&mut self) -> &mut Self;
+}
+
+#[derive(Clone, Debug, PartialEq)]
+pub enum DshPartitioner {
+    Default,
+    TopicLevel { partitioning_depth: usize },
+}
+
+impl DshPartitioner {
+    /// Computes the partition for a given key and partition count.
+    pub fn compute_partition(&self, key: &[u8], partition_count: usize) -> i32 {
+        let key_to_hash = match self {
+            DshPartitioner::Default => key,
+            DshPartitioner::TopicLevel { partitioning_depth } => {
+                reduce_topic_prefix(key, *partitioning_depth)
+            }
+        };
+
+        partition(key_to_hash, partition_count)
+    }
 }

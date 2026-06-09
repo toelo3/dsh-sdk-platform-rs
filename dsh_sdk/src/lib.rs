@@ -30,6 +30,9 @@ pub use management_api::{ManagementApiTokenFetcher, ManagementApiTokenFetcherBui
 #[cfg(feature = "kafka")]
 #[doc(inline)]
 pub use protocol_adapters::kafka_protocol::DshKafkaConfig;
+#[cfg(feature = "dsh-envelope")]
+#[doc(inline)]
+pub use protocol_adapters::kafka_protocol::dsh_envelope::prost;
 #[doc(inline)]
 pub use utils::Platform;
 #[cfg(feature = "bootstrap")]
